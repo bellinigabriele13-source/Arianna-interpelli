@@ -1,0 +1,682 @@
+[
+ {
+  "aggiunto": "2026-09-21T11:47:12+02:00",
+  "anche_su": [],
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "data": "2026-09-21",
+  "fonte": "https://www.mim.gov.it/web/lecco/interpelli-ricerca-supplenti",
+  "grado": [
+   "I grado"
+  ],
+  "id": "931a5e5fedbaa25b",
+  "letto": false,
+  "link": "https://www.mim.gov.it/web/lecco/-/ic-bosisio-parini-15",
+  "motivo": "codice",
+  "priorita": "media",
+  "scadenza": "2026-09-22",
+  "sede_prov": null,
+  "sede_regione": null,
+  "titolo": "IC Bosisio Parini",
+  "ufficio": "Lecco",
+  "ufficio_regione": "Lombardia"
+ },
+ {
+  "aggiunto": "2026-09-21T11:47:12+02:00",
+  "anche_su": [],
+  "cdc": [
+   "A012"
+  ],
+  "cdc_desc": [
+   "A012 — Discipline letterarie (II grado)"
+  ],
+  "data": "2026-09-21",
+  "fonte": "https://www.mim.gov.it/web/lecco/interpelli-ricerca-supplenti",
+  "grado": [
+   "II grado"
+  ],
+  "id": "dcfadf809289d6ef",
+  "letto": false,
+  "link": "https://www.mim.gov.it/web/lecco/-/iis-medardo-rosso-lecco-7",
+  "motivo": "codice",
+  "priorita": "media",
+  "scadenza": "2026-09-22",
+  "sede_prov": null,
+  "sede_regione": null,
+  "titolo": "IIS \"Medardo Rosso\" - Lecco",
+  "ufficio": "Lecco",
+  "ufficio_regione": "Lombardia"
+ },
+ {
+  "aggiunto": "2026-09-22T13:20+02:00",
+  "anche_su": [],
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "data": "2026-09-22",
+  "fonte": "https://www.mim.gov.it/web/mantova/interpelli-ricerca-supplenti",
+  "grado": [
+   "I grado"
+  ],
+  "id": "d691509cf6294c2b",
+  "letto": false,
+  "link": "https://www.mim.gov.it/web/mantova/-/ic-castiglione-1-9",
+  "motivo": "codice",
+  "priorita": "media",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "titolo": "IC Castiglione 1",
+  "ufficio": "Mantova",
+  "ufficio_regione": "Lombardia"
+ },
+ {
+  "aggiunto": "2026-09-22T15:20+02:00",
+  "anche_su": [],
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "data": "2026-09-22",
+  "fonte": "https://www.ustfoggia.it/",
+  "grado": [
+   "I grado"
+  ],
+  "id": "253531f2d36bfe89",
+  "letto": false,
+  "link": "https://www.ustfoggia.it/2026/09/22/interpello-per-sostituzione-docente-classe-di-concorso-am12-al-13-10-2026/",
+  "motivo": "codice",
+  "priorita": "media",
+  "pubblicato": "2026-09-22T15:15+02:00",
+  "scadenza": "2026-09-23",
+  "sede_prov": "IS",
+  "sede_regione": "Molise",
+  "titolo": "Interpello AM12 – IC \"G. A. Colozza\" Frosolone (IS) – supplenza 18 ore al 13/10/2026",
+  "ufficio": "Foggia",
+  "ufficio_regione": "Puglia"
+ },
+ {
+  "aggiunto": "2026-09-22T16:20+02:00",
+  "anche_su": [],
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "data": "2026-09-22",
+  "fonte": "https://sr.usr.sicilia.it/personale-scuola/personale-docente/reclutamento-docenti/",
+  "grado": [
+   "I grado"
+  ],
+  "id": "521f23f5a96ccccb",
+  "letto": false,
+  "link": "https://sr.usr.sicilia.it/interpello-per-un-incarico-a-t-d-per-sostituzione-docente-scuola-secondaria-di-i-grado-classe-di-concorso-am12/",
+  "motivo": "codice",
+  "priorita": "media",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "titolo": "Interpello per un incarico a T.D. per sostituzione docente scuola secondaria di I grado – classe di concorso AM12",
+  "ufficio": "Siracusa",
+  "ufficio_regione": "Sicilia"
+ },
+ {
+  "aggiunto": "2026-09-22T16:20+02:00",
+  "anche_su": [],
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "data": null,
+  "fonte": "https://www.ustli.it/usp_livorno/index.php/docenti/interpelli",
+  "grado": [
+   "I grado"
+  ],
+  "id": "d6dfa6d3163f18a4",
+  "letto": false,
+  "link": "https://www.ustli.it/usp_livorno/index.php/docenti/interpelli/3067-interpelli-cdc-a040-a027-am12",
+  "motivo": "codice",
+  "priorita": "media",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "titolo": "interpelli cdc A040, A027, AM12",
+  "ufficio": "Livorno",
+  "ufficio_regione": "Toscana"
+ },
+ {
+  "aggiunto": "2026-09-22T17:19+02:00",
+  "anche_su": [],
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "data": "2026-09-22",
+  "fonte": "https://atcampobasso.it/",
+  "grado": [
+   "I grado"
+  ],
+  "id": "705e90050c756627",
+  "letto": false,
+  "link": "https://www.mim.gov.it/web/campobasso/-/interpello-per-un-incarico-a-t-d-per-sostituzione-docente-scuola-secondaria-di-i-grado-classe-di-concorso-am12-per-n-18-ore-al-13-10-2026-i-c-colozza-",
+  "motivo": "codice",
+  "priorita": "media",
+  "scadenza": null,
+  "sede_prov": "IS",
+  "sede_regione": "Molise",
+  "titolo": "Interpello per un incarico a T.D. per sostituzione docente scuola secondaria di I grado - classe di concorso AM12 per n. 18 ore al 13/10/2026 - I.C. \"Colozza\" Frosolone (IS)",
+  "ufficio": "Campobasso",
+  "ufficio_regione": "Molise"
+ },
+ {
+  "aggiunto": "2026-09-23T09:20+02:00",
+  "anche_su": [],
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "data": "2026-09-23",
+  "fonte": "https://www.mim.gov.it/web/brescia/interpelli-ricerca-supplenti",
+  "grado": [
+   "I grado"
+  ],
+  "id": "f9d5f61178d20808",
+  "letto": false,
+  "link": "https://www.mim.gov.it/web/brescia/-/avviso-di-interpello-per-conferimento-di-una-supplenza-fuori-graduatoria-1843",
+  "motivo": "codice",
+  "priorita": "media",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "titolo": "Avviso di interpello per conferimento di una supplenza fuori graduatoria",
+  "ufficio": "Brescia",
+  "ufficio_regione": "Lombardia"
+ },
+ {
+  "aggiunto": "2026-09-23T10:20+02:00",
+  "anche_su": [],
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "data": "2026-09-22",
+  "fonte": "https://www.usptaranto.it/category/in-evidenza/",
+  "grado": [
+   "I grado"
+  ],
+  "id": "5abad3b00ba6ad77",
+  "letto": false,
+  "link": "https://www.usptaranto.it/2026/09/23/interpello-per-incarico-sostituzione-docente-scuola-secondaria-di-i-grado-cdc-am12-al-1310202/",
+  "motivo": "codice",
+  "priorita": "media",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "titolo": "Interpello per incarico sostituzione docente scuola secondaria di I grado CdC AM12 al 13/10/202",
+  "ufficio": "Taranto",
+  "ufficio_regione": "Puglia"
+ },
+ {
+  "aggiunto": "2026-09-23T10:20+02:00",
+  "anche_su": [],
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "data": "2026-09-23",
+  "fonte": "https://ag.usr.sicilia.it/interpelli-2/",
+  "grado": [
+   "I grado"
+  ],
+  "id": "9562b056223dc5e6",
+  "letto": false,
+  "link": "https://ag.usr.sicilia.it/interpello-per-un-incarico-a-t-d-per-sostituzione-docente-scuola-secondaria-di-i-grado-classe-di-concorso-am12-per-n-18-ore-al-13-10-2026-frosolone-isernia/",
+  "motivo": "codice",
+  "priorita": "media",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "titolo": "Interpello per un incarico a T.D. per sostituzione docente scuola secondaria di I grado – classe di concorso AM12 per n. 18 ore al 13/10/2026. FROSOLONE (Isernia)",
+  "ufficio": "Agrigento",
+  "ufficio_regione": "Sicilia"
+ },
+ {
+  "aggiunto": "2026-09-23T11:20+02:00",
+  "anche_su": [],
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "data": "2026-09-23",
+  "fonte": "https://www.istruzionepiemonte.it/biella/interpelli-supplenze/",
+  "grado": [
+   "I grado"
+  ],
+  "id": "051fc2bcd5d549b7",
+  "letto": false,
+  "link": "https://www.istruzionepiemonte.it/biella/interpello-per-incarico-sostituzione-docente-scuola-secondaria-di-i-grado-cdc-am12-al-13-10-2026/",
+  "motivo": "codice",
+  "priorita": "media",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "titolo": "Interpello per incarico sostituzione docente scuola secondaria di I grado CdC AM12 al 13/10/2026",
+  "ufficio": "Biella",
+  "ufficio_regione": "Piemonte"
+ },
+ {
+  "aggiunto": "2026-09-23T11:20+02:00",
+  "anche_su": [],
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "data": "2026-09-23",
+  "fonte": "https://www.mim.gov.it/web/lecco/interpelli-ricerca-supplenti",
+  "grado": [
+   "I grado"
+  ],
+  "id": "78d7898045e71704",
+  "letto": false,
+  "link": "https://www.mim.gov.it/web/lecco/-/ic-r-l-montalcini-missaglia-1",
+  "motivo": "codice",
+  "priorita": "media",
+  "scadenza": "2026-09-24",
+  "sede_prov": null,
+  "sede_regione": null,
+  "titolo": "IC \"R. L. Montalcini\" - Missaglia",
+  "ufficio": "Lecco",
+  "ufficio_regione": "Lombardia"
+ },
+ {
+  "aggiunto": "2026-09-23T12:20+02:00",
+  "anche_su": [],
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "data": "2026-09-23",
+  "fonte": "https://www.mim.gov.it/web/lecco/interpelli-ricerca-supplenti",
+  "grado": [
+   "I grado"
+  ],
+  "id": "3990dcbacf7f7b19",
+  "letto": false,
+  "link": "https://www.mim.gov.it/web/lecco/-/ic-g-galilei-colico-11",
+  "motivo": "codice",
+  "priorita": "media",
+  "scadenza": "2026-09-24",
+  "sede_prov": null,
+  "sede_regione": null,
+  "titolo": "IC \"G. Galilei\" - Colico",
+  "ufficio": "Lecco",
+  "ufficio_regione": "Lombardia"
+ },
+ {
+  "aggiunto": "2026-09-23T14:22+02:00",
+  "anche_su": [],
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "data": "2026-09-23",
+  "fonte": "https://me.usr.sicilia.it/category/personale-scuola/interpelli/interpelli-nazionali/",
+  "grado": [
+   "I grado"
+  ],
+  "id": "181b2471d4fd98c3",
+  "letto": false,
+  "link": "https://me.usr.sicilia.it/category/personale-scuola/personale-docente/",
+  "motivo": "codice",
+  "priorita": "media",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "titolo": "Personale docente",
+  "ufficio": "Messina",
+  "ufficio_regione": "Sicilia"
+ },
+ {
+  "aggiunto": "2026-09-23T14:22+02:00",
+  "anche_su": [
+   "Sicilia/Messina",
+   "Sicilia/Trapani"
+  ],
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "data": "2026-09-23",
+  "fonte": "https://www.istruzionepiemonte.it/torino/interpelli-supplenze/",
+  "grado": [
+   "I grado"
+  ],
+  "id": "91e676605dcd3923",
+  "letto": false,
+  "link": "https://www.istruzionepiemonte.it/torino/2026/09/23/interpello-per-incarico-sostituzione-docente-scuola-secondaria-di-i-grado-cdc-am12-al-13-10-202/",
+  "motivo": "codice",
+  "priorita": "media",
+  "scadenza": "2026-09-23",
+  "sede_prov": null,
+  "sede_regione": null,
+  "titolo": "Interpello per incarico sostituzione docente scuola secondaria di I grado CdC AM12 al 13/10/202",
+  "ufficio": "Torino",
+  "ufficio_regione": "Piemonte"
+ },
+ {
+  "aggiunto": "2026-09-23T15:23+02:00",
+  "anche_su": [],
+  "cdc": [
+   "A013"
+  ],
+  "cdc_desc": [
+   "A013 — Discipline letterarie, latino e greco (II grado)"
+  ],
+  "data": "2026-09-22",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_al.php",
+  "grado": [
+   "II grado"
+  ],
+  "id": "487094497987ba10",
+  "letto": false,
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_al.php",
+  "motivo": "tabella",
+  "priorita": "alta",
+  "scadenza": "2026-09-24",
+  "sede_prov": "AL",
+  "sede_regione": "Piemonte",
+  "titolo": "ISTITUTO SUPERIORE UMBERTO ECO — A013 - Discipline letterarie, latino e greco (Spezzone per numero ore: 9 · Fino al 30 giugno)",
+  "ufficio": "Alessandria",
+  "ufficio_regione": "Piemonte"
+ },
+ {
+  "aggiunto": "2026-09-23T15:23+02:00",
+  "anche_su": [],
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "data": "2026-09-21",
+  "fonte": "https://www.mim.gov.it/web/lecco/interpelli-ricerca-supplenti",
+  "grado": [
+   "I grado"
+  ],
+  "id": "bba527f870639859",
+  "letto": false,
+  "link": "https://www.mim.gov.it/web/lecco/-/ic-oggiono-24",
+  "motivo": "codice",
+  "priorita": "media",
+  "scadenza": "2026-09-22",
+  "sede_prov": null,
+  "sede_regione": null,
+  "titolo": "IC Oggiono",
+  "ufficio": "Lecco",
+  "ufficio_regione": "Lombardia"
+ },
+ {
+  "aggiunto": "2026-09-23T15:23+02:00",
+  "anche_su": [],
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "data": "2026-09-21",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vc.php",
+  "grado": [
+   "I grado"
+  ],
+  "id": "d6fa2f6921b6bede",
+  "letto": false,
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vc.php",
+  "motivo": "tabella",
+  "priorita": "media",
+  "scadenza": "2026-09-22",
+  "sede_prov": "VC",
+  "sede_regione": "Piemonte",
+  "titolo": "I,C. SERRA — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-09-27)",
+  "ufficio": "Vercelli",
+  "ufficio_regione": "Piemonte"
+ },
+ {
+  "aggiunto": "2026-09-23T20:11+02:00",
+  "anche_su": [],
+  "cdc": [
+   "A011"
+  ],
+  "cdc_desc": [
+   "A011 — Discipline letterarie e latino (II grado)"
+  ],
+  "data": "2026-09-23",
+  "fonte": "https://www.mim.gov.it/web/como/interpelli-ricerca-supplenti",
+  "grado": [
+   "II grado"
+  ],
+  "id": "4224e81d3fa0c5d6",
+  "letto": false,
+  "link": "https://www.mim.gov.it/web/como/-/interpello-liceo-g-galilei-erba",
+  "motivo": "codice",
+  "priorita": "alta",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "titolo": "INTERPELLO - LICEO G. GALILEI ERBA",
+  "ufficio": "Como",
+  "ufficio_regione": "Lombardia"
+ },
+ {
+  "aggiunto": "2026-09-23T20:11+02:00",
+  "anche_su": [],
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "data": "2026-09-23",
+  "fonte": "https://www.mim.gov.it/web/como/interpelli-ricerca-supplenti",
+  "grado": [
+   "I grado"
+  ],
+  "id": "ae4a4cbc9f3985eb",
+  "letto": false,
+  "link": "https://www.mim.gov.it/web/como/-/interpello-i-c-cantu-2-8",
+  "motivo": "codice",
+  "priorita": "media",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "titolo": "INTERPELLO - I.C. CANTU' 2",
+  "ufficio": "Como",
+  "ufficio_regione": "Lombardia"
+ },
+ {
+  "aggiunto": "2026-09-24T10:11+02:00",
+  "anche_su": [],
+  "cdc": [
+   "A011"
+  ],
+  "cdc_desc": [
+   "A011 — Discipline letterarie e latino (II grado)"
+  ],
+  "data": "2026-09-24",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
+  "grado": [
+   "II grado"
+  ],
+  "id": "50e061d380df3a08",
+  "letto": false,
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
+  "motivo": "tabella",
+  "priorita": "alta",
+  "scadenza": "2026-09-25",
+  "sede_prov": "AT",
+  "sede_regione": "Piemonte",
+  "titolo": "I.I.S. VERCELLI - PENNA — A011 - Discipline letterarie e latino (Interna · Supplenza Temporanea fino al 2026-12-22)",
+  "ufficio": "Asti",
+  "ufficio_regione": "Piemonte"
+ },
+ {
+  "aggiunto": "2026-09-24T11:11+02:00",
+  "anche_su": [],
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "data": "2026-09-24",
+  "fonte": "https://www.mim.gov.it/web/mantova/interpelli-ricerca-supplenti",
+  "grado": [
+   "I grado"
+  ],
+  "id": "a9609cd44fdccf5a",
+  "letto": false,
+  "link": "https://www.mim.gov.it/web/mantova/-/ic-castiglione-1-10",
+  "motivo": "codice",
+  "priorita": "media",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "titolo": "IC Castiglione 1",
+  "ufficio": "Mantova",
+  "ufficio_regione": "Lombardia"
+ },
+ {
+  "aggiunto": "2026-09-24T12:11+02:00",
+  "anche_su": [],
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "data": "2026-09-24",
+  "fonte": "https://www.mim.gov.it/web/sondrio/interpelli-ricerca-supplenti",
+  "grado": [
+   "I grado"
+  ],
+  "id": "110b39ec107ec8af",
+  "letto": false,
+  "link": "https://www.mim.gov.it/web/sondrio/-/interpello-i-c-bertacchi-di-chiavenna-1",
+  "motivo": "codice",
+  "priorita": "media",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "titolo": "Interpello - I.C. Bertacchi di Chiavenna",
+  "ufficio": "Sondrio",
+  "ufficio_regione": "Lombardia"
+ },
+ {
+  "aggiunto": "2026-09-24T13:12+02:00",
+  "anche_su": [],
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "data": "2026-09-24",
+  "fonte": "https://www.mim.gov.it/web/brescia/interpelli-ricerca-supplenti",
+  "grado": [
+   "I grado"
+  ],
+  "id": "f8568c2cec950077",
+  "letto": false,
+  "link": "https://www.mim.gov.it/web/brescia/-/avviso-di-interpello-per-conferimento-di-una-supplenza-fuori-graduatoria-1877",
+  "motivo": "codice",
+  "priorita": "media",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "titolo": "Avviso di interpello per conferimento di una supplenza fuori graduatoria",
+  "ufficio": "Brescia",
+  "ufficio_regione": "Lombardia"
+ },
+ {
+  "aggiunto": "2026-09-25T10:12+02:00",
+  "anche_su": [],
+  "cdc": [
+   "A011"
+  ],
+  "cdc_desc": [
+   "A011 — Discipline letterarie e latino (II grado)"
+  ],
+  "data": "2026-09-25",
+  "fonte": "https://www.mim.gov.it/web/nuoro/interpelli",
+  "grado": [
+   "II grado"
+  ],
+  "id": "772498e6d0eb67bf",
+  "letto": false,
+  "link": "https://www.mim.gov.it/web/nuoro/-/interpello-preventivo-per-supplenza-temporanea-per-la-scuola-sec-di-ii-grado-classe-di-concorso-a011-lettere-latino-istituto-globale-jerzu-",
+  "motivo": "codice",
+  "priorita": "alta",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "titolo": "Interpello preventivo per supplenza temporanea per la Scuola Sec. di II grado classe di concorso (A011) – LETTERE LATINO. -ISTITUTO GLOBALE JERZU",
+  "ufficio": "Nuoro",
+  "ufficio_regione": "Sardegna"
+ },
+ {
+  "aggiunto": "2026-09-25T12:12+02:00",
+  "anche_su": [],
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "data": "2026-09-25",
+  "fonte": "https://www.mim.gov.it/web/sondrio/interpelli-ricerca-supplenti",
+  "grado": [
+   "I grado"
+  ],
+  "id": "db16f046d1144b1e",
+  "letto": false,
+  "link": "https://www.mim.gov.it/web/sondrio/-/interpello-i-c-1-di-morbegno-2",
+  "motivo": "codice",
+  "priorita": "media",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "titolo": "Interpello - I.C. 1 di Morbegno",
+  "ufficio": "Sondrio",
+  "ufficio_regione": "Lombardia"
+ }
+]

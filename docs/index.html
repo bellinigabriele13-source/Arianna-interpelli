@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Interpelli di Arianna</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Jost:wght@300;400;500&display=swap">
+<style>
+:root{
+  --abisso:#EAF4F5; --superficie:#FFFFFF; --superficie-2:#D8EBEE;
+  --inchiostro:#0C2B34; --inchiostro-2:#3C6874; --inchiostro-3:#6E939C;
+  --filo:#BFDCE1; --filo-forte:#8FC2CA;
+  --turchese:#00A9AE; --turchese-chiaro:#5FD8D6;
+  --raggio:#E8892F; --raggio-tenue:#FBEBD9;
+  --segnale:#D93A22; --segnale-tenue:#FCE6E0; --segnale-bordo:#F0B8A8;
+  --alone:rgba(0,169,174,.20); --alone-2:rgba(232,137,47,.16);
+  --ombra:0 2px 5px -3px rgba(12,43,52,.3), 0 18px 40px -28px rgba(0,169,174,.55);
+  --r:14px;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --abisso:#04161E; --superficie:#0A2430; --superficie-2:#0F3341;
+  --inchiostro:#E4F6F7; --inchiostro-2:#9FC8D0; --inchiostro-3:#6D96A1;
+  --filo:#16404F; --filo-forte:#215B6D;
+  --turchese:#3FD5D6; --turchese-chiaro:#9BF0EC;
+  --raggio:#FFB366; --raggio-tenue:#2A1C0E;
+  --segnale:#FF7A5E; --segnale-tenue:#2E140F; --segnale-bordo:#6B2E22;
+  --alone:rgba(63,213,214,.26); --alone-2:rgba(255,179,102,.18);
+  --ombra:0 2px 6px -3px rgba(0,0,0,.7), 0 22px 50px -30px rgba(63,213,214,.5);
+}}
+:root[data-theme="dark"]{
+  --abisso:#04161E; --superficie:#0A2430; --superficie-2:#0F3341;
+  --inchiostro:#E4F6F7; --inchiostro-2:#9FC8D0; --inchiostro-3:#6D96A1;
+  --filo:#16404F; --filo-forte:#215B6D;
+  --turchese:#3FD5D6; --turchese-chiaro:#9BF0EC;
+  --raggio:#FFB366; --raggio-tenue:#2A1C0E;
+  --segnale:#FF7A5E; --segnale-tenue:#2E140F; --segnale-bordo:#6B2E22;
+  --alone:rgba(63,213,214,.26); --alone-2:rgba(255,179,102,.18);
+  --ombra:0 2px 6px -3px rgba(0,0,0,.7), 0 22px 50px -30px rgba(63,213,214,.5);
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--abisso); color:var(--inchiostro);
+  font-family:Jost,"Avenir Next",system-ui,-apple-system,sans-serif;
+  font-size:15px; font-weight:300; line-height:1.6; -webkit-font-smoothing:antialiased;
+  position:relative; overflow-x:hidden;
+}
+body::before{
+  content:""; position:fixed; inset:-30vmax; z-index:0; pointer-events:none;
+  background:
+    radial-gradient(38vmax 30vmax at 22% 18%, var(--alone), transparent 62%),
+    radial-gradient(30vmax 40vmax at 82% 72%, var(--alone-2), transparent 64%);
+  animation:deriva 26s ease-in-out infinite alternate;
+}
+@keyframes deriva{
+  from{transform:translate3d(-3%,-2%,0) scale(1)}
+  to{transform:translate3d(4%,3%,0) scale(1.12)}
+}
+.guscio{max-width:880px; margin:0 auto; padding-inline:16px; padding-block:0 56px; position:relative; z-index:1}
+header.testata{
+  position:sticky; top:env(safe-area-inset-top,0px); z-index:20;
+  background:color-mix(in srgb, var(--abisso) 86%, transparent);
+  backdrop-filter:blur(14px) saturate(1.3);
+  margin-inline:-16px; padding:18px 16px 14px;
+  overflow:hidden;
+}
+header.testata::after{
+  content:""; position:absolute; inset:0; pointer-events:none;
+  background:linear-gradient(105deg,transparent 38%,color-mix(in srgb,var(--turchese-chiaro) 42%,transparent) 50%,transparent 62%);
+  transform:translateX(-120%);
+  animation:raggio 9s cubic-bezier(.5,0,.5,1) 1.2s infinite;
+}
+@keyframes raggio{0%{transform:translateX(-120%)}38%,100%{transform:translateX(120%)}}
+header.testata::before{
+  content:""; position:absolute; left:0; right:0; bottom:0; height:1px;
+  background:linear-gradient(90deg,transparent,var(--turchese),var(--raggio),transparent);
+  opacity:.75;
+}
+.riga-testata{display:flex; align-items:flex-start; gap:14px; flex-wrap:wrap; position:relative; z-index:1}
+h1{
+  font-family:"Cormorant Garamond",Georgia,serif;
+  font-size:38px; font-weight:300; letter-spacing:.008em; margin:0; line-height:1.02;
+  text-wrap:balance;
+  background:linear-gradient(96deg,var(--inchiostro) 18%,var(--turchese) 52%,var(--raggio) 88%,var(--inchiostro) 100%);
+  background-size:280% 100%;
+  -webkit-background-clip:text; background-clip:text; color:transparent;
+  animation:scorri 14s ease-in-out infinite alternate;
+}
+@keyframes scorri{from{background-position:0% 50%}to{background-position:100% 50%}}
+.sotto{
+  display:block; font-family:Jost,sans-serif; font-size:10.5px; font-weight:400;
+  letter-spacing:.24em; text-transform:uppercase; color:var(--inchiostro-3); margin-top:9px;
+}
+.campanello{
+  margin-left:auto; display:inline-flex; align-items:center; gap:11px;
+  border:1px solid var(--filo-forte); background:var(--superficie);
+  color:var(--inchiostro); border-radius:999px; padding:8px 18px 8px 9px;
+  font-family:Jost,sans-serif; font-size:11.5px; font-weight:500; letter-spacing:.14em;
+  text-transform:uppercase; cursor:pointer; box-shadow:var(--ombra);
+  transition:border-color .25s ease, background .25s ease, transform .25s ease;
+}
+.campanello:hover{border-color:var(--turchese); transform:translateY(-1px)}
+.campanello:focus-visible{outline:2px solid var(--turchese); outline-offset:3px}
+.campanello[data-nuovi="si"]{border-color:var(--segnale-bordo); background:var(--segnale-tenue); color:var(--segnale)}
+.pallino{
+  min-width:32px; height:32px; padding:0 9px; border-radius:999px;
+  background:var(--filo-forte); color:var(--abisso);
+  display:inline-flex; align-items:center; justify-content:center;
+  font-size:14px; font-weight:500; font-variant-numeric:tabular-nums;
+}
+.campanello[data-nuovi="si"] .pallino{
+  color:#fff;
+  background:radial-gradient(circle at 34% 30%, var(--raggio), var(--segnale) 68%);
+  animation:faro 2.8s ease-in-out infinite;
+}
+@keyframes faro{
+  0%,100%{box-shadow:0 0 0 0 color-mix(in srgb,var(--segnale) 50%,transparent), 0 0 12px 0 color-mix(in srgb,var(--raggio) 60%,transparent)}
+  50%{box-shadow:0 0 0 10px color-mix(in srgb,var(--segnale) 0%,transparent), 0 0 22px 4px color-mix(in srgb,var(--raggio) 25%,transparent)}
+}
+.filtri{display:flex; gap:8px; flex-wrap:wrap; margin-top:16px; position:relative; z-index:1}
+.chip{
+  border:1px solid var(--filo); background:color-mix(in srgb,var(--superficie) 70%,transparent);
+  color:var(--inchiostro-2); border-radius:999px; padding:6px 14px;
+  font-family:Jost,sans-serif; font-size:11.5px; font-weight:400; letter-spacing:.1em;
+  text-transform:uppercase; cursor:pointer; white-space:nowrap;
+  transition:color .22s ease, border-color .22s ease, background .22s ease, box-shadow .22s ease;
+}
+.chip:hover{color:var(--inchiostro); border-color:var(--turchese); box-shadow:0 0 14px -4px var(--turchese)}
+.chip:focus-visible{outline:2px solid var(--turchese); outline-offset:3px}
+.chip[aria-pressed="true"]{background:var(--turchese); border-color:var(--turchese); color:#00252B}
+.chip.rosso[aria-pressed="true"]{background:var(--segnale); border-color:var(--segnale); color:#fff}
+select.chip{appearance:none; padding-right:30px;
+  background-image:linear-gradient(45deg,transparent 50%,var(--inchiostro-3) 50%),linear-gradient(135deg,var(--inchiostro-3) 50%,transparent 50%);
+  background-position:calc(100% - 16px) 13px, calc(100% - 11px) 13px;
+  background-size:5px 5px,5px 5px; background-repeat:no-repeat}
+.stato{
+  display:flex; gap:10px; flex-wrap:wrap; align-items:baseline;
+  margin-top:18px; padding:11px 16px; border-radius:999px;
+  background:color-mix(in srgb,var(--superficie) 62%,transparent);
+  border:1px solid var(--filo);
+  font-size:11.5px; letter-spacing:.09em; text-transform:uppercase; color:var(--inchiostro-3);
+}
+.stato b{color:var(--inchiostro); font-weight:500; font-variant-numeric:tabular-nums}
+.stato .sep{color:var(--filo-forte)}
+.elenco{display:flex; flex-direction:column; gap:12px; margin-top:18px; list-style:none; padding:0}
+.avviso{
+  position:relative; overflow:hidden;
+  background:color-mix(in srgb,var(--superficie) 88%, transparent);
+  border:1px solid var(--filo); border-radius:var(--r);
+  padding:18px 20px 17px 22px; box-shadow:var(--ombra);
+  transition:border-color .3s ease, transform .3s ease;
+}
+.avviso:hover{border-color:var(--filo-forte); transform:translateY(-1px)}
+.avviso::before{
+  content:""; position:absolute; left:0; top:0; bottom:0; width:3px;
+  background:linear-gradient(180deg,var(--filo-forte),transparent);
+}
+.avviso[data-prio="alta"]::before{background:linear-gradient(180deg,var(--raggio),var(--segnale) 55%,transparent)}
+.avviso[data-prio="media"]::before{background:linear-gradient(180deg,var(--turchese-chiaro),var(--turchese) 60%,transparent)}
+.avviso[data-nuovo="si"]{
+  border-color:var(--segnale-bordo);
+  background:linear-gradient(112deg,var(--segnale-tenue),color-mix(in srgb,var(--superficie) 88%,transparent) 58%);
+  animation:emergi .8s cubic-bezier(.16,.8,.3,1) both;
+}
+@keyframes emergi{
+  from{opacity:0; transform:translateX(-22px); filter:blur(10px)}
+  60%{filter:blur(2px)}
+  to{opacity:1; transform:none; filter:blur(0)}
+}
+.avviso[data-nuovo="si"]::after{
+  content:""; position:absolute; inset:0; pointer-events:none;
+  background:linear-gradient(100deg,transparent 40%,color-mix(in srgb,var(--raggio) 40%,transparent) 50%,transparent 60%);
+  transform:translateX(-130%);
+  animation:scia 1.5s cubic-bezier(.45,0,.3,1) .5s 1 forwards;
+}
+@keyframes scia{to{transform:translateX(130%)}}
+.intestazione{display:flex; align-items:center; gap:8px; flex-wrap:wrap; margin-bottom:9px; position:relative; z-index:1}
+.codice{
+  font-family:Jost,sans-serif; font-size:11px; font-weight:500; letter-spacing:.14em;
+  padding:3px 10px; border-radius:999px;
+  border:1px solid var(--filo-forte); color:var(--inchiostro-2);
+}
+.codice.alta{border-color:var(--segnale); color:var(--segnale)}
+.codice.media{border-color:var(--turchese); color:var(--turchese)}
+.etichetta-nuovo{
+  font-size:9.5px; font-weight:500; letter-spacing:.24em; text-transform:uppercase; color:#fff;
+  background:linear-gradient(100deg,var(--raggio),var(--segnale));
+  padding:4px 10px 3px; border-radius:999px;
+}
+.titolo{
+  font-family:"Cormorant Garamond",Georgia,serif; font-size:23px; line-height:1.24;
+  font-weight:400; margin:0 0 10px; text-wrap:balance; overflow-wrap:anywhere;
+  position:relative; z-index:1;
+}
+.meta{
+  display:flex; flex-wrap:wrap; gap:5px 18px; font-size:12px; color:var(--inchiostro-2);
+  position:relative; z-index:1;
+}
+.meta span{display:inline-flex; gap:6px; align-items:baseline}
+.meta .k{color:var(--inchiostro-3); text-transform:uppercase; letter-spacing:.16em; font-size:9.5px}
+.meta .scad{color:var(--segnale); font-weight:400}
+.azioni{display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; position:relative; z-index:1}
+.bottone{
+  font-family:Jost,sans-serif; font-size:11.5px; font-weight:500; letter-spacing:.13em;
+  text-transform:uppercase; border-radius:999px; padding:8px 18px;
+  border:1px solid transparent; cursor:pointer; text-decoration:none;
+  background:var(--inchiostro); color:var(--abisso);
+  transition:box-shadow .3s ease, transform .2s ease, background .3s ease;
+}
+.bottone:hover{box-shadow:0 0 20px -5px var(--turchese); transform:translateY(-1px)}
+.bottone.secondario{background:transparent; color:var(--inchiostro-3); border-color:var(--filo-forte)}
+.bottone.secondario:hover{color:var(--inchiostro); border-color:var(--turchese)}
+.bottone:focus-visible{outline:2px solid var(--turchese); outline-offset:3px}
+.vuoto{
+  text-align:center; padding:62px 20px; color:var(--inchiostro-2);
+  border:1px solid var(--filo); border-radius:var(--r);
+  background:color-mix(in srgb,var(--superficie) 55%,transparent);
+}
+.vuoto strong{display:block; font-family:"Cormorant Garamond",Georgia,serif; font-size:25px; font-weight:400; color:var(--inchiostro)}
+.vuoto p{margin:9px 0 0; font-size:13.5px; color:var(--inchiostro-3)}
+details.copertura{margin-top:34px; padding-top:18px; border-top:1px solid var(--filo)}
+details.copertura summary{
+  cursor:pointer; font-size:11px; font-weight:400; letter-spacing:.16em; text-transform:uppercase;
+  color:var(--inchiostro-2); list-style:none; display:flex; align-items:center; gap:9px;
+}
+details.copertura summary::-webkit-details-marker{display:none}
+details.copertura summary::before{content:"\25CB"; color:var(--turchese); font-size:11px}
+details.copertura[open] summary::before{content:"\25CF"}
+.copertura .corpo{font-size:13.5px; color:var(--inchiostro-2); margin-top:14px; line-height:1.8; max-width:65ch}
+.copertura code{
+  font-family:Jost,monospace; font-size:11.5px; letter-spacing:.09em;
+  background:var(--superficie-2); color:var(--inchiostro); padding:1px 8px; border-radius:999px;
+}
+.copertura ul{margin:8px 0 0; padding-left:20px}
+.copertura a{color:var(--turchese)}
+footer.pie{
+  margin-top:26px; font-size:10.5px; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--inchiostro-3); line-height:1.9;
+}
+@media (max-width:520px){
+  h1{font-size:30px}
+  .campanello{margin-left:0; width:100%; justify-content:space-between}
+  .titolo{font-size:19px}
+}
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{animation:none!important; transition:none!important}
+  h1{background:none; color:var(--inchiostro); -webkit-text-fill-color:currentColor}
+  header.testata::after{display:none}
+  .avviso[data-nuovo="si"]::after{display:none}
+}
+</style>
+</head>
+<body>
+<div class="guscio">
+  <header class="testata">
+    <div class="riga-testata">
+      <div>
+        <h1>Interpelli di Arianna</h1>
+        <span class="sotto">A013 · A011 · A012 · A022 — secondaria I e II grado</span>
+      </div>
+      <button class="campanello" id="campanello" data-nuovi="no" aria-live="polite">
+        <span class="pallino" id="contatore">0</span>
+        <span id="etichetta-campanello">Nessuna novità</span>
+      </button>
+    </div>
+    <div class="filtri" role="group" aria-label="Filtri">
+      <button class="chip rosso" id="f-nuovi" aria-pressed="false">Solo nuovi</button>
+      <button class="chip" id="f-alta" aria-pressed="false">Solo A013 / A011</button>
+      <select class="chip" id="f-regione" aria-label="Filtra per regione"><option value="">Tutta Italia</option></select>
+      <select class="chip" id="f-grado" aria-label="Filtra per grado">
+        <option value="">I e II grado</option>
+        <option value="II grado">Solo II grado</option>
+        <option value="I grado">Solo I grado</option>
+      </select>
+      <button class="chip" id="f-letti">Segna tutti come letti</button>
+    </div>
+  </header>
+
+  <div class="stato" id="stato"><span>Caricamento degli avvisi…</span></div>
+
+  <ul class="elenco" id="elenco"></ul>
+  <div class="vuoto" id="vuoto" hidden><strong>Nessun avviso con questi filtri</strong><p>Prova a togliere un filtro, oppure aspetta il prossimo controllo.</p></div>
+
+  <details class="copertura">
+    <summary>Come funziona il controllo e cosa copre</summary>
+    <div class="corpo" id="corpo-copertura">
+      <p>Ogni ora, dalle 8 alle 20, vengono riletti i siti degli Uffici Scolastici Regionali e degli ambiti territoriali provinciali. Un avviso finisce qui se nomina una delle classi di concorso monitorate, in qualunque grafia: <code>A013</code> <code>A-13</code> <code>A011</code> <code>A-11</code> <code>A012</code> <code>AS12</code> <code>A-12</code> <code>A022</code> <code>AM12</code> <code>A-22</code> — basta il solo codice, anche senza le parole <em>interpello</em> o <em>manifestazione di disponibilità</em> (che restano richieste solo quando manca il codice). Sono esclusi infanzia, primaria e ATA, e gli atti che non sono interpelli: graduatorie, commissioni, convocazioni.</p>
+      <p>L'archivio parte dal 21 settembre 2026: gli avvisi pubblicati prima non compaiono. Per ogni avviso trovi la data di pubblicazione — con l'ora quando la fonte la rende disponibile (per esempio i PDF caricati sui siti degli uffici); le pagine del Ministero indicano solo il giorno — e il momento esatto in cui il controllo l'ha trovato.</p>
+      <p>"Segna come letto" resta ricordato solo su questo dispositivo e questo browser: è una preferenza locale, non condivisa tra telefono e computer.</p>
+      <div id="errori-fonti"></div>
+    </div>
+  </details>
+
+  <footer class="pie" id="pie"></footer>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  var elenco=document.getElementById('elenco'), vuoto=document.getElementById('vuoto'),
+      stato=document.getElementById('stato'), contatore=document.getElementById('contatore'),
+      campanello=document.getElementById('campanello'), etCamp=document.getElementById('etichetta-campanello'),
+      fNuovi=document.getElementById('f-nuovi'), fAlta=document.getElementById('f-alta'),
+      fRegione=document.getElementById('f-regione'), fGrado=document.getElementById('f-grado'),
+      fLetti=document.getElementById('f-letti'), pie=document.getElementById('pie'),
+      errFonti=document.getElementById('errori-fonti');
+
+  var avvisi=[], controllo=null;
+  var filtri={nuovi:false, alta:false, regione:'', grado:''};
+
+  // gli "id letti" vivono solo in questo browser (niente backend scrivibile
+  // su GitHub Pages): localStorage, non lo stato condiviso dell'archivio.
+  var letti={};
+  try{ var lr=localStorage.getItem('letti-interpelli'); if(lr){ JSON.parse(lr).forEach(function(id){ letti[id]=1; }); } }catch(e){}
+  function salvaLetti(){ try{ localStorage.setItem('letti-interpelli', JSON.stringify(Object.keys(letti))); }catch(e){} }
+
+  try{ var s=localStorage.getItem('filtri-interpelli'); if(s){ var p=JSON.parse(s);
+    filtri.alta=!!p.alta; filtri.regione=p.regione||''; filtri.grado=p.grado||''; } }catch(e){}
+  function salvaFiltri(){ try{ localStorage.setItem('filtri-interpelli',
+    JSON.stringify({alta:filtri.alta,regione:filtri.regione,grado:filtri.grado})); }catch(e){} }
+
+  var MESI=['gen','feb','mar','apr','mag','giu','lug','ago','set','ott','nov','dic'];
+  function dataIt(iso){ if(!iso) return null; var p=String(iso).slice(0,10).split('-');
+    if(p.length!==3) return null; var m=parseInt(p[1],10)-1;
+    return parseInt(p[2],10)+' '+(MESI[m]||'')+' '+p[0]; }
+  function oraIt(iso){ var m=String(iso||'').match(/T(\d{2}):(\d{2})/); return m? m[1]+':'+m[2] : ''; }
+  var ARCHIVIO_DAL='2026-09-21';
+  function quando(iso){ if(!iso) return ''; var d=new Date(iso); if(isNaN(d)) return '';
+    var min=Math.round((Date.now()-d.getTime())/60000);
+    if(min<2) return 'adesso'; if(min<60) return min+' minuti fa';
+    var h=Math.round(min/60); if(h<24) return h===1?'un’ora fa':h+' ore fa';
+    return dataIt(iso.slice(0,10)); }
+  function esc(t){ var d=document.createElement('div'); d.textContent=t==null?'':String(t); return d.innerHTML; }
+
+  function visibili(){
+    return avvisi.filter(function(a){
+      if(a.data && String(a.data).slice(0,10) < ARCHIVIO_DAL) return false;
+      if(filtri.nuovi && a.letto) return false;
+      if(filtri.alta && a.priorita!=='alta') return false;
+      if(filtri.regione){
+        var r=a.sede_regione||a.ufficio_regione||'';
+        if(r!==filtri.regione) return false;
+      }
+      if(filtri.grado && (a.grado||[]).indexOf(filtri.grado)<0) return false;
+      return true;
+    });
+  }
+
+  function disegna(){
+    var lista=visibili();
+    var nuovi=avvisi.filter(function(a){ return !a.letto; }).length;
+
+    contatore.textContent=nuovi;
+    campanello.setAttribute('data-nuovi', nuovi>0?'si':'no');
+    etCamp.textContent = nuovi===0 ? 'Nessuna novità'
+      : (nuovi===1 ? 'avviso nuovo' : 'avvisi nuovi');
+    campanello.setAttribute('aria-label', nuovi===0
+      ? 'Nessun avviso nuovo' : nuovi+' avvisi nuovi da leggere');
+    document.title = (nuovi>0 ? '('+nuovi+') ' : '') + 'Interpelli di Arianna';
+
+    fNuovi.setAttribute('aria-pressed', filtri.nuovi?'true':'false');
+    fAlta.setAttribute('aria-pressed', filtri.alta?'true':'false');
+
+    var regs={}, cur=fRegione.value;
+    avvisi.forEach(function(a){ var r=a.sede_regione||a.ufficio_regione; if(r) regs[r]=1; });
+    var chiavi=Object.keys(regs).sort();
+    if(chiavi.join('|')!==fRegione.dataset.chiavi){
+      fRegione.dataset.chiavi=chiavi.join('|');
+      fRegione.innerHTML='<option value="">Tutta Italia</option>'+
+        chiavi.map(function(r){ return '<option value="'+esc(r)+'">'+esc(r)+'</option>'; }).join('');
+      fRegione.value=filtri.regione||cur||'';
+    }
+    fGrado.value=filtri.grado;
+
+    elenco.innerHTML = lista.map(function(a){
+      var cods=(a.cdc||[]).map(function(c){
+        var cl = (c==='A013'||c==='A011')?'alta':((c==='A012'||c==='A022')?'media':'');
+        return '<span class="codice '+cl+'">'+esc(c)+'</span>'; }).join('');
+      var m=[];
+      if(a.sede_prov){
+        m.push('<span><span class="k">Sede</span> '+esc(a.sede_prov)+(a.sede_regione?' · '+esc(a.sede_regione):'')+'</span>');
+      }
+      if(a.pubblicato){
+        m.push('<span><span class="k">Pubblicato</span> '+esc(dataIt(a.pubblicato))+', ore '+esc(oraIt(a.pubblicato))+'</span>');
+      } else if(a.data){
+        m.push('<span><span class="k">Pubblicato</span> '+esc(dataIt(a.data))+' <span class="k">(ora non indicata dal sito)</span></span>');
+      }
+      if(a.aggiunto) m.push('<span><span class="k">Trovato</span> '+esc(dataIt(a.aggiunto))+', ore '+esc(oraIt(a.aggiunto))+'</span>');
+      if(a.scadenza) m.push('<span class="scad"><span class="k">Scade</span> '+esc(dataIt(a.scadenza))+'</span>');
+      m.push('<span><span class="k">Pubblicato da</span> '+esc(a.ufficio||'—')+
+             (a.ufficio_regione?' · '+esc(a.ufficio_regione):'')+'</span>');
+      if((a.grado||[]).length) m.push('<span><span class="k">Grado</span> '+esc(a.grado.join(', '))+'</span>');
+      if((a.anche_su||[]).length) m.push('<span><span class="k">Anche su</span> '+esc(a.anche_su.slice(0,3).join(', '))+'</span>');
+      return '<li class="avviso" data-prio="'+esc(a.priorita)+'" data-nuovo="'+(a.letto?'no':'si')+'" data-id="'+esc(a.id)+'">'+
+        '<div class="intestazione">'+(a.letto?'':'<span class="etichetta-nuovo">nuovo</span>')+cods+'</div>'+
+        '<h2 class="titolo">'+esc(a.titolo)+'</h2>'+
+        '<div class="meta">'+m.join('')+'</div>'+
+        '<div class="azioni">'+
+          '<a class="bottone" href="'+esc(a.link)+'" target="_blank" rel="noopener" data-apri="'+esc(a.id)+'">Apri l’avviso</a>'+
+          (a.letto?'':'<button class="bottone secondario" data-letto="'+esc(a.id)+'">Segna come letto</button>')+
+        '</div></li>';
+    }).join('');
+
+    vuoto.hidden = lista.length>0;
+    if(lista.length===0 && avvisi.length===0){
+      vuoto.querySelector('strong').textContent='Ancora nessun avviso in archivio';
+      vuoto.querySelector('p').textContent='Il primo controllo popolerà questa pagina.';
+    }
+
+    if(controllo){
+      var e=(controllo.errori||[]).length;
+      stato.innerHTML='<span>Ultimo controllo <b>'+esc(quando(controllo.ultimo))+'</b></span>'+
+        '<span class="sep">/</span><span>Fonti lette <b>'+esc(controllo.fonti_ok)+'</b> su <b>'+esc(controllo.fonti_totali)+'</b></span>'+
+        '<span class="sep">/</span><span>In archivio <b>'+avvisi.length+'</b></span>'+
+        (e?'<span class="sep">/</span><span><b>'+e+'</b> fonti non raggiungibili</span>':'');
+      var nl=avvisi.filter(function(a){return !a.letto;}).length;
+      pie.textContent='Prossimo controllo entro un’ora — 8:00/20:00, ora italiana. '+
+        'Archivio dal 21 settembre 2026: '+visibili().length+' avvisi, '+
+        (nl===0?'tutti letti':(nl===1?'1 ancora da leggere':nl+' ancora da leggere'))+'.';
+      if(e){
+        errFonti.innerHTML='<p style="margin-top:12px"><strong>Non raggiungibili all’ultimo giro</strong> — da controllare a mano:</p><ul>'+
+          controllo.errori.map(function(x){
+            return '<li><a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.regione)+' · '+esc(x.provincia)+'</a></li>';
+          }).join('')+'</ul>';
+      } else { errFonti.innerHTML=''; }
+    }
+  }
+
+  function segnaLetto(id){
+    var a=avvisi.filter(function(x){return x.id===id;})[0];
+    if(!a || a.letto) return;
+    a.letto=true; letti[id]=1; salvaLetti(); disegna();
+  }
+
+  elenco.addEventListener('click', function(ev){
+    var b=ev.target.closest('[data-letto]'); if(b){ segnaLetto(b.getAttribute('data-letto')); return; }
+    var a=ev.target.closest('[data-apri]'); if(a){ segnaLetto(a.getAttribute('data-apri')); }
+  });
+  campanello.addEventListener('click', function(){
+    filtri.nuovi=!filtri.nuovi; disegna();
+    var primo=elenco.querySelector('.avviso'); if(primo) primo.scrollIntoView({behavior:'smooth',block:'center'});
+  });
+  fNuovi.addEventListener('click', function(){ filtri.nuovi=!filtri.nuovi; disegna(); });
+  fAlta.addEventListener('click', function(){ filtri.alta=!filtri.alta; salvaFiltri(); disegna(); });
+  fRegione.addEventListener('change', function(){ filtri.regione=fRegione.value; salvaFiltri(); disegna(); });
+  fGrado.addEventListener('change', function(){ filtri.grado=fGrado.value; salvaFiltri(); disegna(); });
+  fLetti.addEventListener('click', function(){
+    avvisi.filter(function(a){return !a.letto;}).forEach(function(a){ segnaLetto(a.id); });
+  });
+
+  disegna();
+
+  function ordina(){
+    avvisi.sort(function(x,y){
+      if(!!x.letto !== !!y.letto) return x.letto?1:-1;
+      var o={alta:0,media:1,bassa:2};
+      if(o[x.priorita]!==o[y.priorita]) return o[x.priorita]-o[y.priorita];
+      return String(y.data||y.aggiunto||'').localeCompare(String(x.data||x.aggiunto||''));
+    });
+  }
+
+  function carica(){
+    var v='?v='+Date.now();
+    Promise.all([
+      fetch('data/interpelli.json'+v).then(function(r){ if(!r.ok) throw new Error('interpelli.json '+r.status); return r.json(); }),
+      fetch('data/controllo.json'+v).then(function(r){ if(!r.ok) throw new Error('controllo.json '+r.status); return r.json(); })
+    ]).then(function(res){
+      avvisi = res[0].map(function(a){ var v=Object.assign({}, a); v.letto=!!letti[v.id]; return v; });
+      controllo = res[1];
+      ordina();
+      disegna();
+    }).catch(function(err){
+      if(avvisi.length===0){
+        stato.innerHTML='<span>Archivio momentaneamente non raggiungibile. Riprova tra poco.</span>';
+      }
+      try{ console.error('[interpelli]', err); }catch(e){}
+    });
+  }
+
+  carica();
+  setInterval(carica, 5*60*1000); // ricontrolla ogni 5 minuti se ci sono aggiornamenti
+  document.addEventListener('visibilitychange', function(){ if(!document.hidden) carica(); });
+})();
+</script>
+</body>
+</html>

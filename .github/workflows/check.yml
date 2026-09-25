@@ -1,0 +1,49 @@
+name: Controllo interpelli
+
+on:
+  schedule:
+    # ogni ora dalle 8 alle 20, ora italiana (6-18 UTC, ora legale).
+    # dalla fine dell'ora legale (ultima domenica di ottobre) va cambiato in: 0 7-19 * * *
+    - cron: '0 6-18 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: controllo-interpelli
+  cancel-in-progress: false
+
+jobs:
+  controllo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Installa le dipendenze
+        run: |
+          sudo apt-get update && sudo apt-get install -y poppler-utils
+          pip install -r requirements.txt
+
+      - name: Autodiagnosi dello scraper
+        run: python3 monitor.py --selftest
+
+      - name: Esegui il controllo
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          ARIANNA_EMAIL: ${{ secrets.ARIANNA_EMAIL }}
+          DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
+        run: python3 runner.py
+
+      - name: Salva i risultati nel repository
+        run: |
+          git config user.name "controllo-interpelli"
+          git config user.email "actions@users.noreply.github.com"
+          git add data docs/data
+          git diff --quiet --cached || git commit -m "Aggiorna interpelli $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
