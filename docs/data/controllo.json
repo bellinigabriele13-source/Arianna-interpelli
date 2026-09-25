@@ -1,55 +1,37 @@
 {
- "ultimo": "2026-09-25T17:14:52+02:00",
- "fonti_ok": 91,
+ "ultimo": "2026-09-25T22:16:33+02:00",
+ "fonti_ok": 94,
  "fonti_totali": 99,
  "errori": [
   {
-   "errore": "<urlopen error [Errno 104] Connection reset by peer>",
-   "provincia": "Cosenza",
-   "regione": "Calabria",
-   "url": "https://www.istruzione.calabria.it/cosenza/category/interdoc/"
-  },
-  {
-   "errore": "<urlopen error [Errno 104] Connection reset by peer>",
-   "provincia": "Crotone",
-   "regione": "Calabria",
-   "url": "https://www.istruzione.calabria.it/crotone/category/notizie/interpelli-per-supplenza/"
-  },
-  {
-   "errore": "<urlopen error [Errno 104] Connection reset by peer>",
-   "provincia": "Reggio Calabria",
-   "regione": "Calabria",
-   "url": "https://www.istruzioneatprc.it/interpelli/"
-  },
-  {
-   "errore": "<urlopen error [Errno 104] Connection reset by peer>",
-   "provincia": "Vibo Valentia",
-   "regione": "Calabria",
-   "url": "https://www.istruzione.calabria.it/vibovalentia/category/us/doc/"
-  },
-  {
-   "errore": "HTTP Error 403: Forbidden",
+   "regione": "Campania",
    "provincia": "Benevento",
-   "regione": "Campania",
-   "url": "https://www.uspbenevento.it/uat/category/interpelli-e-varie/"
+   "url": "https://www.uspbenevento.it/uat/category/interpelli-e-varie/",
+   "errore": "HTTP Error 403: Forbidden"
   },
   {
-   "errore": "HTTP Error 502: Bad Gateway",
+   "regione": "Campania",
    "provincia": "Salerno",
-   "regione": "Campania",
-   "url": "https://uat-salerno.it/Documenti/CIRCOLARI"
+   "url": "https://uat-salerno.it/Documenti/CIRCOLARI",
+   "errore": "HTTP Error 502: Bad Gateway"
   },
   {
-   "errore": "<urlopen error Tunnel connection failed: 502 Bad Gateway>",
-   "provincia": "Frosinone",
    "regione": "Lazio",
-   "url": "https://lnx.uspistruzione.fr.it/wp2/tag/interpello-nazionale"
+   "provincia": "Frosinone",
+   "url": "https://lnx.uspistruzione.fr.it/wp2/tag/interpello-nazionale",
+   "errore": "<urlopen error [Errno 101] Network is unreachable>"
   },
   {
-   "errore": "HTTP Error 503: Service Unavailable",
-   "provincia": "Macerata",
    "regione": "Marche",
-   "url": "http://www.uspmc.sinp.net/"
+   "provincia": "Macerata",
+   "url": "http://www.uspmc.sinp.net/",
+   "errore": "<urlopen error timed out>"
+  },
+  {
+   "regione": "Puglia",
+   "provincia": "Foggia",
+   "url": "https://www.ustfoggia.it/",
+   "errore": "HTTP Error 403: Forbidden"
   }
  ],
  "nuovi_ultimo_giro": 0
