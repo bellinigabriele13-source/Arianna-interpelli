@@ -1,5 +1,5 @@
 {
- "ultimo": "2026-09-26T12:05:46+02:00",
+ "ultimo": "2026-09-26T13:05:22+02:00",
  "fonti_ok": 94,
  "fonti_totali": 99,
  "errori": [
@@ -34,5 +34,5 @@
    "errore": "HTTP Error 403: Forbidden"
   }
  ],
- "nuovi_ultimo_giro": 3
+ "nuovi_ultimo_giro": 0
 }
