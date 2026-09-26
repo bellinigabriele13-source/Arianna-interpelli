@@ -1,6 +1,6 @@
 {
- "ultimo": "2026-09-26T11:05:40+02:00",
- "fonti_ok": 84,
+ "ultimo": "2026-09-26T12:05:46+02:00",
+ "fonti_ok": 94,
  "fonti_totali": 99,
  "errori": [
   {
@@ -16,30 +16,6 @@
    "errore": "HTTP Error 502: Bad Gateway"
   },
   {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Gorizia",
-   "url": "https://usrfvg.gov.it/it/home/menu/uffici/ufficio-territoriale-di-gorizia/Interpelli/",
-   "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Pordenone",
-   "url": "https://usrfvg.gov.it/it/home/menu/uffici/ufficio-territoriale-di-pordenone/Interpelli/",
-   "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Trieste",
-   "url": "https://usrfvg.gov.it/it/home/menu/uffici/ufficio-territoriale-di-trieste/Interpelli/",
-   "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Udine",
-   "url": "https://usrfvg.gov.it/it/home/menu/uffici/ufficio-territoriale-di-udine/Interpelli/",
-   "errore": "<urlopen error timed out>"
-  },
-  {
    "regione": "Lazio",
    "provincia": "Frosinone",
    "url": "https://lnx.uspistruzione.fr.it/wp2/tag/interpello-nazionale",
@@ -52,47 +28,11 @@
    "errore": "<urlopen error timed out>"
   },
   {
-   "regione": "Piemonte",
-   "provincia": "Alessandria",
-   "url": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_al.php",
-   "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Piemonte",
-   "provincia": "Asti",
-   "url": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
-   "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Piemonte",
-   "provincia": "Cuneo",
-   "url": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_cn.php",
-   "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Piemonte",
-   "provincia": "Novara",
-   "url": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_no.php",
-   "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Piemonte",
-   "provincia": "VCO",
-   "url": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
-   "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Piemonte",
-   "provincia": "Vercelli",
-   "url": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vc.php",
-   "errore": "<urlopen error timed out>"
-  },
-  {
    "regione": "Puglia",
    "provincia": "Foggia",
    "url": "https://www.ustfoggia.it/",
    "errore": "HTTP Error 403: Forbidden"
   }
  ],
- "nuovi_ultimo_giro": 0
+ "nuovi_ultimo_giro": 3
 }

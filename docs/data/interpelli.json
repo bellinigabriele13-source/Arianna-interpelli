@@ -397,32 +397,6 @@
   "aggiunto": "2026-09-23T15:23+02:00",
   "anche_su": [],
   "cdc": [
-   "A013"
-  ],
-  "cdc_desc": [
-   "A013 — Discipline letterarie, latino e greco (II grado)"
-  ],
-  "data": "2026-09-22",
-  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_al.php",
-  "grado": [
-   "II grado"
-  ],
-  "id": "487094497987ba10",
-  "letto": false,
-  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_al.php",
-  "motivo": "tabella",
-  "priorita": "alta",
-  "scadenza": "2026-09-24",
-  "sede_prov": "AL",
-  "sede_regione": "Piemonte",
-  "titolo": "ISTITUTO SUPERIORE UMBERTO ECO — A013 - Discipline letterarie, latino e greco (Spezzone per numero ore: 9 · Fino al 30 giugno)",
-  "ufficio": "Alessandria",
-  "ufficio_regione": "Piemonte"
- },
- {
-  "aggiunto": "2026-09-23T15:23+02:00",
-  "anche_su": [],
-  "cdc": [
    "A022"
   ],
   "cdc_desc": [
@@ -444,32 +418,6 @@
   "titolo": "IC Oggiono",
   "ufficio": "Lecco",
   "ufficio_regione": "Lombardia"
- },
- {
-  "aggiunto": "2026-09-23T15:23+02:00",
-  "anche_su": [],
-  "cdc": [
-   "A022"
-  ],
-  "cdc_desc": [
-   "A022 — Italiano, storia, geografia (I grado)"
-  ],
-  "data": "2026-09-21",
-  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vc.php",
-  "grado": [
-   "I grado"
-  ],
-  "id": "d6fa2f6921b6bede",
-  "letto": false,
-  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vc.php",
-  "motivo": "tabella",
-  "priorita": "media",
-  "scadenza": "2026-09-22",
-  "sede_prov": "VC",
-  "sede_regione": "Piemonte",
-  "titolo": "I,C. SERRA — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-09-27)",
-  "ufficio": "Vercelli",
-  "ufficio_regione": "Piemonte"
  },
  {
   "aggiunto": "2026-09-23T20:11+02:00",
@@ -522,32 +470,6 @@
   "titolo": "INTERPELLO - I.C. CANTU' 2",
   "ufficio": "Como",
   "ufficio_regione": "Lombardia"
- },
- {
-  "aggiunto": "2026-09-24T10:11+02:00",
-  "anche_su": [],
-  "cdc": [
-   "A011"
-  ],
-  "cdc_desc": [
-   "A011 — Discipline letterarie e latino (II grado)"
-  ],
-  "data": "2026-09-24",
-  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
-  "grado": [
-   "II grado"
-  ],
-  "id": "50e061d380df3a08",
-  "letto": false,
-  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
-  "motivo": "tabella",
-  "priorita": "alta",
-  "scadenza": "2026-09-25",
-  "sede_prov": "AT",
-  "sede_regione": "Piemonte",
-  "titolo": "I.I.S. VERCELLI - PENNA — A011 - Discipline letterarie e latino (Interna · Supplenza Temporanea fino al 2026-12-22)",
-  "ufficio": "Asti",
-  "ufficio_regione": "Piemonte"
  },
  {
   "aggiunto": "2026-09-24T11:11+02:00",
@@ -678,5 +600,89 @@
   "titolo": "Interpello - I.C. 1 di Morbegno",
   "ufficio": "Sondrio",
   "ufficio_regione": "Lombardia"
+ },
+ {
+  "id": "487094497987ba10",
+  "firma": "c2d5a44f9a1207f9",
+  "titolo": "ISTITUTO SUPERIORE UMBERTO ECO — A013 - Discipline letterarie, latino e greco (Spezzone per numero ore: 9 · Fino al 30 giugno)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_al.php",
+  "cdc": [
+   "A013"
+  ],
+  "cdc_desc": [
+   "A013 — Discipline letterarie, latino e greco (II grado)"
+  ],
+  "priorita": "alta",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-09-22",
+  "scadenza": "2026-09-24",
+  "sede_prov": "AL",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "Alessandria",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_al.php",
+  "motivo": "tabella",
+  "estratto": "ALIS016008 | ISTITUTO SUPERIORE UMBERTO ECO | A013 - Discipline letterarie, latino e greco | Spezzone per numero ore: 9 | Diurno | Fino al 30 giugno | 22/09/2026 |  | aperto | 2026-09-24",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-09-26T12:05:46+02:00"
+ },
+ {
+  "id": "d6fa2f6921b6bede",
+  "firma": "b8b5f551f8409594",
+  "titolo": "I,C. SERRA — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-09-27)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vc.php",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-09-21",
+  "scadenza": "2026-09-22",
+  "sede_prov": "VC",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "Vercelli",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vc.php",
+  "motivo": "tabella",
+  "estratto": "VCIC807009 | I,C. SERRA | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Interna | Diurno | Supplenza Temporanea fino al 2026-09-27 | 21/09/2026 |  | aperto | 2026-09-22",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-09-26T12:05:46+02:00"
+ },
+ {
+  "id": "50e061d380df3a08",
+  "firma": "0d9e0da7e6b50cb3",
+  "titolo": "I.I.S. VERCELLI - PENNA — A011 - Discipline letterarie e latino (Interna · Supplenza Temporanea fino al 2026-12-22)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
+  "cdc": [
+   "A011"
+  ],
+  "cdc_desc": [
+   "A011 — Discipline letterarie e latino (II grado)"
+  ],
+  "priorita": "alta",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-09-24",
+  "scadenza": "2026-09-25",
+  "sede_prov": "AT",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "Asti",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
+  "motivo": "tabella",
+  "estratto": "ATIS00800A | I.I.S. VERCELLI - PENNA | A011 - Discipline letterarie e latino | Interna | Diurno | Supplenza Temporanea fino al 2026-12-22 | 24/09/2026 |  | aperto | 2026-09-25",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-09-26T12:05:46+02:00"
  }
 ]
