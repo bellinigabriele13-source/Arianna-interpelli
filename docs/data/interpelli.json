@@ -740,5 +740,33 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-09-28T11:07:37+02:00"
+ },
+ {
+  "id": "eabb178b40442b5a",
+  "firma": "81051c57b94474bc",
+  "titolo": "I.C. Casalpusterlengo",
+  "link": "https://www.mim.gov.it/web/lodi/-/i-c-casalpusterlengo-35",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-09-28",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Lodi",
+  "fonte": "https://www.mim.gov.it/web/lodi/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "-> Interpelli Ricerca Supplenti 28 settembre 2026 Interpelli ricerca supplenti I.C. Casalpusterlengo Interpello per N.1 posto AM12 sino al 30/11/2026",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-09-28T13:06:24+02:00"
  }
 ]
