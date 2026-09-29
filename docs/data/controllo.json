@@ -1,8 +1,38 @@
 {
- "ultimo": "2026-09-29T14:07:26+02:00",
- "fonti_ok": 94,
+ "ultimo": "2026-09-29T15:09:42+02:00",
+ "fonti_ok": 89,
  "fonti_totali": 99,
  "errori": [
+  {
+   "regione": "Calabria",
+   "provincia": "Catanzaro",
+   "url": "https://www.istruzione.calabria.it/catanzaro/category/nca/",
+   "errore": "HTTP Error 503: Service Unavailable"
+  },
+  {
+   "regione": "Calabria",
+   "provincia": "Cosenza",
+   "url": "https://www.istruzione.calabria.it/cosenza/category/interdoc/",
+   "errore": "HTTP Error 503: Service Unavailable"
+  },
+  {
+   "regione": "Calabria",
+   "provincia": "Crotone",
+   "url": "https://www.istruzione.calabria.it/crotone/category/notizie/interpelli-per-supplenza/",
+   "errore": "HTTP Error 503: Service Unavailable"
+  },
+  {
+   "regione": "Calabria",
+   "provincia": "Reggio Calabria",
+   "url": "https://www.istruzioneatprc.it/interpelli/",
+   "errore": "<urlopen error _ssl.c:999: The handshake operation timed out>"
+  },
+  {
+   "regione": "Calabria",
+   "provincia": "Vibo Valentia",
+   "url": "https://www.istruzione.calabria.it/vibovalentia/category/us/doc/",
+   "errore": "HTTP Error 503: Service Unavailable"
+  },
   {
    "regione": "Campania",
    "provincia": "Benevento",
