@@ -796,5 +796,33 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-09-28T19:06:54+02:00"
+ },
+ {
+  "id": "05102c5d0896d674",
+  "firma": "1c5c644caf6ef61c",
+  "titolo": "Interpello - LICEO SCIENTIFICO STATALE “GALILEO GALILEI\"",
+  "link": "https://www.mim.gov.it/web/como/-/interpello-liceo-scientifico-statale-galileo-galilei--1",
+  "cdc": [
+   "A011"
+  ],
+  "cdc_desc": [
+   "A011 — Discipline letterarie e latino (II grado)"
+  ],
+  "priorita": "alta",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-09-29",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Como",
+  "fonte": "https://www.mim.gov.it/web/como/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "-> Interpelli Ricerca Supplenti 29 settembre 2026 Interpelli ricerca supplenti Interpello - LICEO SCIENTIFICO STATALE “GALILEO GALILEI\" A011 DISCIPLINE LETTERARIE E LATINO",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-09-29T09:08:25+02:00"
  }
 ]
