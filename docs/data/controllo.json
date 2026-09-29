@@ -1,6 +1,6 @@
 {
- "ultimo": "2026-09-29T11:08:22+02:00",
- "fonti_ok": 94,
+ "ultimo": "2026-09-29T12:06:59+02:00",
+ "fonti_ok": 93,
  "fonti_totali": 99,
  "errori": [
   {
@@ -32,7 +32,13 @@
    "provincia": "Foggia",
    "url": "https://www.ustfoggia.it/",
    "errore": "HTTP Error 403: Forbidden"
+  },
+  {
+   "regione": "Toscana",
+   "provincia": "Grosseto",
+   "url": "https://www.ufficioscolasticogrosseto.it/uff7/",
+   "errore": "HTTP Error 500: Internal Server Error"
   }
  ],
- "nuovi_ultimo_giro": 0
+ "nuovi_ultimo_giro": 1
 }

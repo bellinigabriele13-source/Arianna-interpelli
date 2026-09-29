@@ -824,5 +824,33 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-09-29T09:08:25+02:00"
+ },
+ {
+  "id": "a22ae53287c2305e",
+  "firma": "ceb75258855e7dbf",
+  "titolo": "IC \"R. L. Montalcini\" - Missaglia",
+  "link": "https://www.mim.gov.it/web/lecco/-/ic-r-l-montalcini-missaglia-3",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-09-29",
+  "scadenza": "2026-09-30",
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Lecco",
+  "fonte": "https://www.mim.gov.it/web/lecco/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "29 settembre 2026 IC \"G. Carducci\" - Olginate Classe di concorso AAAA 29 settembre 2026 IC \"R. L. Montalcini\" - Missaglia Classe di concorso AM12",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-09-29T12:06:59+02:00"
  }
 ]
