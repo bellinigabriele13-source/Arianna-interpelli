@@ -1,6 +1,6 @@
 {
- "ultimo": "2026-09-29T17:09:36+02:00",
- "fonti_ok": 90,
+ "ultimo": "2026-09-29T18:08:03+02:00",
+ "fonti_ok": 89,
  "fonti_totali": 99,
  "errori": [
   {
@@ -20,6 +20,12 @@
    "provincia": "Crotone",
    "url": "https://www.istruzione.calabria.it/crotone/category/notizie/interpelli-per-supplenza/",
    "errore": "HTTP Error 503: Service Unavailable"
+  },
+  {
+   "regione": "Calabria",
+   "provincia": "Reggio Calabria",
+   "url": "https://www.istruzioneatprc.it/interpelli/",
+   "errore": "<urlopen error _ssl.c:999: The handshake operation timed out>"
   },
   {
    "regione": "Calabria",
