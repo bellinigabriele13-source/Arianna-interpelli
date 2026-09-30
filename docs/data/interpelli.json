@@ -908,5 +908,61 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-09-30T13:07:00+02:00"
+ },
+ {
+  "id": "a32983e41f8e8cf3",
+  "firma": "dcf1e22db27f3dcc",
+  "titolo": "ISTITUTO COMPRENSIVO 4 — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-10-27)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-09-30",
+  "scadenza": "2026-10-01",
+  "sede_prov": "AT",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "Asti",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
+  "motivo": "tabella",
+  "estratto": "ATIC81900L | ISTITUTO COMPRENSIVO 4 | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Interna | Diurno | Supplenza Temporanea fino al 2026-10-27 | 30/09/2026 |  | aperto | 2026-10-01",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-09-30T14:08:07+02:00"
+ },
+ {
+  "id": "5629e2a41f01e668",
+  "firma": "2784197d730f13ad",
+  "titolo": "Interpello - I.T.I. Mattei di Sondrio",
+  "link": "https://www.mim.gov.it/web/sondrio/-/interpello-i-t-i-mattei-di-sondrio-2",
+  "cdc": [
+   "A012"
+  ],
+  "cdc_desc": [
+   "A012 — Discipline letterarie (II grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-09-30",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Sondrio",
+  "fonte": "https://www.mim.gov.it/web/sondrio/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "Classe di concorso EEEE 30 settembre 2026 Interpelli ricerca supplenti Interpello - I.T.I. Mattei di Sondrio Classi di concorso A026 - AS12",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-09-30T14:08:07+02:00"
  }
 ]
