@@ -602,34 +602,6 @@
   "ufficio_regione": "Lombardia"
  },
  {
-  "id": "487094497987ba10",
-  "firma": "c2d5a44f9a1207f9",
-  "titolo": "ISTITUTO SUPERIORE UMBERTO ECO — A013 - Discipline letterarie, latino e greco (Spezzone per numero ore: 9 · Fino al 30 giugno)",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_al.php",
-  "cdc": [
-   "A013"
-  ],
-  "cdc_desc": [
-   "A013 — Discipline letterarie, latino e greco (II grado)"
-  ],
-  "priorita": "alta",
-  "grado": [
-   "II grado"
-  ],
-  "data": "2026-09-22",
-  "scadenza": "2026-09-24",
-  "sede_prov": "AL",
-  "sede_regione": "Piemonte",
-  "ufficio_regione": "Piemonte",
-  "ufficio": "Alessandria",
-  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_al.php",
-  "motivo": "tabella",
-  "estratto": "ALIS016008 | ISTITUTO SUPERIORE UMBERTO ECO | A013 - Discipline letterarie, latino e greco | Spezzone per numero ore: 9 | Diurno | Fino al 30 giugno | 22/09/2026 |  | aperto | 2026-09-24",
-  "anche_su": [],
-  "letto": false,
-  "aggiunto": "2026-09-26T16:05:45+02:00"
- },
- {
   "id": "d6fa2f6921b6bede",
   "firma": "b8b5f551f8409594",
   "titolo": "I,C. SERRA — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-09-27)",
@@ -964,5 +936,33 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-09-30T19:07:01+02:00"
+ },
+ {
+  "id": "487094497987ba10",
+  "firma": "c2d5a44f9a1207f9",
+  "titolo": "ISTITUTO SUPERIORE UMBERTO ECO — A013 - Discipline letterarie, latino e greco (Spezzone per numero ore: 9 · Fino al 30 giugno)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_al.php",
+  "cdc": [
+   "A013"
+  ],
+  "cdc_desc": [
+   "A013 — Discipline letterarie, latino e greco (II grado)"
+  ],
+  "priorita": "alta",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-09-22",
+  "scadenza": "2026-09-24",
+  "sede_prov": "AL",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "Alessandria",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_al.php",
+  "motivo": "tabella",
+  "estratto": "ALIS016008 | ISTITUTO SUPERIORE UMBERTO ECO | A013 - Discipline letterarie, latino e greco | Spezzone per numero ore: 9 | Diurno | Fino al 30 giugno | 22/09/2026 |  | aperto | 2026-09-24",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-09-30T20:07:45+02:00"
  }
 ]
