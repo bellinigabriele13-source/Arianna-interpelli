@@ -880,5 +880,33 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-09-30T12:07:43+02:00"
+ },
+ {
+  "id": "593b2901a2b9c0b7",
+  "firma": "6717a2ad017e274f",
+  "titolo": "Istituto Comprensivo Alto Verbano Cannobio — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-12-15)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-09-30",
+  "scadenza": "2026-10-02",
+  "sede_prov": "VB",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "VCO",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
+  "motivo": "tabella",
+  "estratto": "VBIC82300L | Istituto Comprensivo Alto Verbano Cannobio | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Interna | Diurno | Supplenza Temporanea fino al 2026-12-15 | 30/09/2026 |  | aperto | 2026-10-02",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-09-30T13:07:00+02:00"
  }
 ]
