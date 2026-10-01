@@ -1,6 +1,6 @@
 {
- "ultimo": "2026-09-30T20:07:45+02:00",
- "fonti_ok": 94,
+ "ultimo": "2026-10-01T08:09:26+02:00",
+ "fonti_ok": 93,
  "fonti_totali": 99,
  "errori": [
   {
@@ -32,7 +32,13 @@
    "provincia": "Foggia",
    "url": "https://www.ustfoggia.it/",
    "errore": "HTTP Error 403: Forbidden"
+  },
+  {
+   "regione": "Toscana",
+   "provincia": "Grosseto",
+   "url": "https://www.ufficioscolasticogrosseto.it/uff7/",
+   "errore": "The read operation timed out"
   }
  ],
- "nuovi_ultimo_giro": 1
+ "nuovi_ultimo_giro": 0
 }
