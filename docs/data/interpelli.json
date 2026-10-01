@@ -770,34 +770,6 @@
   "aggiunto": "2026-09-30T14:08:07+02:00"
  },
  {
-  "id": "a32983e41f8e8cf3",
-  "firma": "dcf1e22db27f3dcc",
-  "titolo": "ISTITUTO COMPRENSIVO 4 — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-10-27)",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
-  "cdc": [
-   "A022"
-  ],
-  "cdc_desc": [
-   "A022 — Italiano, storia, geografia (I grado)"
-  ],
-  "priorita": "media",
-  "grado": [
-   "I grado"
-  ],
-  "data": "2026-09-30",
-  "scadenza": "2026-10-01",
-  "sede_prov": "AT",
-  "sede_regione": "Piemonte",
-  "ufficio_regione": "Piemonte",
-  "ufficio": "Asti",
-  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
-  "motivo": "tabella",
-  "estratto": "ATIC81900L | ISTITUTO COMPRENSIVO 4 | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Interna | Diurno | Supplenza Temporanea fino al 2026-10-27 | 30/09/2026 |  | aperto | 2026-10-01",
-  "anche_su": [],
-  "letto": false,
-  "aggiunto": "2026-09-30T16:09:36+02:00"
- },
- {
   "id": "593b2901a2b9c0b7",
   "firma": "6717a2ad017e274f",
   "titolo": "Istituto Comprensivo Alto Verbano Cannobio — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-12-15)",
@@ -964,5 +936,89 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-09-30T20:07:45+02:00"
+ },
+ {
+  "id": "a32983e41f8e8cf3",
+  "firma": "dcf1e22db27f3dcc",
+  "titolo": "ISTITUTO COMPRENSIVO 4 — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-10-27)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-09-30",
+  "scadenza": "2026-10-01",
+  "sede_prov": "AT",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "Asti",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
+  "motivo": "tabella",
+  "estratto": "ATIC81900L | ISTITUTO COMPRENSIVO 4 | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Interna | Diurno | Supplenza Temporanea fino al 2026-10-27 | 30/09/2026 |  | aperto | 2026-10-01",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-01T09:08:36+02:00"
+ },
+ {
+  "id": "beec72b8908ce0ab",
+  "firma": "65606e30592208d8",
+  "titolo": "Interpello - ISTITUTO D'ISTRUZIONE SUPERIORE \"PAOLO CARCANO\"",
+  "link": "https://www.mim.gov.it/web/como/-/interpello-istituto-d-istruzione-superiore-paolo-carcano--1",
+  "cdc": [
+   "A011"
+  ],
+  "cdc_desc": [
+   "A011 — Discipline letterarie e latino (II grado)"
+  ],
+  "priorita": "alta",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-10-01",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Como",
+  "fonte": "https://www.mim.gov.it/web/como/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "CLASSE DI CONCORSO A042 - SCIENZE E TECNOLOGIE MECCANICHE 01 ottobre 2026 Interpelli ricerca supplenti Interpello - ISTITUTO D'ISTRUZIONE SUPERIORE \"PAOLO CARCANO\" Classe di concorso A011 fino al 31/10/2026",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-01T09:08:36+02:00"
+ },
+ {
+  "id": "ed5f0d75b05a6e46",
+  "firma": "4ce4dd261a46d71e",
+  "titolo": "Interpello - IC Turate",
+  "link": "https://www.mim.gov.it/web/como/-/interpello-ic-turate-6",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-10-01",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Como",
+  "fonte": "https://www.mim.gov.it/web/como/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "> N. 1 SUPPLENZA POSTO COMUNE SCUOLA PRIMARIA 01 ottobre 2026 Interpelli ricerca supplenti Interpello - IC Turate Supplenza scuola secondaria I grado cdc AM12",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-01T09:08:36+02:00"
  }
 ]
