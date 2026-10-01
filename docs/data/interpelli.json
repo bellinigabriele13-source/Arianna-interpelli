@@ -798,34 +798,6 @@
   "aggiunto": "2026-09-30T20:07:45+02:00"
  },
  {
-  "id": "a32983e41f8e8cf3",
-  "firma": "dcf1e22db27f3dcc",
-  "titolo": "ISTITUTO COMPRENSIVO 4 — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-10-27)",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
-  "cdc": [
-   "A022"
-  ],
-  "cdc_desc": [
-   "A022 — Italiano, storia, geografia (I grado)"
-  ],
-  "priorita": "media",
-  "grado": [
-   "I grado"
-  ],
-  "data": "2026-09-30",
-  "scadenza": "2026-10-01",
-  "sede_prov": "AT",
-  "sede_regione": "Piemonte",
-  "ufficio_regione": "Piemonte",
-  "ufficio": "Asti",
-  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
-  "motivo": "tabella",
-  "estratto": "ATIC81900L | ISTITUTO COMPRENSIVO 4 | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Interna | Diurno | Supplenza Temporanea fino al 2026-10-27 | 30/09/2026 |  | aperto | 2026-10-01",
-  "anche_su": [],
-  "letto": false,
-  "aggiunto": "2026-10-01T09:08:36+02:00"
- },
- {
   "id": "beec72b8908ce0ab",
   "firma": "65606e30592208d8",
   "titolo": "Interpello - ISTITUTO D'ISTRUZIONE SUPERIORE \"PAOLO CARCANO\"",
@@ -1020,5 +992,61 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-10-01T13:08:03+02:00"
+ },
+ {
+  "id": "a32983e41f8e8cf3",
+  "firma": "dcf1e22db27f3dcc",
+  "titolo": "ISTITUTO COMPRENSIVO 4 — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-10-27)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-09-30",
+  "scadenza": "2026-10-01",
+  "sede_prov": "AT",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "Asti",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
+  "motivo": "tabella",
+  "estratto": "ATIC81900L | ISTITUTO COMPRENSIVO 4 | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Interna | Diurno | Supplenza Temporanea fino al 2026-10-27 | 30/09/2026 |  | aperto | 2026-10-01",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-01T14:09:28+02:00"
+ },
+ {
+  "id": "00a74f6ffc837843",
+  "firma": "f86b2d950e4ca49e",
+  "titolo": "ISTITUTO COMPRENSIVO TORTONA A — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-10-09)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_al.php",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-10-01",
+  "scadenza": "2026-10-02",
+  "sede_prov": "AL",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "Alessandria",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_al.php",
+  "motivo": "tabella",
+  "estratto": "ALIC83400N | ISTITUTO COMPRENSIVO TORTONA A | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Interna | Diurno | Supplenza Temporanea fino al 2026-10-09 | 01/10/2026 |  | aperto | 2026-10-02",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-01T14:09:28+02:00"
  }
 ]
