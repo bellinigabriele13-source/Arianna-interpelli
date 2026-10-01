@@ -742,34 +742,6 @@
   "aggiunto": "2026-09-30T14:08:07+02:00"
  },
  {
-  "id": "487094497987ba10",
-  "firma": "c2d5a44f9a1207f9",
-  "titolo": "ISTITUTO SUPERIORE UMBERTO ECO — A013 - Discipline letterarie, latino e greco (Spezzone per numero ore: 9 · Fino al 30 giugno)",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_al.php",
-  "cdc": [
-   "A013"
-  ],
-  "cdc_desc": [
-   "A013 — Discipline letterarie, latino e greco (II grado)"
-  ],
-  "priorita": "alta",
-  "grado": [
-   "II grado"
-  ],
-  "data": "2026-09-22",
-  "scadenza": "2026-09-24",
-  "sede_prov": "AL",
-  "sede_regione": "Piemonte",
-  "ufficio_regione": "Piemonte",
-  "ufficio": "Alessandria",
-  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_al.php",
-  "motivo": "tabella",
-  "estratto": "ALIS016008 | ISTITUTO SUPERIORE UMBERTO ECO | A013 - Discipline letterarie, latino e greco | Spezzone per numero ore: 9 | Diurno | Fino al 30 giugno | 22/09/2026 |  | aperto | 2026-09-24",
-  "anche_su": [],
-  "letto": false,
-  "aggiunto": "2026-09-30T20:07:45+02:00"
- },
- {
   "id": "beec72b8908ce0ab",
   "firma": "65606e30592208d8",
   "titolo": "Interpello - ISTITUTO D'ISTRUZIONE SUPERIORE \"PAOLO CARCANO\"",
@@ -826,62 +798,6 @@
   "aggiunto": "2026-10-01T09:08:36+02:00"
  },
  {
-  "id": "593b2901a2b9c0b7",
-  "firma": "6717a2ad017e274f",
-  "titolo": "Istituto Comprensivo Alto Verbano Cannobio — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-12-15)",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
-  "cdc": [
-   "A022"
-  ],
-  "cdc_desc": [
-   "A022 — Italiano, storia, geografia (I grado)"
-  ],
-  "priorita": "media",
-  "grado": [
-   "I grado"
-  ],
-  "data": "2026-09-30",
-  "scadenza": "2026-10-02",
-  "sede_prov": "VB",
-  "sede_regione": "Piemonte",
-  "ufficio_regione": "Piemonte",
-  "ufficio": "VCO",
-  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
-  "motivo": "tabella",
-  "estratto": "VBIC82300L | Istituto Comprensivo Alto Verbano Cannobio | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Interna | Diurno | Supplenza Temporanea fino al 2026-12-15 | 30/09/2026 |  | aperto | 2026-10-02",
-  "anche_su": [],
-  "letto": false,
-  "aggiunto": "2026-10-01T10:08:04+02:00"
- },
- {
-  "id": "d740210a0644db7e",
-  "firma": "8a26d110077d0afe",
-  "titolo": "I.C. RODARI DI CRUSINALLO — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Spezzone per numero ore: 6 · Fino al 30 giugno)",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
-  "cdc": [
-   "A022"
-  ],
-  "cdc_desc": [
-   "A022 — Italiano, storia, geografia (I grado)"
-  ],
-  "priorita": "media",
-  "grado": [
-   "I grado"
-  ],
-  "data": "2026-09-30",
-  "scadenza": "2026-10-01",
-  "sede_prov": "VB",
-  "sede_regione": "Piemonte",
-  "ufficio_regione": "Piemonte",
-  "ufficio": "VCO",
-  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
-  "motivo": "tabella",
-  "estratto": "VBIC819001 | I.C. RODARI DI CRUSINALLO | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Spezzone per numero ore: 6 | Diurno | Fino al 30 giugno | 30/09/2026 |  | aperto | 2026-10-01",
-  "anche_su": [],
-  "letto": false,
-  "aggiunto": "2026-10-01T10:08:04+02:00"
- },
- {
   "id": "6b78b6b3ae078937",
   "firma": "e6b3f852edb1d4ef",
   "titolo": "I.I.S Gobetti — A011 - Discipline letterarie e latino (Interna · Supplenza Temporanea fino al 2027-01-07)",
@@ -908,34 +824,6 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-10-01T13:08:03+02:00"
- },
- {
-  "id": "a32983e41f8e8cf3",
-  "firma": "dcf1e22db27f3dcc",
-  "titolo": "ISTITUTO COMPRENSIVO 4 — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-10-27)",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
-  "cdc": [
-   "A022"
-  ],
-  "cdc_desc": [
-   "A022 — Italiano, storia, geografia (I grado)"
-  ],
-  "priorita": "media",
-  "grado": [
-   "I grado"
-  ],
-  "data": "2026-09-30",
-  "scadenza": "2026-10-01",
-  "sede_prov": "AT",
-  "sede_regione": "Piemonte",
-  "ufficio_regione": "Piemonte",
-  "ufficio": "Asti",
-  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
-  "motivo": "tabella",
-  "estratto": "ATIC81900L | ISTITUTO COMPRENSIVO 4 | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Interna | Diurno | Supplenza Temporanea fino al 2026-10-27 | 30/09/2026 |  | aperto | 2026-10-01",
-  "anche_su": [],
-  "letto": false,
-  "aggiunto": "2026-10-01T14:09:28+02:00"
  },
  {
   "id": "00a74f6ffc837843",
@@ -1048,5 +936,117 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-10-01T15:10:23+02:00"
+ },
+ {
+  "id": "487094497987ba10",
+  "firma": "c2d5a44f9a1207f9",
+  "titolo": "ISTITUTO SUPERIORE UMBERTO ECO — A013 - Discipline letterarie, latino e greco (Spezzone per numero ore: 9 · Fino al 30 giugno)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_al.php",
+  "cdc": [
+   "A013"
+  ],
+  "cdc_desc": [
+   "A013 — Discipline letterarie, latino e greco (II grado)"
+  ],
+  "priorita": "alta",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-09-22",
+  "scadenza": "2026-09-24",
+  "sede_prov": "AL",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "Alessandria",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_al.php",
+  "motivo": "tabella",
+  "estratto": "ALIS016008 | ISTITUTO SUPERIORE UMBERTO ECO | A013 - Discipline letterarie, latino e greco | Spezzone per numero ore: 9 | Diurno | Fino al 30 giugno | 22/09/2026 |  | aperto | 2026-09-24",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-01T16:09:17+02:00"
+ },
+ {
+  "id": "593b2901a2b9c0b7",
+  "firma": "6717a2ad017e274f",
+  "titolo": "Istituto Comprensivo Alto Verbano Cannobio — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-12-15)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-09-30",
+  "scadenza": "2026-10-02",
+  "sede_prov": "VB",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "VCO",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
+  "motivo": "tabella",
+  "estratto": "VBIC82300L | Istituto Comprensivo Alto Verbano Cannobio | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Interna | Diurno | Supplenza Temporanea fino al 2026-12-15 | 30/09/2026 |  | aperto | 2026-10-02",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-01T16:09:17+02:00"
+ },
+ {
+  "id": "d740210a0644db7e",
+  "firma": "8a26d110077d0afe",
+  "titolo": "I.C. RODARI DI CRUSINALLO — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Spezzone per numero ore: 6 · Fino al 30 giugno)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-09-30",
+  "scadenza": "2026-10-01",
+  "sede_prov": "VB",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "VCO",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
+  "motivo": "tabella",
+  "estratto": "VBIC819001 | I.C. RODARI DI CRUSINALLO | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Spezzone per numero ore: 6 | Diurno | Fino al 30 giugno | 30/09/2026 |  | aperto | 2026-10-01",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-01T16:09:17+02:00"
+ },
+ {
+  "id": "a32983e41f8e8cf3",
+  "firma": "dcf1e22db27f3dcc",
+  "titolo": "ISTITUTO COMPRENSIVO 4 — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-10-27)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-09-30",
+  "scadenza": "2026-10-01",
+  "sede_prov": "AT",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "Asti",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
+  "motivo": "tabella",
+  "estratto": "ATIC81900L | ISTITUTO COMPRENSIVO 4 | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Interna | Diurno | Supplenza Temporanea fino al 2026-10-27 | 30/09/2026 |  | aperto | 2026-10-01",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-01T16:09:17+02:00"
  }
 ]
