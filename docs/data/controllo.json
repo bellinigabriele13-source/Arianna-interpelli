@@ -1,6 +1,6 @@
 {
- "ultimo": "2026-10-01T11:07:39+02:00",
- "fonti_ok": 94,
+ "ultimo": "2026-10-01T12:08:39+02:00",
+ "fonti_ok": 93,
  "fonti_totali": 99,
  "errori": [
   {
@@ -26,6 +26,12 @@
    "provincia": "Macerata",
    "url": "http://www.uspmc.sinp.net/",
    "errore": "<urlopen error timed out>"
+  },
+  {
+   "regione": "Puglia",
+   "provincia": "Brindisi",
+   "url": "https://www.istruzionebrindisi.it/category/interpelli/",
+   "errore": "The read operation timed out"
   },
   {
    "regione": "Puglia",
