@@ -798,34 +798,6 @@
   "aggiunto": "2026-10-01T09:08:36+02:00"
  },
  {
-  "id": "6b78b6b3ae078937",
-  "firma": "e6b3f852edb1d4ef",
-  "titolo": "I.I.S Gobetti — A011 - Discipline letterarie e latino (Interna · Supplenza Temporanea fino al 2027-01-07)",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
-  "cdc": [
-   "A011"
-  ],
-  "cdc_desc": [
-   "A011 — Discipline letterarie e latino (II grado)"
-  ],
-  "priorita": "alta",
-  "grado": [
-   "II grado"
-  ],
-  "data": "2026-09-28",
-  "scadenza": "2026-09-29",
-  "sede_prov": "VB",
-  "sede_regione": "Piemonte",
-  "ufficio_regione": "Piemonte",
-  "ufficio": "VCO",
-  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
-  "motivo": "tabella",
-  "estratto": "VBIS00100X | I.I.S Gobetti | A011 - Discipline letterarie e latino | Interna | Diurno | Supplenza Temporanea fino al 2027-01-07 | 28/09/2026 |  | aperto | 2026-09-29",
-  "anche_su": [],
-  "letto": false,
-  "aggiunto": "2026-10-01T13:08:03+02:00"
- },
- {
   "id": "d6fa2f6921b6bede",
   "firma": "b8b5f551f8409594",
   "titolo": "I,C. SERRA — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-09-27)",
@@ -849,34 +821,6 @@
   "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vc.php",
   "motivo": "tabella",
   "estratto": "VCIC807009 | I,C. SERRA | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Interna | Diurno | Supplenza Temporanea fino al 2026-09-27 | 21/09/2026 |  | aperto | 2026-09-22",
-  "anche_su": [],
-  "letto": false,
-  "aggiunto": "2026-10-01T15:10:23+02:00"
- },
- {
-  "id": "50e061d380df3a08",
-  "firma": "0d9e0da7e6b50cb3",
-  "titolo": "I.I.S. VERCELLI - PENNA — A011 - Discipline letterarie e latino (Interna · Supplenza Temporanea fino al 2026-12-22)",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
-  "cdc": [
-   "A011"
-  ],
-  "cdc_desc": [
-   "A011 — Discipline letterarie e latino (II grado)"
-  ],
-  "priorita": "alta",
-  "grado": [
-   "II grado"
-  ],
-  "data": "2026-09-24",
-  "scadenza": "2026-09-25",
-  "sede_prov": "AT",
-  "sede_regione": "Piemonte",
-  "ufficio_regione": "Piemonte",
-  "ufficio": "Asti",
-  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
-  "motivo": "tabella",
-  "estratto": "ATIS00800A | I.I.S. VERCELLI - PENNA | A011 - Discipline letterarie e latino | Interna | Diurno | Supplenza Temporanea fino al 2026-12-22 | 24/09/2026 |  | aperto | 2026-09-25",
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-10-01T15:10:23+02:00"
@@ -1076,5 +1020,61 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-10-01T17:07:16+02:00"
+ },
+ {
+  "id": "6b78b6b3ae078937",
+  "firma": "e6b3f852edb1d4ef",
+  "titolo": "I.I.S Gobetti — A011 - Discipline letterarie e latino (Interna · Supplenza Temporanea fino al 2027-01-07)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
+  "cdc": [
+   "A011"
+  ],
+  "cdc_desc": [
+   "A011 — Discipline letterarie e latino (II grado)"
+  ],
+  "priorita": "alta",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-09-28",
+  "scadenza": "2026-09-29",
+  "sede_prov": "VB",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "VCO",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
+  "motivo": "tabella",
+  "estratto": "VBIS00100X | I.I.S Gobetti | A011 - Discipline letterarie e latino | Interna | Diurno | Supplenza Temporanea fino al 2027-01-07 | 28/09/2026 |  | aperto | 2026-09-29",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-01T19:08:25+02:00"
+ },
+ {
+  "id": "50e061d380df3a08",
+  "firma": "0d9e0da7e6b50cb3",
+  "titolo": "I.I.S. VERCELLI - PENNA — A011 - Discipline letterarie e latino (Interna · Supplenza Temporanea fino al 2026-12-22)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
+  "cdc": [
+   "A011"
+  ],
+  "cdc_desc": [
+   "A011 — Discipline letterarie e latino (II grado)"
+  ],
+  "priorita": "alta",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-09-24",
+  "scadenza": "2026-09-25",
+  "sede_prov": "AT",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "Asti",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
+  "motivo": "tabella",
+  "estratto": "ATIS00800A | I.I.S. VERCELLI - PENNA | A011 - Discipline letterarie e latino | Interna | Diurno | Supplenza Temporanea fino al 2026-12-22 | 24/09/2026 |  | aperto | 2026-09-25",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-01T19:08:25+02:00"
  }
 ]
