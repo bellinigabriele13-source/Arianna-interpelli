@@ -1,6 +1,6 @@
 {
- "ultimo": "2026-10-01T12:08:39+02:00",
- "fonti_ok": 93,
+ "ultimo": "2026-10-01T13:08:03+02:00",
+ "fonti_ok": 94,
  "fonti_totali": 99,
  "errori": [
   {
@@ -29,16 +29,10 @@
   },
   {
    "regione": "Puglia",
-   "provincia": "Brindisi",
-   "url": "https://www.istruzionebrindisi.it/category/interpelli/",
-   "errore": "The read operation timed out"
-  },
-  {
-   "regione": "Puglia",
    "provincia": "Foggia",
    "url": "https://www.ustfoggia.it/",
    "errore": "HTTP Error 403: Forbidden"
   }
  ],
- "nuovi_ultimo_giro": 0
+ "nuovi_ultimo_giro": 3
 }
