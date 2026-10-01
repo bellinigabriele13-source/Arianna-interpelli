@@ -826,34 +826,6 @@
   "aggiunto": "2026-10-01T13:08:03+02:00"
  },
  {
-  "id": "00a74f6ffc837843",
-  "firma": "f86b2d950e4ca49e",
-  "titolo": "ISTITUTO COMPRENSIVO TORTONA A — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-10-09)",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_al.php",
-  "cdc": [
-   "A022"
-  ],
-  "cdc_desc": [
-   "A022 — Italiano, storia, geografia (I grado)"
-  ],
-  "priorita": "media",
-  "grado": [
-   "I grado"
-  ],
-  "data": "2026-10-01",
-  "scadenza": "2026-10-02",
-  "sede_prov": "AL",
-  "sede_regione": "Piemonte",
-  "ufficio_regione": "Piemonte",
-  "ufficio": "Alessandria",
-  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_al.php",
-  "motivo": "tabella",
-  "estratto": "ALIC83400N | ISTITUTO COMPRENSIVO TORTONA A | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Interna | Diurno | Supplenza Temporanea fino al 2026-10-09 | 01/10/2026 |  | aperto | 2026-10-02",
-  "anche_su": [],
-  "letto": false,
-  "aggiunto": "2026-10-01T14:09:28+02:00"
- },
- {
   "id": "d6fa2f6921b6bede",
   "firma": "b8b5f551f8409594",
   "titolo": "I,C. SERRA — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-09-27)",
@@ -1048,5 +1020,61 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-10-01T16:09:17+02:00"
+ },
+ {
+  "id": "00a74f6ffc837843",
+  "firma": "f86b2d950e4ca49e",
+  "titolo": "ISTITUTO COMPRENSIVO TORTONA A — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-10-09)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_al.php",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-10-01",
+  "scadenza": "2026-10-02",
+  "sede_prov": "AL",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "Alessandria",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_al.php",
+  "motivo": "tabella",
+  "estratto": "ALIC83400N | ISTITUTO COMPRENSIVO TORTONA A | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Interna | Diurno | Supplenza Temporanea fino al 2026-10-09 | 01/10/2026 |  | aperto | 2026-10-02",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-01T17:07:16+02:00"
+ },
+ {
+  "id": "945eb731d2f63a71",
+  "firma": "a0c9667c063a6d50",
+  "titolo": "Avviso/Interpello I.I.S. “G.A. Pischedda” di Bosa (OR) per supplenza breve ore sett. 6 (sei) sulla classe di concorso AS12 DISCIPLINE LETTERA-RIE NELL’ISTRUZIONE SECONDARIA DI II GRADO dal 06.10.2026 al 30.06.2027",
+  "link": "https://www.mim.gov.it/web/oristano/-/avviso-interpello-i-i-s-g-a-pischedda-di-bosa-or-per-supplenza-breve-ore-sett-6-sei-sulla-classe-di-concorso-as12-discipline-lettera-rie-nell-istruzio",
+  "cdc": [
+   "A012"
+  ],
+  "cdc_desc": [
+   "A012 — Discipline letterarie (II grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-10-01",
+  "scadenza": null,
+  "sede_prov": "OR",
+  "sede_regione": "Sardegna",
+  "ufficio_regione": "Sardegna",
+  "ufficio": "Oristano",
+  "fonte": "https://www.mim.gov.it/web/oristano/notizie",
+  "motivo": "codice",
+  "estratto": "6.10.2026 al 30.06.2027 01 ottobre 2026 Personale Scolastico Avviso/Interpello I.I.S. “G.A. Pischedda” di Bosa (OR) per supplenza breve ore sett. 6 (sei) sulla classe di concorso AS12 DISCIPLINE LETTERA-RIE NELL’ISTRUZIONE SECONDARIA DI II GRADO dal 06.10.2026 al 30.06.2027 01 ot",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-01T17:07:16+02:00"
  }
 ]
