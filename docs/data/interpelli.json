@@ -798,34 +798,6 @@
   "aggiunto": "2026-10-01T09:08:36+02:00"
  },
  {
-  "id": "d6fa2f6921b6bede",
-  "firma": "b8b5f551f8409594",
-  "titolo": "I,C. SERRA — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-09-27)",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vc.php",
-  "cdc": [
-   "A022"
-  ],
-  "cdc_desc": [
-   "A022 — Italiano, storia, geografia (I grado)"
-  ],
-  "priorita": "media",
-  "grado": [
-   "I grado"
-  ],
-  "data": "2026-09-21",
-  "scadenza": "2026-09-22",
-  "sede_prov": "VC",
-  "sede_regione": "Piemonte",
-  "ufficio_regione": "Piemonte",
-  "ufficio": "Vercelli",
-  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vc.php",
-  "motivo": "tabella",
-  "estratto": "VCIC807009 | I,C. SERRA | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Interna | Diurno | Supplenza Temporanea fino al 2026-09-27 | 21/09/2026 |  | aperto | 2026-09-22",
-  "anche_su": [],
-  "letto": false,
-  "aggiunto": "2026-10-01T15:10:23+02:00"
- },
- {
   "id": "52d5f456ae7228b8",
   "firma": "19f7aea7ab6a6328",
   "titolo": "ISTITUTO COMPRENSIVO SAN DAMIANO — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-10-12)",
@@ -1076,5 +1048,33 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-10-02T09:08:27+02:00"
+ },
+ {
+  "id": "d6fa2f6921b6bede",
+  "firma": "b8b5f551f8409594",
+  "titolo": "I,C. SERRA — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-09-27)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vc.php",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-09-21",
+  "scadenza": "2026-09-22",
+  "sede_prov": "VC",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "Vercelli",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vc.php",
+  "motivo": "tabella",
+  "estratto": "VCIC807009 | I,C. SERRA | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Interna | Diurno | Supplenza Temporanea fino al 2026-09-27 | 21/09/2026 |  | aperto | 2026-09-22",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-02T10:07:42+02:00"
  }
 ]
