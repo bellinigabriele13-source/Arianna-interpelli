@@ -1076,5 +1076,33 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-10-02T10:07:42+02:00"
+ },
+ {
+  "id": "92048f7639671d7a",
+  "firma": "b87c1bd8ef5354c7",
+  "titolo": "INTERPELLO - LICEO CLASSICO E SCIENTIFICO \"A. VOLTA\"",
+  "link": "https://www.mim.gov.it/web/como/-/interpello-liceo-classico-e-scientifico-a-volta-",
+  "cdc": [
+   "A011"
+  ],
+  "cdc_desc": [
+   "A011 — Discipline letterarie e latino (II grado)"
+  ],
+  "priorita": "alta",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-10-02",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Como",
+  "fonte": "https://www.mim.gov.it/web/como/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "--> Interpelli Ricerca Supplenti 02 ottobre 2026 Interpelli ricerca supplenti INTERPELLO - LICEO CLASSICO E SCIENTIFICO \"A. VOLTA\" INTERPELLO A011 02 otto",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-02T11:07:42+02:00"
  }
 ]
