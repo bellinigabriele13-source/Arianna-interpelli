@@ -1050,34 +1050,6 @@
   "aggiunto": "2026-10-02T12:05:33+02:00"
  },
  {
-  "id": "6b78b6b3ae078937",
-  "firma": "e6b3f852edb1d4ef",
-  "titolo": "I.I.S Gobetti — A011 - Discipline letterarie e latino (Interna · Supplenza Temporanea fino al 2027-01-07)",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
-  "cdc": [
-   "A011"
-  ],
-  "cdc_desc": [
-   "A011 — Discipline letterarie e latino (II grado)"
-  ],
-  "priorita": "alta",
-  "grado": [
-   "II grado"
-  ],
-  "data": "2026-09-28",
-  "scadenza": "2026-09-29",
-  "sede_prov": "VB",
-  "sede_regione": "Piemonte",
-  "ufficio_regione": "Piemonte",
-  "ufficio": "VCO",
-  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
-  "motivo": "tabella",
-  "estratto": "VBIS00100X | I.I.S Gobetti | A011 - Discipline letterarie e latino | Interna | Diurno | Supplenza Temporanea fino al 2027-01-07 | 28/09/2026 |  | aperto | 2026-09-29",
-  "anche_su": [],
-  "letto": false,
-  "aggiunto": "2026-10-02T12:05:33+02:00"
- },
- {
   "id": "593b2901a2b9c0b7",
   "firma": "6717a2ad017e274f",
   "titolo": "Istituto Comprensivo Alto Verbano Cannobio — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-12-15)",
@@ -1104,5 +1076,33 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-10-02T13:06:28+02:00"
+ },
+ {
+  "id": "6b78b6b3ae078937",
+  "firma": "e6b3f852edb1d4ef",
+  "titolo": "I.I.S Gobetti — A011 - Discipline letterarie e latino (Interna · Supplenza Temporanea fino al 2027-01-07)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
+  "cdc": [
+   "A011"
+  ],
+  "cdc_desc": [
+   "A011 — Discipline letterarie e latino (II grado)"
+  ],
+  "priorita": "alta",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-09-28",
+  "scadenza": "2026-09-29",
+  "sede_prov": "VB",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "VCO",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
+  "motivo": "tabella",
+  "estratto": "VBIS00100X | I.I.S Gobetti | A011 - Discipline letterarie e latino | Interna | Diurno | Supplenza Temporanea fino al 2027-01-07 | 28/09/2026 |  | aperto | 2026-09-29",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-02T14:07:24+02:00"
  }
 ]
