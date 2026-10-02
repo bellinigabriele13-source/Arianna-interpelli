@@ -1,6 +1,6 @@
 {
- "ultimo": "2026-10-02T12:05:33+02:00",
- "fonti_ok": 94,
+ "ultimo": "2026-10-02T13:06:28+02:00",
+ "fonti_ok": 77,
  "fonti_totali": 99,
  "errori": [
   {
@@ -22,17 +22,119 @@
    "errore": "<urlopen error [Errno 101] Network is unreachable>"
   },
   {
+   "regione": "Lombardia",
+   "provincia": "Regione",
+   "url": "https://www.mim.gov.it/web/usr-lombardia/interpelli-ricerca-supplenti",
+   "errore": "HTTP Error 403: Forbidden"
+  },
+  {
+   "regione": "Lombardia",
+   "provincia": "Bergamo",
+   "url": "https://www.mim.gov.it/web/bergamo/interpelli-ricerca-supplenti",
+   "errore": "HTTP Error 403: Forbidden"
+  },
+  {
+   "regione": "Lombardia",
+   "provincia": "Brescia",
+   "url": "https://www.mim.gov.it/web/brescia/interpelli-ricerca-supplenti",
+   "errore": "HTTP Error 403: Forbidden"
+  },
+  {
+   "regione": "Lombardia",
+   "provincia": "Como",
+   "url": "https://www.mim.gov.it/web/como/interpelli-ricerca-supplenti",
+   "errore": "HTTP Error 403: Forbidden"
+  },
+  {
+   "regione": "Lombardia",
+   "provincia": "Cremona",
+   "url": "https://www.mim.gov.it/web/cremona/interpelli-ricerca-supplenti",
+   "errore": "HTTP Error 403: Forbidden"
+  },
+  {
+   "regione": "Lombardia",
+   "provincia": "Lecco",
+   "url": "https://www.mim.gov.it/web/lecco/interpelli-ricerca-supplenti",
+   "errore": "HTTP Error 403: Forbidden"
+  },
+  {
+   "regione": "Lombardia",
+   "provincia": "Lodi",
+   "url": "https://www.mim.gov.it/web/lodi/interpelli-ricerca-supplenti",
+   "errore": "HTTP Error 403: Forbidden"
+  },
+  {
+   "regione": "Lombardia",
+   "provincia": "Mantova",
+   "url": "https://www.mim.gov.it/web/mantova/interpelli-ricerca-supplenti",
+   "errore": "HTTP Error 403: Forbidden"
+  },
+  {
+   "regione": "Lombardia",
+   "provincia": "Milano",
+   "url": "https://www.mim.gov.it/web/milano/interpelli-ricerca-supplenti",
+   "errore": "HTTP Error 403: Forbidden"
+  },
+  {
+   "regione": "Lombardia",
+   "provincia": "Monza-Brianza",
+   "url": "https://www.mim.gov.it/web/monza-brianza/interpelli-ricerca-supplenti",
+   "errore": "HTTP Error 403: Forbidden"
+  },
+  {
+   "regione": "Lombardia",
+   "provincia": "Pavia",
+   "url": "https://www.mim.gov.it/web/pavia/interpelli-ricerca-supplenti",
+   "errore": "HTTP Error 403: Forbidden"
+  },
+  {
+   "regione": "Lombardia",
+   "provincia": "Sondrio",
+   "url": "https://www.mim.gov.it/web/sondrio/interpelli-ricerca-supplenti",
+   "errore": "HTTP Error 403: Forbidden"
+  },
+  {
+   "regione": "Lombardia",
+   "provincia": "Varese",
+   "url": "https://www.mim.gov.it/web/varese/interpelli-ricerca-supplenti",
+   "errore": "HTTP Error 403: Forbidden"
+  },
+  {
    "regione": "Marche",
    "provincia": "Macerata",
    "url": "http://www.uspmc.sinp.net/",
    "errore": "<urlopen error timed out>"
   },
   {
+   "regione": "Molise",
+   "provincia": "Campobasso",
+   "url": "https://atcampobasso.it/",
+   "errore": "HTTP Error 403: Forbidden"
+  },
+  {
    "regione": "Puglia",
    "provincia": "Foggia",
    "url": "https://www.ustfoggia.it/",
    "errore": "HTTP Error 403: Forbidden"
+  },
+  {
+   "regione": "Sardegna",
+   "provincia": "Cagliari",
+   "url": "https://www.mim.gov.it/web/cagliari/interpelli-docenti-e-personale-educativo",
+   "errore": "HTTP Error 403: Forbidden"
+  },
+  {
+   "regione": "Sardegna",
+   "provincia": "Nuoro",
+   "url": "https://www.mim.gov.it/web/nuoro/interpelli",
+   "errore": "HTTP Error 403: Forbidden"
+  },
+  {
+   "regione": "Sardegna",
+   "provincia": "Oristano",
+   "url": "https://www.mim.gov.it/web/oristano/notizie",
+   "errore": "HTTP Error 403: Forbidden"
   }
  ],
- "nuovi_ultimo_giro": 3
+ "nuovi_ultimo_giro": 1
 }
