@@ -882,34 +882,6 @@
   "aggiunto": "2026-10-01T20:09:45+02:00"
  },
  {
-  "id": "d6fa2f6921b6bede",
-  "firma": "b8b5f551f8409594",
-  "titolo": "I,C. SERRA — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-09-27)",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vc.php",
-  "cdc": [
-   "A022"
-  ],
-  "cdc_desc": [
-   "A022 — Italiano, storia, geografia (I grado)"
-  ],
-  "priorita": "media",
-  "grado": [
-   "I grado"
-  ],
-  "data": "2026-09-21",
-  "scadenza": "2026-09-22",
-  "sede_prov": "VC",
-  "sede_regione": "Piemonte",
-  "ufficio_regione": "Piemonte",
-  "ufficio": "Vercelli",
-  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vc.php",
-  "motivo": "tabella",
-  "estratto": "VCIC807009 | I,C. SERRA | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Interna | Diurno | Supplenza Temporanea fino al 2026-09-27 | 21/09/2026 |  | aperto | 2026-09-22",
-  "anche_su": [],
-  "letto": false,
-  "aggiunto": "2026-10-02T10:07:42+02:00"
- },
- {
   "id": "92048f7639671d7a",
   "firma": "b87c1bd8ef5354c7",
   "titolo": "INTERPELLO - LICEO CLASSICO E SCIENTIFICO \"A. VOLTA\"",
@@ -994,62 +966,6 @@
   "aggiunto": "2026-10-02T19:06:30+02:00"
  },
  {
-  "id": "52d5f456ae7228b8",
-  "firma": "19f7aea7ab6a6328",
-  "titolo": "ISTITUTO COMPRENSIVO SAN DAMIANO — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-10-12)",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
-  "cdc": [
-   "A022"
-  ],
-  "cdc_desc": [
-   "A022 — Italiano, storia, geografia (I grado)"
-  ],
-  "priorita": "media",
-  "grado": [
-   "I grado"
-  ],
-  "data": "2026-09-28",
-  "scadenza": "2026-09-29",
-  "sede_prov": "AT",
-  "sede_regione": "Piemonte",
-  "ufficio_regione": "Piemonte",
-  "ufficio": "Asti",
-  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
-  "motivo": "tabella",
-  "estratto": "ATIC811002 | ISTITUTO COMPRENSIVO SAN DAMIANO | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Interna | Diurno | Supplenza Temporanea fino al 2026-10-12 | 28/09/2026 |  | aperto | 2026-09-29",
-  "anche_su": [],
-  "letto": false,
-  "aggiunto": "2026-10-02T19:06:30+02:00"
- },
- {
-  "id": "50e061d380df3a08",
-  "firma": "0d9e0da7e6b50cb3",
-  "titolo": "I.I.S. VERCELLI - PENNA — A011 - Discipline letterarie e latino (Interna · Supplenza Temporanea fino al 2026-12-22)",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
-  "cdc": [
-   "A011"
-  ],
-  "cdc_desc": [
-   "A011 — Discipline letterarie e latino (II grado)"
-  ],
-  "priorita": "alta",
-  "grado": [
-   "II grado"
-  ],
-  "data": "2026-09-24",
-  "scadenza": "2026-09-25",
-  "sede_prov": "AT",
-  "sede_regione": "Piemonte",
-  "ufficio_regione": "Piemonte",
-  "ufficio": "Asti",
-  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
-  "motivo": "tabella",
-  "estratto": "ATIS00800A | I.I.S. VERCELLI - PENNA | A011 - Discipline letterarie e latino | Interna | Diurno | Supplenza Temporanea fino al 2026-12-22 | 24/09/2026 |  | aperto | 2026-09-25",
-  "anche_su": [],
-  "letto": false,
-  "aggiunto": "2026-10-02T19:06:30+02:00"
- },
- {
   "id": "00a74f6ffc837843",
   "firma": "f86b2d950e4ca49e",
   "titolo": "ISTITUTO COMPRENSIVO TORTONA A — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-10-09)",
@@ -1104,5 +1020,117 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-10-02T20:07:46+02:00"
+ },
+ {
+  "id": "d6fa2f6921b6bede",
+  "firma": "b8b5f551f8409594",
+  "titolo": "I,C. SERRA — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-09-27)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vc.php",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-09-21",
+  "scadenza": "2026-09-22",
+  "sede_prov": "VC",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "Vercelli",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vc.php",
+  "motivo": "tabella",
+  "estratto": "VCIC807009 | I,C. SERRA | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Interna | Diurno | Supplenza Temporanea fino al 2026-09-27 | 21/09/2026 |  | aperto | 2026-09-22",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-03T08:12:49+02:00"
+ },
+ {
+  "id": "52d5f456ae7228b8",
+  "firma": "19f7aea7ab6a6328",
+  "titolo": "ISTITUTO COMPRENSIVO SAN DAMIANO — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-10-12)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-09-28",
+  "scadenza": "2026-09-29",
+  "sede_prov": "AT",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "Asti",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
+  "motivo": "tabella",
+  "estratto": "ATIC811002 | ISTITUTO COMPRENSIVO SAN DAMIANO | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Interna | Diurno | Supplenza Temporanea fino al 2026-10-12 | 28/09/2026 |  | aperto | 2026-09-29",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-03T08:12:49+02:00"
+ },
+ {
+  "id": "50e061d380df3a08",
+  "firma": "0d9e0da7e6b50cb3",
+  "titolo": "I.I.S. VERCELLI - PENNA — A011 - Discipline letterarie e latino (Interna · Supplenza Temporanea fino al 2026-12-22)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
+  "cdc": [
+   "A011"
+  ],
+  "cdc_desc": [
+   "A011 — Discipline letterarie e latino (II grado)"
+  ],
+  "priorita": "alta",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-09-24",
+  "scadenza": "2026-09-25",
+  "sede_prov": "AT",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "Asti",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
+  "motivo": "tabella",
+  "estratto": "ATIS00800A | I.I.S. VERCELLI - PENNA | A011 - Discipline letterarie e latino | Interna | Diurno | Supplenza Temporanea fino al 2026-12-22 | 24/09/2026 |  | aperto | 2026-09-25",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-03T08:12:49+02:00"
+ },
+ {
+  "id": "63629f86d8f5916f",
+  "firma": "bf6d1cf1522ac75f",
+  "titolo": "VEIC80800A - I.C.S. RITA LEVI MONTALCINI DI CAMPOLONGO MAGGIORE CAMPOLONGO MAGGIORE SECONDARIA I GRADO AM12 - ITALIANO, STORIA, GEOGRAFIA NELLA SCUOLA SECONDARIA DI I GRADO 02/10/2026 03/10/2026 06/10/2026 30/10/2026 Cat",
+  "link": "https://nuvola.madisoft.it/bacheca-digitale/10953/documento/VEIC80800A",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-10-03",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Veneto",
+  "ufficio": "Venezia",
+  "fonte": "https://venezia.istruzioneveneto.gov.it/interpelli-supplenze/",
+  "motivo": "codice",
+  "estratto": "A 30/09/2026 05/10/2026 06/10/2026 30/06/2027 Cattedra oraria 11 https://www.cestari-righi.edu.it/avviso-per-selezione-personale-docente-per-linsegnamento-classe-classe-di-concorso-a026/ VEIC80800A - I.C.S. RITA LEVI MONTALCINI DI CAMPOLONGO MAGGIORE CAMPOLONGO MAGGIORE SECONDARI",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-03T08:12:49+02:00"
  }
 ]

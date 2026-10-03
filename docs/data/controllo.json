@@ -1,5 +1,5 @@
 {
- "ultimo": "2026-10-02T20:07:46+02:00",
+ "ultimo": "2026-10-03T08:12:49+02:00",
  "fonti_ok": 77,
  "fonti_totali": 99,
  "errori": [
@@ -121,7 +121,7 @@
    "regione": "Sardegna",
    "provincia": "Cagliari",
    "url": "https://www.mim.gov.it/web/cagliari/interpelli-docenti-e-personale-educativo",
-   "errore": "<urlopen error _ssl.c:999: The handshake operation timed out>"
+   "errore": "HTTP Error 403: Forbidden"
   },
   {
    "regione": "Sardegna",
@@ -136,5 +136,5 @@
    "errore": "HTTP Error 403: Forbidden"
   }
  ],
- "nuovi_ultimo_giro": 2
+ "nuovi_ultimo_giro": 4
 }
