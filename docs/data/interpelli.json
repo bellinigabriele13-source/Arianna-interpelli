@@ -910,34 +910,6 @@
   "aggiunto": "2026-10-02T11:07:42+02:00"
  },
  {
-  "id": "6b78b6b3ae078937",
-  "firma": "e6b3f852edb1d4ef",
-  "titolo": "I.I.S Gobetti — A011 - Discipline letterarie e latino (Interna · Supplenza Temporanea fino al 2027-01-07)",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
-  "cdc": [
-   "A011"
-  ],
-  "cdc_desc": [
-   "A011 — Discipline letterarie e latino (II grado)"
-  ],
-  "priorita": "alta",
-  "grado": [
-   "II grado"
-  ],
-  "data": "2026-09-28",
-  "scadenza": "2026-09-29",
-  "sede_prov": "VB",
-  "sede_regione": "Piemonte",
-  "ufficio_regione": "Piemonte",
-  "ufficio": "VCO",
-  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
-  "motivo": "tabella",
-  "estratto": "VBIS00100X | I.I.S Gobetti | A011 - Discipline letterarie e latino | Interna | Diurno | Supplenza Temporanea fino al 2027-01-07 | 28/09/2026 |  | aperto | 2026-09-29",
-  "anche_su": [],
-  "letto": false,
-  "aggiunto": "2026-10-02T18:06:47+02:00"
- },
- {
   "id": "487094497987ba10",
   "firma": "c2d5a44f9a1207f9",
   "titolo": "ISTITUTO SUPERIORE UMBERTO ECO — A013 - Discipline letterarie, latino e greco (Spezzone per numero ore: 9 · Fino al 30 giugno)",
@@ -1132,5 +1104,33 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-10-03T08:12:49+02:00"
+ },
+ {
+  "id": "6b78b6b3ae078937",
+  "firma": "e6b3f852edb1d4ef",
+  "titolo": "I.I.S Gobetti — A011 - Discipline letterarie e latino (Interna · Supplenza Temporanea fino al 2027-01-07)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
+  "cdc": [
+   "A011"
+  ],
+  "cdc_desc": [
+   "A011 — Discipline letterarie e latino (II grado)"
+  ],
+  "priorita": "alta",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-09-28",
+  "scadenza": "2026-09-29",
+  "sede_prov": "VB",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "VCO",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
+  "motivo": "tabella",
+  "estratto": "VBIS00100X | I.I.S Gobetti | A011 - Discipline letterarie e latino | Interna | Diurno | Supplenza Temporanea fino al 2027-01-07 | 28/09/2026 |  | aperto | 2026-09-29",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-03T09:12:35+02:00"
  }
 ]
