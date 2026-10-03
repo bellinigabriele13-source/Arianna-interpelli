@@ -1,6 +1,6 @@
 {
- "ultimo": "2026-10-03T14:01:05+02:00",
- "fonti_ok": 77,
+ "ultimo": "2026-10-03T16:59:14+02:00",
+ "fonti_ok": 76,
  "fonti_totali": 99,
  "errori": [
   {
@@ -20,6 +20,12 @@
    "provincia": "Frosinone",
    "url": "https://lnx.uspistruzione.fr.it/wp2/tag/interpello-nazionale",
    "errore": "<urlopen error [Errno 101] Network is unreachable>"
+  },
+  {
+   "regione": "Lazio",
+   "provincia": "Latina",
+   "url": "https://www.csalatina.it/jclub/",
+   "errore": "HTTP Error 503: Service Unavailable"
   },
   {
    "regione": "Lombardia",
@@ -136,5 +142,5 @@
    "errore": "HTTP Error 403: Forbidden"
   }
  ],
- "nuovi_ultimo_giro": 2
+ "nuovi_ultimo_giro": 0
 }
