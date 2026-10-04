@@ -1,5 +1,5 @@
 {
- "ultimo": "2026-10-03T20:51:46+02:00",
+ "ultimo": "2026-10-04T13:14:45+02:00",
  "fonti_ok": 71,
  "fonti_totali": 99,
  "errori": [
@@ -115,37 +115,37 @@
    "regione": "Piemonte",
    "provincia": "Alessandria",
    "url": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_al.php",
-   "errore": "HTTP Error 502: Bad Gateway"
+   "errore": "HTTP Error 500: Internal Server Error"
   },
   {
    "regione": "Piemonte",
    "provincia": "Asti",
    "url": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
-   "errore": "HTTP Error 502: Bad Gateway"
+   "errore": "HTTP Error 500: Internal Server Error"
   },
   {
    "regione": "Piemonte",
    "provincia": "Cuneo",
    "url": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_cn.php",
-   "errore": "HTTP Error 502: Bad Gateway"
+   "errore": "HTTP Error 500: Internal Server Error"
   },
   {
    "regione": "Piemonte",
    "provincia": "Novara",
    "url": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_no.php",
-   "errore": "HTTP Error 502: Bad Gateway"
+   "errore": "HTTP Error 500: Internal Server Error"
   },
   {
    "regione": "Piemonte",
    "provincia": "VCO",
    "url": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
-   "errore": "HTTP Error 502: Bad Gateway"
+   "errore": "HTTP Error 500: Internal Server Error"
   },
   {
    "regione": "Piemonte",
    "provincia": "Vercelli",
    "url": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vc.php",
-   "errore": "HTTP Error 502: Bad Gateway"
+   "errore": "HTTP Error 500: Internal Server Error"
   },
   {
    "regione": "Puglia",
