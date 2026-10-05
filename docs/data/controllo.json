@@ -1,6 +1,6 @@
 {
- "ultimo": "2026-10-05T08:11:02+02:00",
- "fonti_ok": 77,
+ "ultimo": "2026-10-05T09:13:05+02:00",
+ "fonti_ok": 76,
  "fonti_totali": 99,
  "errori": [
   {
@@ -134,7 +134,13 @@
    "provincia": "Oristano",
    "url": "https://www.mim.gov.it/web/oristano/notizie",
    "errore": "HTTP Error 403: Forbidden"
+  },
+  {
+   "regione": "Toscana",
+   "provincia": "Grosseto",
+   "url": "https://www.ufficioscolasticogrosseto.it/uff7/",
+   "errore": "The read operation timed out"
   }
  ],
- "nuovi_ultimo_giro": 0
+ "nuovi_ultimo_giro": 1
 }
