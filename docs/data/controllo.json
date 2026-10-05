@@ -1,5 +1,5 @@
 {
- "ultimo": "2026-10-05T10:08:45+02:00",
+ "ultimo": "2026-10-05T11:09:07+02:00",
  "fonti_ok": 77,
  "fonti_totali": 99,
  "errori": [
@@ -7,7 +7,7 @@
    "regione": "Campania",
    "provincia": "Benevento",
    "url": "https://www.uspbenevento.it/uat/category/interpelli-e-varie/",
-   "errore": "The read operation timed out"
+   "errore": "HTTP Error 403: Forbidden"
   },
   {
    "regione": "Campania",
@@ -136,5 +136,5 @@
    "errore": "HTTP Error 403: Forbidden"
   }
  ],
- "nuovi_ultimo_giro": 2
+ "nuovi_ultimo_giro": 1
 }
