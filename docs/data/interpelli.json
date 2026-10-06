@@ -966,34 +966,6 @@
   "aggiunto": "2026-10-02T20:07:46+02:00"
  },
  {
-  "id": "d6fa2f6921b6bede",
-  "firma": "b8b5f551f8409594",
-  "titolo": "I,C. SERRA — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-09-27)",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vc.php",
-  "cdc": [
-   "A022"
-  ],
-  "cdc_desc": [
-   "A022 — Italiano, storia, geografia (I grado)"
-  ],
-  "priorita": "media",
-  "grado": [
-   "I grado"
-  ],
-  "data": "2026-09-21",
-  "scadenza": "2026-09-22",
-  "sede_prov": "VC",
-  "sede_regione": "Piemonte",
-  "ufficio_regione": "Piemonte",
-  "ufficio": "Vercelli",
-  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vc.php",
-  "motivo": "tabella",
-  "estratto": "VCIC807009 | I,C. SERRA | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Interna | Diurno | Supplenza Temporanea fino al 2026-09-27 | 21/09/2026 |  | aperto | 2026-09-22",
-  "anche_su": [],
-  "letto": false,
-  "aggiunto": "2026-10-03T08:12:49+02:00"
- },
- {
   "id": "63629f86d8f5916f",
   "firma": "bf6d1cf1522ac75f",
   "titolo": "VEIC80800A - I.C.S. RITA LEVI MONTALCINI DI CAMPOLONGO MAGGIORE CAMPOLONGO MAGGIORE SECONDARIA I GRADO AM12 - ITALIANO, STORIA, GEOGRAFIA NELLA SCUOLA SECONDARIA DI I GRADO 02/10/2026 03/10/2026 06/10/2026 30/10/2026 Cat",
@@ -1188,5 +1160,33 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-10-06T12:07:44+02:00"
+ },
+ {
+  "id": "d6fa2f6921b6bede",
+  "firma": "b8b5f551f8409594",
+  "titolo": "I,C. SERRA — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-09-27)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vc.php",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-09-21",
+  "scadenza": "2026-09-22",
+  "sede_prov": "VC",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "Vercelli",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vc.php",
+  "motivo": "tabella",
+  "estratto": "VCIC807009 | I,C. SERRA | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Interna | Diurno | Supplenza Temporanea fino al 2026-09-27 | 21/09/2026 |  | aperto | 2026-09-22",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-06T13:07:56+02:00"
  }
 ]
