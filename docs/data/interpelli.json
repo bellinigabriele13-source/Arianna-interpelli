@@ -1022,34 +1022,6 @@
   "aggiunto": "2026-10-03T08:12:49+02:00"
  },
  {
-  "id": "17de4a53b00301f6",
-  "firma": "4d8bc4f143c9e1f1",
-  "titolo": "LICEO SCIENTIFICO GALILEO GALILEI — A011 - Discipline letterarie e latino (Interna · Supplenza Temporanea fino al 2026-10-30)",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_no.php",
-  "cdc": [
-   "A011"
-  ],
-  "cdc_desc": [
-   "A011 — Discipline letterarie e latino (II grado)"
-  ],
-  "priorita": "alta",
-  "grado": [
-   "II grado"
-  ],
-  "data": "2026-10-05",
-  "scadenza": "2026-10-06",
-  "sede_prov": "NO",
-  "sede_regione": "Piemonte",
-  "ufficio_regione": "Piemonte",
-  "ufficio": "Novara",
-  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_no.php",
-  "motivo": "tabella",
-  "estratto": "NOPS04000X | LICEO SCIENTIFICO GALILEO GALILEI | A011 - Discipline letterarie e latino | Interna | Diurno | Supplenza Temporanea fino al 2026-10-30 | 05/10/2026 |  | aperto | 2026-10-06",
-  "anche_su": [],
-  "letto": false,
-  "aggiunto": "2026-10-05T11:09:07+02:00"
- },
- {
   "id": "6b78b6b3ae078937",
   "firma": "e6b3f852edb1d4ef",
   "titolo": "I.I.S Gobetti — A011 - Discipline letterarie e latino (Interna · Supplenza Temporanea fino al 2027-01-07)",
@@ -1106,6 +1078,34 @@
   "aggiunto": "2026-10-05T16:09:52+02:00"
  },
  {
+  "id": "17de4a53b00301f6",
+  "firma": "4d8bc4f143c9e1f1",
+  "titolo": "LICEO SCIENTIFICO GALILEO GALILEI — A011 - Discipline letterarie e latino (Interna · Supplenza Temporanea fino al 2026-10-30)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_no.php",
+  "cdc": [
+   "A011"
+  ],
+  "cdc_desc": [
+   "A011 — Discipline letterarie e latino (II grado)"
+  ],
+  "priorita": "alta",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-10-05",
+  "scadenza": "2026-10-06",
+  "sede_prov": "NO",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "Novara",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_no.php",
+  "motivo": "tabella",
+  "estratto": "NOPS04000X | LICEO SCIENTIFICO GALILEO GALILEI | A011 - Discipline letterarie e latino | Interna | Diurno | Supplenza Temporanea fino al 2026-10-30 | 05/10/2026 |  | aperto | 2026-10-06",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-06T11:07:54+02:00"
+ },
+ {
   "id": "52d5f456ae7228b8",
   "firma": "19f7aea7ab6a6328",
   "titolo": "ISTITUTO COMPRENSIVO SAN DAMIANO — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-10-12)",
@@ -1131,7 +1131,7 @@
   "estratto": "ATIC811002 | ISTITUTO COMPRENSIVO SAN DAMIANO | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Interna | Diurno | Supplenza Temporanea fino al 2026-10-12 | 28/09/2026 |  | aperto | 2026-09-29",
   "anche_su": [],
   "letto": false,
-  "aggiunto": "2026-10-06T08:07:58+02:00"
+  "aggiunto": "2026-10-06T11:07:54+02:00"
  },
  {
   "id": "50e061d380df3a08",
@@ -1159,6 +1159,34 @@
   "estratto": "ATIS00800A | I.I.S. VERCELLI - PENNA | A011 - Discipline letterarie e latino | Interna | Diurno | Supplenza Temporanea fino al 2026-12-22 | 24/09/2026 |  | aperto | 2026-09-25",
   "anche_su": [],
   "letto": false,
-  "aggiunto": "2026-10-06T08:07:58+02:00"
+  "aggiunto": "2026-10-06T11:07:54+02:00"
+ },
+ {
+  "id": "3699e74e72a2e2bf",
+  "firma": "6717a2ad017e274f",
+  "titolo": "Istituto Comprensivo Alto Verbano Cannobio — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-11-10)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-10-06",
+  "scadenza": "2026-10-08",
+  "sede_prov": "VB",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "VCO",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
+  "motivo": "tabella",
+  "estratto": "VBIC82300L | Istituto Comprensivo Alto Verbano Cannobio | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Interna | Diurno | Supplenza Temporanea fino al 2026-11-10 | 06/10/2026 |  | aperto | 2026-10-08",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-06T11:07:54+02:00"
  }
 ]
