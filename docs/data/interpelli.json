@@ -994,34 +994,6 @@
   "aggiunto": "2026-10-03T08:12:49+02:00"
  },
  {
-  "id": "6b78b6b3ae078937",
-  "firma": "e6b3f852edb1d4ef",
-  "titolo": "I.I.S Gobetti — A011 - Discipline letterarie e latino (Interna · Supplenza Temporanea fino al 2027-01-07)",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
-  "cdc": [
-   "A011"
-  ],
-  "cdc_desc": [
-   "A011 — Discipline letterarie e latino (II grado)"
-  ],
-  "priorita": "alta",
-  "grado": [
-   "II grado"
-  ],
-  "data": "2026-09-28",
-  "scadenza": "2026-09-29",
-  "sede_prov": "VB",
-  "sede_regione": "Piemonte",
-  "ufficio_regione": "Piemonte",
-  "ufficio": "VCO",
-  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
-  "motivo": "tabella",
-  "estratto": "VBIS00100X | I.I.S Gobetti | A011 - Discipline letterarie e latino | Interna | Diurno | Supplenza Temporanea fino al 2027-01-07 | 28/09/2026 |  | aperto | 2026-09-29",
-  "anche_su": [],
-  "letto": false,
-  "aggiunto": "2026-10-05T15:11:25+02:00"
- },
- {
   "id": "17de4a53b00301f6",
   "firma": "4d8bc4f143c9e1f1",
   "titolo": "LICEO SCIENTIFICO GALILEO GALILEI — A011 - Discipline letterarie e latino (Interna · Supplenza Temporanea fino al 2026-10-30)",
@@ -1134,34 +1106,6 @@
   "aggiunto": "2026-10-06T11:07:54+02:00"
  },
  {
-  "id": "487094497987ba10",
-  "firma": "c2d5a44f9a1207f9",
-  "titolo": "ISTITUTO SUPERIORE UMBERTO ECO — A013 - Discipline letterarie, latino e greco (Spezzone per numero ore: 9 · Fino al 30 giugno)",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_al.php",
-  "cdc": [
-   "A013"
-  ],
-  "cdc_desc": [
-   "A013 — Discipline letterarie, latino e greco (II grado)"
-  ],
-  "priorita": "alta",
-  "grado": [
-   "II grado"
-  ],
-  "data": "2026-09-22",
-  "scadenza": "2026-09-24",
-  "sede_prov": "AL",
-  "sede_regione": "Piemonte",
-  "ufficio_regione": "Piemonte",
-  "ufficio": "Alessandria",
-  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_al.php",
-  "motivo": "tabella",
-  "estratto": "ALIS016008 | ISTITUTO SUPERIORE UMBERTO ECO | A013 - Discipline letterarie, latino e greco | Spezzone per numero ore: 9 | Diurno | Fino al 30 giugno | 22/09/2026 |  | aperto | 2026-09-24",
-  "anche_su": [],
-  "letto": false,
-  "aggiunto": "2026-10-06T12:07:44+02:00"
- },
- {
   "id": "d6fa2f6921b6bede",
   "firma": "b8b5f551f8409594",
   "titolo": "I,C. SERRA — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-09-27)",
@@ -1188,5 +1132,61 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-10-06T13:07:56+02:00"
+ },
+ {
+  "id": "6b78b6b3ae078937",
+  "firma": "e6b3f852edb1d4ef",
+  "titolo": "I.I.S Gobetti — A011 - Discipline letterarie e latino (Interna · Supplenza Temporanea fino al 2027-01-07)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
+  "cdc": [
+   "A011"
+  ],
+  "cdc_desc": [
+   "A011 — Discipline letterarie e latino (II grado)"
+  ],
+  "priorita": "alta",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-09-28",
+  "scadenza": "2026-09-29",
+  "sede_prov": "VB",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "VCO",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
+  "motivo": "tabella",
+  "estratto": "VBIS00100X | I.I.S Gobetti | A011 - Discipline letterarie e latino | Interna | Diurno | Supplenza Temporanea fino al 2027-01-07 | 28/09/2026 |  | aperto | 2026-09-29",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-06T14:08:16+02:00"
+ },
+ {
+  "id": "487094497987ba10",
+  "firma": "c2d5a44f9a1207f9",
+  "titolo": "ISTITUTO SUPERIORE UMBERTO ECO — A013 - Discipline letterarie, latino e greco (Spezzone per numero ore: 9 · Fino al 30 giugno)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_al.php",
+  "cdc": [
+   "A013"
+  ],
+  "cdc_desc": [
+   "A013 — Discipline letterarie, latino e greco (II grado)"
+  ],
+  "priorita": "alta",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-09-22",
+  "scadenza": "2026-09-24",
+  "sede_prov": "AL",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "Alessandria",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_al.php",
+  "motivo": "tabella",
+  "estratto": "ALIS016008 | ISTITUTO SUPERIORE UMBERTO ECO | A013 - Discipline letterarie, latino e greco | Spezzone per numero ore: 9 | Diurno | Fino al 30 giugno | 22/09/2026 |  | aperto | 2026-09-24",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-06T14:08:16+02:00"
  }
 ]
