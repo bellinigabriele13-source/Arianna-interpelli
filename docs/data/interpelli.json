@@ -1078,34 +1078,6 @@
   "aggiunto": "2026-10-06T20:06:54+02:00"
  },
  {
-  "id": "3699e74e72a2e2bf",
-  "firma": "6717a2ad017e274f",
-  "titolo": "Istituto Comprensivo Alto Verbano Cannobio — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-11-10)",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
-  "cdc": [
-   "A022"
-  ],
-  "cdc_desc": [
-   "A022 — Italiano, storia, geografia (I grado)"
-  ],
-  "priorita": "media",
-  "grado": [
-   "I grado"
-  ],
-  "data": "2026-10-06",
-  "scadenza": "2026-10-08",
-  "sede_prov": "VB",
-  "sede_regione": "Piemonte",
-  "ufficio_regione": "Piemonte",
-  "ufficio": "VCO",
-  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
-  "motivo": "tabella",
-  "estratto": "VBIC82300L | Istituto Comprensivo Alto Verbano Cannobio | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Interna | Diurno | Supplenza Temporanea fino al 2026-11-10 | 06/10/2026 |  | aperto | 2026-10-08",
-  "anche_su": [],
-  "letto": false,
-  "aggiunto": "2026-10-07T08:07:13+02:00"
- },
- {
   "id": "f9a7aa9db87da937",
   "firma": "0042df296751b707",
   "titolo": "Istituto di istruzione superiore di secondo grado IIS Vercelli - Penna — A012 - Discipline letterarie negli istituti di istruzione secondaria di II grado (Spezzone per numero ore: 8 H · Fino al 30 giugno)",
@@ -1216,5 +1188,61 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-10-07T13:08:17+02:00"
+ },
+ {
+  "id": "3699e74e72a2e2bf",
+  "firma": "6717a2ad017e274f",
+  "titolo": "Istituto Comprensivo Alto Verbano Cannobio — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-11-10)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-10-06",
+  "scadenza": "2026-10-08",
+  "sede_prov": "VB",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "VCO",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
+  "motivo": "tabella",
+  "estratto": "VBIC82300L | Istituto Comprensivo Alto Verbano Cannobio | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Interna | Diurno | Supplenza Temporanea fino al 2026-11-10 | 06/10/2026 |  | aperto | 2026-10-08",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-07T14:09:41+02:00"
+ },
+ {
+  "id": "a1b37e0058a3e23f",
+  "firma": "4dbd380656d2e155",
+  "titolo": "Interpello AM12 – CPIA Rovigo",
+  "link": "https://rovigo.istruzioneveneto.gov.it/2026/10/07/interpello-am12-cpia-rovigo-2/",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-10-07",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Veneto",
+  "ufficio": "Rovigo",
+  "fonte": "https://rovigo.istruzioneveneto.gov.it/category/5-interpelli/docenti-rovigo/",
+  "motivo": "codice",
+  "estratto": "ov.it/category/5-interpelli/ata-rovigo/\">ATA Rovigo Archivio per: Docenti Rovigo 7 Ottobre 2026 | Segreteria Segreteria --> Interpello AM12 – CPIA Rovigo 7 Ottobre 2026 | <a hr",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-07T14:09:41+02:00"
  }
 ]
