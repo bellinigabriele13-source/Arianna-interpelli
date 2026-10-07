@@ -1188,5 +1188,33 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-10-07T08:07:13+02:00"
+ },
+ {
+  "id": "f9a7aa9db87da937",
+  "firma": "0042df296751b707",
+  "titolo": "Istituto di istruzione superiore di secondo grado IIS Vercelli - Penna — A012 - Discipline letterarie negli istituti di istruzione secondaria di II grado (Spezzone per numero ore: 8 H · Fino al 30 giugno)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
+  "cdc": [
+   "A012"
+  ],
+  "cdc_desc": [
+   "A012 — Discipline letterarie (II grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-10-07",
+  "scadenza": "2026-10-08",
+  "sede_prov": "AT",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "Asti",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
+  "motivo": "tabella",
+  "estratto": "ATIS00800A | Istituto di istruzione superiore di secondo grado IIS Vercelli - Penna | A012 - Discipline letterarie negli istituti di istruzione secondaria di II grado | Spezzone per numero ore: 8 H | Diurno | Fino al 30 giugno | 07/10/2026 |  | aperto | 2026-10-08",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-07T11:08:08+02:00"
  }
 ]
