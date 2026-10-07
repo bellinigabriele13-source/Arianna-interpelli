@@ -1078,34 +1078,6 @@
   "aggiunto": "2026-10-06T20:06:54+02:00"
  },
  {
-  "id": "f9a7aa9db87da937",
-  "firma": "0042df296751b707",
-  "titolo": "Istituto di istruzione superiore di secondo grado IIS Vercelli - Penna — A012 - Discipline letterarie negli istituti di istruzione secondaria di II grado (Spezzone per numero ore: 8 H · Fino al 30 giugno)",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
-  "cdc": [
-   "A012"
-  ],
-  "cdc_desc": [
-   "A012 — Discipline letterarie (II grado)"
-  ],
-  "priorita": "media",
-  "grado": [
-   "II grado"
-  ],
-  "data": "2026-10-07",
-  "scadenza": "2026-10-08",
-  "sede_prov": "AT",
-  "sede_regione": "Piemonte",
-  "ufficio_regione": "Piemonte",
-  "ufficio": "Asti",
-  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
-  "motivo": "tabella",
-  "estratto": "ATIS00800A | Istituto di istruzione superiore di secondo grado IIS Vercelli - Penna | A012 - Discipline letterarie negli istituti di istruzione secondaria di II grado | Spezzone per numero ore: 8 H | Diurno | Fino al 30 giugno | 07/10/2026 |  | aperto | 2026-10-08",
-  "anche_su": [],
-  "letto": false,
-  "aggiunto": "2026-10-07T11:08:08+02:00"
- },
- {
   "id": "6b78b6b3ae078937",
   "firma": "e6b3f852edb1d4ef",
   "titolo": "I.I.S Gobetti — A011 - Discipline letterarie e latino (Interna · Supplenza Temporanea fino al 2027-01-07)",
@@ -1129,62 +1101,6 @@
   "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
   "motivo": "tabella",
   "estratto": "VBIS00100X | I.I.S Gobetti | A011 - Discipline letterarie e latino | Interna | Diurno | Supplenza Temporanea fino al 2027-01-07 | 28/09/2026 |  | aperto | 2026-09-29",
-  "anche_su": [],
-  "letto": false,
-  "aggiunto": "2026-10-07T13:08:17+02:00"
- },
- {
-  "id": "50e061d380df3a08",
-  "firma": "0d9e0da7e6b50cb3",
-  "titolo": "I.I.S. VERCELLI - PENNA — A011 - Discipline letterarie e latino (Interna · Supplenza Temporanea fino al 2026-12-22)",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
-  "cdc": [
-   "A011"
-  ],
-  "cdc_desc": [
-   "A011 — Discipline letterarie e latino (II grado)"
-  ],
-  "priorita": "alta",
-  "grado": [
-   "II grado"
-  ],
-  "data": "2026-09-24",
-  "scadenza": "2026-09-25",
-  "sede_prov": "AT",
-  "sede_regione": "Piemonte",
-  "ufficio_regione": "Piemonte",
-  "ufficio": "Asti",
-  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
-  "motivo": "tabella",
-  "estratto": "ATIS00800A | I.I.S. VERCELLI - PENNA | A011 - Discipline letterarie e latino | Interna | Diurno | Supplenza Temporanea fino al 2026-12-22 | 24/09/2026 |  | aperto | 2026-09-25",
-  "anche_su": [],
-  "letto": false,
-  "aggiunto": "2026-10-07T13:08:17+02:00"
- },
- {
-  "id": "52d5f456ae7228b8",
-  "firma": "19f7aea7ab6a6328",
-  "titolo": "ISTITUTO COMPRENSIVO SAN DAMIANO — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-10-12)",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
-  "cdc": [
-   "A022"
-  ],
-  "cdc_desc": [
-   "A022 — Italiano, storia, geografia (I grado)"
-  ],
-  "priorita": "media",
-  "grado": [
-   "I grado"
-  ],
-  "data": "2026-09-28",
-  "scadenza": "2026-09-29",
-  "sede_prov": "AT",
-  "sede_regione": "Piemonte",
-  "ufficio_regione": "Piemonte",
-  "ufficio": "Asti",
-  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
-  "motivo": "tabella",
-  "estratto": "ATIC811002 | ISTITUTO COMPRENSIVO SAN DAMIANO | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Interna | Diurno | Supplenza Temporanea fino al 2026-10-12 | 28/09/2026 |  | aperto | 2026-09-29",
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-10-07T13:08:17+02:00"
@@ -1244,5 +1160,89 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-10-07T14:09:41+02:00"
+ },
+ {
+  "id": "f9a7aa9db87da937",
+  "firma": "0042df296751b707",
+  "titolo": "Istituto di istruzione superiore di secondo grado IIS Vercelli - Penna — A012 - Discipline letterarie negli istituti di istruzione secondaria di II grado (Spezzone per numero ore: 8 H · Fino al 30 giugno)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
+  "cdc": [
+   "A012"
+  ],
+  "cdc_desc": [
+   "A012 — Discipline letterarie (II grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-10-07",
+  "scadenza": "2026-10-08",
+  "sede_prov": "AT",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "Asti",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
+  "motivo": "tabella",
+  "estratto": "ATIS00800A | Istituto di istruzione superiore di secondo grado IIS Vercelli - Penna | A012 - Discipline letterarie negli istituti di istruzione secondaria di II grado | Spezzone per numero ore: 8 H | Diurno | Fino al 30 giugno | 07/10/2026 |  | aperto | 08/10/2026",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-07T15:12:19+02:00"
+ },
+ {
+  "id": "50e061d380df3a08",
+  "firma": "0d9e0da7e6b50cb3",
+  "titolo": "I.I.S. VERCELLI - PENNA — A011 - Discipline letterarie e latino (Interna · Supplenza Temporanea fino al 2026-12-22)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
+  "cdc": [
+   "A011"
+  ],
+  "cdc_desc": [
+   "A011 — Discipline letterarie e latino (II grado)"
+  ],
+  "priorita": "alta",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-09-24",
+  "scadenza": "2026-09-25",
+  "sede_prov": "AT",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "Asti",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
+  "motivo": "tabella",
+  "estratto": "ATIS00800A | I.I.S. VERCELLI - PENNA | A011 - Discipline letterarie e latino | Interna | Diurno | Supplenza Temporanea fino al 2026-12-22 | 24/09/2026 |  | aperto | 2026-09-25",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-07T15:12:19+02:00"
+ },
+ {
+  "id": "52d5f456ae7228b8",
+  "firma": "19f7aea7ab6a6328",
+  "titolo": "ISTITUTO COMPRENSIVO SAN DAMIANO — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2026-10-12)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-09-28",
+  "scadenza": "2026-09-29",
+  "sede_prov": "AT",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "Asti",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
+  "motivo": "tabella",
+  "estratto": "ATIC811002 | ISTITUTO COMPRENSIVO SAN DAMIANO | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Interna | Diurno | Supplenza Temporanea fino al 2026-10-12 | 28/09/2026 |  | aperto | 2026-09-29",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-07T15:12:19+02:00"
  }
 ]
