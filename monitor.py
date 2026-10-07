@@ -8,7 +8,7 @@ Uso:
   python3 monitor.py --sources sources.json --seen-dir seen/ --out nuovi.json
 Esce con JSON: {controllo, fonti_ok, fonti_totali, errori[], trovati_totali, nuovi[]}
 """
-import argparse, concurrent.futures as cf, hashlib, html, json, os, re, ssl, sys, time
+import argparse, concurrent.futures as cf, hashlib, html, json, os, random, re, ssl, sys, threading, time
 import urllib.request, urllib.parse
 from datetime import datetime, timezone, timedelta, date
 
@@ -238,7 +238,11 @@ def firma(titolo, cods, link):
 
 
 # ----------------------------------------------------------------- fetching --
-def fetch(url, tries=3):
+_LOCK_MIM = threading.Lock()
+_MIM_STATO = {'403': 0}
+
+
+def _fetch_una(url, tries=3):
     last = None
     for i in range(tries):
         try:
@@ -251,8 +255,43 @@ def fetch(url, tries=3):
                                        errors='replace'), None
         except Exception as e:
             last = str(e)[:90]
+            if '403' in last and 'mim.gov.it' in url:
+                break                      # blocco Akamai: riprovare uguale non serve
             time.sleep(1.5 * (i + 1))
     return None, last
+
+
+def _fetch_browser(url):
+    """Seconda possibilita' per i siti dietro Akamai: handshake TLS da browser vero."""
+    try:
+        from curl_cffi import requests as cr
+        r = cr.get(url, impersonate='chrome', timeout=30,
+                   headers={"Accept-Language": "it-IT,it;q=0.9,en;q=0.8"})
+        if r.status_code == 200 and r.text:
+            return r.text
+    except Exception:
+        pass
+    return None
+
+
+def fetch(url, tries=3):
+    if 'mim.gov.it' not in url:
+        return _fetch_una(url, tries)
+    # le pagine del ministero (Lombardia, Sardegna) si leggono UNA alla volta e con
+    # pause: 16 richieste insieme dallo stesso IP fanno scattare il blocco.
+    with _LOCK_MIM:
+        if _MIM_STATO['403'] >= 3:
+            return None, 'HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)'
+        body, err = _fetch_una(url, 1)
+        if body is None and err and '403' in err:
+            body = _fetch_browser(url)
+            if body:
+                return body, None
+            _MIM_STATO['403'] += 1
+        else:
+            _MIM_STATO['403'] = 0
+        time.sleep(random.uniform(2.0, 4.0))
+        return body, err
 
 
 CATEGORIA_RE = re.compile(r'/(category|categoria|categorie|tag)/[^?#]*$', re.I)
@@ -445,6 +484,66 @@ def tabella_piemonte(url, body):
     return out
 
 
+LIG_ROW_RE = re.compile(r'<div class="results-row".*?(?=<div class="results-row"|</section>|$)', re.S)
+LIG_CELL_RE = re.compile(r'<span role="cell"[^>]*>')
+
+
+def portale_liguria(url, body):
+    """Portale ufficiale USR Liguria (servizi.istruzioneliguria.gov.it): elenco server-side
+    di tutti gli interpelli aperti, per provincia (provincia.php) e nazionali (nazionali.php).
+    -> lista di dict pronti per _item (solo classi monitorate)."""
+    out = []
+    mprov = re.search(r'[?&](?:p|provincia)=([A-Z]{2})', url)
+    sigla_url = mprov.group(1) if mprov else None
+    for row in LIG_ROW_RE.findall(body):
+        mid = re.search(r'interpello\.php\?id=(\d+)', row)
+        if not mid:
+            continue
+        link = urllib.parse.urljoin(url, f"interpello.php?id={mid.group(1)}")
+        celle = [strip_tags(c) for c in LIG_CELL_RE.split(row)[1:]]
+        strong = re.findall(r'<strong>(.*?)</strong>', row, re.S)
+        small = re.findall(r'<small>(.*?)</small>', row, re.S)
+        if len(celle) >= 7:                          # nazionali: data | regione | prov | scuola | codice | descr | azione
+            d_pub = _data_piemonte(celle[0])
+            regione, provincia, scuola, codtxt = celle[1], celle[2], celle[3], celle[4]
+            descr = strip_tags(strong[0]) if strong else celle[5]
+            ms = re.search(r'Scadenza:\s*(\d{1,2}/\d{1,2}/20\d{2})', celle[5])
+            scad = _data_piemonte(ms.group(1)) if ms else None
+            titolo = f"{scuola} — {descr}"
+            sg, sreg = sede(f"{scuola} {provincia}")
+        else:                                        # provincia: codice | scuola | ordine | scadenza | azione
+            if len(celle) < 4:
+                continue
+            d_pub = None
+            codtxt = strip_tags(strong[0]) if strong else celle[0]
+            tipo = strip_tags(small[0]) if small else ''
+            scuola = re.sub(r'\s*(STATALE|PARITARIA|NON STATALE)\s*$', '', celle[1]).strip()
+            scad = _data_piemonte(celle[3])
+            titolo = f"{scuola} — {codtxt}" + (f" ({tipo}, {celle[2]})" if tipo else f" ({celle[2]})")
+            sg, sreg = (sigla_url, 'Liguria') if sigla_url else sede(scuola)
+        if ESCLUDI_RE.search(titolo):
+            continue
+        cods = [c for c in codici(codtxt) if c in GRADO]
+        if not cods:
+            continue
+        out.append({'id': ident(link), 'titolo': titolo, 'link': link, 'cods': cods,
+                    'data': d_pub, 'scadenza': scad, 'sede_prov': sg, 'sede_regione': sreg,
+                    'motivo': 'portale Liguria', 'estratto': ' | '.join(celle[:7])[:280]})
+    return out
+
+
+def data_da_url(link):
+    """Anno/mese dal percorso (.../uploads/2021/10/..., /2026/09/17/...). Serve solo a scartare
+    cio' che e' evidentemente vecchio quando la pagina non riporta nessuna data."""
+    m = re.search(r'/(20\d{2})/(0[1-9]|1[0-2])(?:/|$)', urllib.parse.urlparse(link).path)
+    if not m:
+        return None
+    y, mo = int(m.group(1)), int(m.group(2))
+    ultimo = (date(y + (mo == 12), mo % 12 + 1, 1) - timedelta(days=1)).isoformat()
+    return ultimo if ultimo < ARCHIVIO_DAL else None
+
+
+
 def _item(titolo, link, cods, motivo, data, ctx, reg, prov, url, id_=None, scad=None, sg=None, sreg=None):
     prio = 'alta' if any(c in ('A013', 'A011') for c in cods) else (
         'media' if any(c in ('A012', 'A022') for c in cods) else 'bassa')
@@ -480,6 +579,13 @@ def analizza(src):
 
     if 'stato interpello' in body.lower() and 'ric_interpello' in url:
         for t in tabella_piemonte(url, body):
+            items.append(_item(t['titolo'], t['link'], t['cods'], t['motivo'], t['data'],
+                               t['estratto'], reg, prov, url, id_=t['id'], scad=t['scadenza'],
+                               sg=t['sede_prov'], sreg=t['sede_regione']))
+        return {'regione': reg, 'provincia': prov, 'url': url, 'errore': None, 'items': items}
+
+    if 'servizi.istruzioneliguria.gov.it' in url:
+        for t in portale_liguria(url, body):
             items.append(_item(t['titolo'], t['link'], t['cods'], t['motivo'], t['data'],
                                t['estratto'], reg, prov, url, id_=t['id'], scad=t['scadenza'],
                                sg=t['sede_prov'], sreg=t['sede_regione']))
@@ -531,6 +637,8 @@ def analizza(src):
         if key in visti:
             continue
         visti.add(key)
+        if not data:
+            data = data_da_url(link)
         items.append(_item(titolo, link, cods, motivo, data, ctx, reg, prov, url))
     return {'regione': reg, 'provincia': prov, 'url': url, 'errore': None, 'items': items}
 
@@ -763,6 +871,27 @@ def autodiagnosi():
     return ok
 
 
+MESI_IT = ['gennaio', 'febbraio', 'marzo', 'aprile', 'maggio', 'giugno', 'luglio',
+           'agosto', 'settembre', 'ottobre', 'novembre', 'dicembre']
+
+
+def espandi_fonti(srcs):
+    """Fonti con {mese}/{anno} nell'url (pagine mensili, es. Verona): mese corrente e precedente."""
+    oggi = date.today()
+    out = []
+    for r, pr, u in srcs:
+        if '{mese}' not in u:
+            out.append([r, pr, u])
+            continue
+        for k in (0, 1):
+            m_ = oggi.month - k
+            y_ = oggi.year
+            if m_ < 1:
+                m_, y_ = m_ + 12, y_ - 1
+            out.append([r, pr, u.replace('{mese}', MESI_IT[m_ - 1]).replace('{anno}', str(y_))])
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--sources', default='sources.json')
@@ -776,7 +905,7 @@ def main():
     if a.selftest:
         sys.exit(0 if autodiagnosi() else 1)
 
-    srcs = json.load(open(a.sources))
+    srcs = espandi_fonti(json.load(open(a.sources)))
     seen = set()
     if a.seen_file and os.path.exists(a.seen_file):
         try:
@@ -856,7 +985,9 @@ def main():
         tenuti.append(it); per_id[it['id']] = it
     nuovi = tenuti
     impronte_reg = {f"fp:{k}:{d}" for k, d in fpmap.items()} - seen
-    tutti_id |= PDF_CONTROLLATI | impronte_reg
+    # il registro NON si accorcia mai: se una pagina perde o sbaglia una riga (o la fonte
+    # e' giu' per un giro) gli id gia' visti restano, cosi' nulla ritorna 'nuovo'
+    tutti_id |= PDF_CONTROLLATI | impronte_reg | seen
     ordine = {'alta': 0, 'media': 1, 'bassa': 2}
     nuovi.sort(key=lambda x: (ordine[x['priorita']], '9999' if not x['data'] else x['data']))
     nuovi.reverse()

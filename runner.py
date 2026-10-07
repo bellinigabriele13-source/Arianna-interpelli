@@ -16,13 +16,17 @@ from datetime import datetime
 from email.mime.text import MIMEText
 from pathlib import Path
 
+import monitor
+
 BASE = Path(__file__).resolve().parent
 REGISTRO = BASE / 'data' / 'registro.json'
+REGISTRO_BASE = BASE / 'data' / 'registro_base.json'   # storico di partenza: si fonde, non si perde
 ARCHIVIO = BASE / 'docs' / 'data' / 'interpelli.json'
 CONTROLLO = BASE / 'docs' / 'data' / 'controllo.json'
 SEEN_TMP = BASE / '_seen.json'
 NUOVI_TMP = BASE / '_nuovi.json'
 MAX_ARCHIVIO = 4500  # pulizia automatica solo oltre questa soglia (limite tecnico 5000)
+MAX_EMAIL = 12       # oltre questo numero in un solo giro qualcosa non va: le altre restano in dashboard
 
 
 def ora_roma():
@@ -44,7 +48,7 @@ def salva(path, obj):
     path.write_text(json.dumps(obj, ensure_ascii=False, indent=1), encoding='utf-8')
 
 
-def invia_email(nuovi):
+def invia_email(nuovi, extra=0, errori=None):
     mitt = os.environ.get('GMAIL_ADDRESS')
     pwd = os.environ.get('GMAIL_APP_PASSWORD')
     dest = os.environ.get('ARIANNA_EMAIL', 'arianna.dauria00@gmail.com')
@@ -70,6 +74,15 @@ def invia_email(nuovi):
         )
 
     corpo = f"Nuovi interpelli trovati ({len(nuovi)}):\n\n" + "\n\n".join(blocchi) + "\n"
+    if extra:
+        corpo += f"\n... e altri {extra} nella dashboard.\n"
+    if errori:
+        per_reg = {}
+        for e in errori:
+            per_reg[e['regione']] = per_reg.get(e['regione'], 0) + 1
+        corpo += ("\nAttenzione, in questo giro alcune fonti non erano raggiungibili ("
+                  + ', '.join(f"{r}: {n}" for r, n in sorted(per_reg.items()))
+                  + "): possibili interpelli non ancora visti, vale la pena controllare a mano quei siti.\n")
     if url_dashboard:
         corpo += f"\nDashboard: {url_dashboard}\n"
 
@@ -88,7 +101,8 @@ def invia_email(nuovi):
 
 def main():
     registro = carica(REGISTRO, {'ids': []})
-    seen = set(registro.get('ids', []))
+    base = carica(REGISTRO_BASE, {'ids': []})
+    seen = set(registro.get('ids', [])) | set(base.get('ids', []))
     salva(SEEN_TMP, {'ids': sorted(seen)})
 
     subprocess.run(
@@ -105,14 +119,24 @@ def main():
     nuovi = out['nuovi']
     ripub = out['ripubblicazioni']
     ora = ora_roma()
+    oggi = ora[:10]
 
     archivio = carica(ARCHIVIO, [])
     per_id = {a['id']: a for a in archivio}
 
+    # email SOLO per avvisi davvero nuovi: non gia' in archivio, non precedenti all'avvio
+    # dell'archivio, non gia' scaduti. Tutto il resto entra comunque in archivio.
+    da_mandare = []
     for it in nuovi:
-        it['letto'] = False
-        it['aggiunto'] = ora
-        per_id[it['id']] = it
+        gia = it['id'] in per_id
+        vecchio = bool(it.get('data')) and it['data'] < monitor.ARCHIVIO_DAL
+        scaduto = bool(it.get('scadenza')) and it['scadenza'] < oggi
+        if not gia:
+            it['letto'] = False
+            it['aggiunto'] = ora
+            per_id[it['id']] = it
+            if not vecchio and not scaduto:
+                da_mandare.append(it)
 
     for r in ripub:
         doc = per_id.get(r['doc_id'])
@@ -127,20 +151,24 @@ def main():
     if len(archivio) > MAX_ARCHIVIO:
         archivio = archivio[-MAX_ARCHIVIO:]
 
+    # il registro non si accorcia mai (unione con quello precedente)
+    ids = sorted(seen | set(out['tutti_gli_id']))
     salva(ARCHIVIO, archivio)
-    salva(REGISTRO, {'ids': out['tutti_gli_id']})
+    salva(REGISTRO, {'ids': ids})
     salva(CONTROLLO, {
         'ultimo': ora,
         'fonti_ok': out['fonti_ok'],
         'fonti_totali': out['fonti_totali'],
         'errori': out['errori'],
-        'nuovi_ultimo_giro': len(nuovi),
+        'nuovi_ultimo_giro': len(da_mandare),
     })
 
-    print(f"nuovi: {len(nuovi)} | ripubblicazioni: {len(ripub)} | archivio: {len(archivio)}")
+    print(f"nuovi: {len(nuovi)} (da segnalare: {len(da_mandare)}) | ripubblicazioni: {len(ripub)} "
+          f"| archivio: {len(archivio)} | registro: {len(ids)} | fonti ok {out['fonti_ok']}/{out['fonti_totali']}")
 
-    if nuovi:
-        invia_email(nuovi)
+    if da_mandare:
+        invia_email(da_mandare[:MAX_EMAIL], extra=max(0, len(da_mandare) - MAX_EMAIL),
+                    errori=out['errori'])
 
     SEEN_TMP.unlink(missing_ok=True)
     NUOVI_TMP.unlink(missing_ok=True)
