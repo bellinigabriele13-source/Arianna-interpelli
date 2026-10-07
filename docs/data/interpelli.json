@@ -1244,5 +1244,33 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-10-07T15:12:19+02:00"
+ },
+ {
+  "id": "13dd27b3d23ae4a9",
+  "firma": "90ed4b6cfc6aff3c",
+  "titolo": "IC ALBENGA I – Albenga — AM12 (Spezzone, Secondaria I grado)",
+  "link": "https://servizi.istruzioneliguria.gov.it/interpello.php?id=960",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": null,
+  "scadenza": "2026-10-08",
+  "sede_prov": "SV",
+  "sede_regione": "Liguria",
+  "ufficio_regione": "Liguria",
+  "ufficio": "Savona",
+  "fonte": "https://servizi.istruzioneliguria.gov.it/provincia.php?provincia=SV",
+  "motivo": "portale Liguria",
+  "estratto": "▤ AM12 Spezzone | IC ALBENGA I – Albenga STATALE | Secondaria I grado | 08/10/2026 | Vai all’interpello ›",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-07T16:05:30+02:00"
  }
 ]
