@@ -1,6 +1,6 @@
 {
- "ultimo": "2026-10-07T18:10:36+02:00",
- "fonti_ok": 77,
+ "ultimo": "2026-10-07T19:17:01+02:00",
+ "fonti_ok": 78,
  "fonti_totali": 100,
  "errori": [
   {
@@ -22,12 +22,6 @@
    "errore": "<urlopen error [Errno 101] Network is unreachable>"
   },
   {
-   "regione": "Lazio",
-   "provincia": "Latina",
-   "url": "https://www.csalatina.it/jclub/",
-   "errore": "HTTP Error 503: Service Unavailable"
-  },
-  {
    "regione": "Lombardia",
    "provincia": "Regione",
    "url": "https://www.mim.gov.it/web/usr-lombardia/interpelli-ricerca-supplenti",
@@ -37,7 +31,7 @@
    "regione": "Lombardia",
    "provincia": "Bergamo",
    "url": "https://www.mim.gov.it/web/bergamo/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
+   "errore": "HTTP Error 403: Forbidden"
   },
   {
    "regione": "Lombardia",
@@ -97,7 +91,7 @@
    "regione": "Lombardia",
    "provincia": "Sondrio",
    "url": "https://www.mim.gov.it/web/sondrio/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden"
+   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
   },
   {
    "regione": "Lombardia",
