@@ -1272,5 +1272,33 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-10-07T16:05:30+02:00"
+ },
+ {
+  "id": "783619be967bcf69",
+  "firma": "d8571c9fdb56a694",
+  "titolo": "IIS G. Ferrari — A011 - Discipline letterarie e latino (Spezzone per numero ore: 14h · Supplenza Temporanea fino al 2026-10-13)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vc.php",
+  "cdc": [
+   "A011"
+  ],
+  "cdc_desc": [
+   "A011 — Discipline letterarie e latino (II grado)"
+  ],
+  "priorita": "alta",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-10-09",
+  "scadenza": "2026-10-09",
+  "sede_prov": "VC",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "Vercelli",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vc.php",
+  "motivo": "tabella",
+  "estratto": "VCIS017004 | IIS G. Ferrari | A011 - Discipline letterarie e latino | Spezzone per numero ore: 14h | Diurno | Supplenza Temporanea fino al 2026-10-13 | 09/10/2026 |  | aperto | 2026-10-09",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-08T11:08:31+02:00"
  }
 ]

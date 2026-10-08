@@ -1,5 +1,5 @@
 {
- "ultimo": "2026-10-08T10:08:52+02:00",
+ "ultimo": "2026-10-08T11:08:31+02:00",
  "fonti_ok": 78,
  "fonti_totali": 100,
  "errori": [
@@ -136,5 +136,5 @@
    "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
   }
  ],
- "nuovi_ultimo_giro": 0
+ "nuovi_ultimo_giro": 1
 }
