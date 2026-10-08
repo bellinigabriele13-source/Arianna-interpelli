@@ -1,6 +1,6 @@
 {
- "ultimo": "2026-10-08T19:09:11+02:00",
- "fonti_ok": 68,
+ "ultimo": "2026-10-08T20:07:21+02:00",
+ "fonti_ok": 78,
  "fonti_totali": 100,
  "errori": [
   {
@@ -14,30 +14,6 @@
    "provincia": "Salerno",
    "url": "https://uat-salerno.it/Documenti/CIRCOLARI",
    "errore": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has"
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Gorizia",
-   "url": "https://usrfvg.gov.it/it/home/menu/uffici/ufficio-territoriale-di-gorizia/Interpelli/",
-   "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Pordenone",
-   "url": "https://usrfvg.gov.it/it/home/menu/uffici/ufficio-territoriale-di-pordenone/Interpelli/",
-   "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Trieste",
-   "url": "https://usrfvg.gov.it/it/home/menu/uffici/ufficio-territoriale-di-trieste/Interpelli/",
-   "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Udine",
-   "url": "https://usrfvg.gov.it/it/home/menu/uffici/ufficio-territoriale-di-udine/Interpelli/",
-   "errore": "<urlopen error timed out>"
   },
   {
    "regione": "Lazio",
@@ -55,7 +31,7 @@
    "regione": "Lombardia",
    "provincia": "Bergamo",
    "url": "https://www.mim.gov.it/web/bergamo/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden"
+   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
   },
   {
    "regione": "Lombardia",
@@ -121,7 +97,7 @@
    "regione": "Lombardia",
    "provincia": "Varese",
    "url": "https://www.mim.gov.it/web/varese/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
+   "errore": "HTTP Error 403: Forbidden"
   },
   {
    "regione": "Marche",
@@ -134,42 +110,6 @@
    "provincia": "Campobasso",
    "url": "https://atcampobasso.it/",
    "errore": "HTTP Error 403: Forbidden"
-  },
-  {
-   "regione": "Piemonte",
-   "provincia": "Alessandria",
-   "url": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_al.php",
-   "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Piemonte",
-   "provincia": "Asti",
-   "url": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
-   "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Piemonte",
-   "provincia": "Cuneo",
-   "url": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_cn.php",
-   "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Piemonte",
-   "provincia": "Novara",
-   "url": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_no.php",
-   "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Piemonte",
-   "provincia": "VCO",
-   "url": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
-   "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Piemonte",
-   "provincia": "Vercelli",
-   "url": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vc.php",
-   "errore": "<urlopen error timed out>"
   },
   {
    "regione": "Puglia",
