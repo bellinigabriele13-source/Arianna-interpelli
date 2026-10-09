@@ -1,5 +1,5 @@
 {
- "ultimo": "2026-10-08T20:07:21+02:00",
+ "ultimo": "2026-10-09T08:09:04+02:00",
  "fonti_ok": 78,
  "fonti_totali": 100,
  "errori": [
@@ -31,7 +31,7 @@
    "regione": "Lombardia",
    "provincia": "Bergamo",
    "url": "https://www.mim.gov.it/web/bergamo/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
+   "errore": "HTTP Error 403: Forbidden"
   },
   {
    "regione": "Lombardia",
@@ -97,7 +97,7 @@
    "regione": "Lombardia",
    "provincia": "Varese",
    "url": "https://www.mim.gov.it/web/varese/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden"
+   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
   },
   {
    "regione": "Marche",
