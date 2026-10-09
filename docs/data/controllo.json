@@ -1,6 +1,6 @@
 {
- "ultimo": "2026-10-09T14:08:38+02:00",
- "fonti_ok": 74,
+ "ultimo": "2026-10-09T15:11:32+02:00",
+ "fonti_ok": 73,
  "fonti_totali": 100,
  "errori": [
   {
@@ -19,6 +19,12 @@
    "regione": "Calabria",
    "provincia": "Crotone",
    "url": "https://www.istruzione.calabria.it/crotone/category/notizie/interpelli-per-supplenza/",
+   "errore": "<urlopen error timed out>"
+  },
+  {
+   "regione": "Calabria",
+   "provincia": "Reggio Calabria",
+   "url": "https://www.istruzioneatprc.it/interpelli/",
    "errore": "<urlopen error timed out>"
   },
   {
@@ -160,5 +166,5 @@
    "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
   }
  ],
- "nuovi_ultimo_giro": 0
+ "nuovi_ultimo_giro": 2
 }

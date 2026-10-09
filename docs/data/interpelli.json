@@ -1300,5 +1300,61 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-10-08T11:08:31+02:00"
+ },
+ {
+  "id": "5858d6872144a09d",
+  "firma": "042316f7430143e4",
+  "titolo": "IISLAGRANGIA — A011 - Discipline letterarie e latino (Interna · Supplenza Temporanea fino al 2026-12-22)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vc.php",
+  "cdc": [
+   "A011"
+  ],
+  "cdc_desc": [
+   "A011 — Discipline letterarie e latino (II grado)"
+  ],
+  "priorita": "alta",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-10-09",
+  "scadenza": "2026-10-10",
+  "sede_prov": "VC",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "Vercelli",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vc.php",
+  "motivo": "tabella",
+  "estratto": "VCIS00100E | IISLAGRANGIA | A011 - Discipline letterarie e latino | Interna | Diurno | Supplenza Temporanea fino al 2026-12-22 | 09/10/2026 |  | aperto | 2026-10-10",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-09T15:11:32+02:00"
+ },
+ {
+  "id": "8d1fad6ddfbb9cb1",
+  "firma": "892d74600fd377e1",
+  "titolo": "I.I.S. G. FERRARI — A011 - Discipline letterarie e latino (Spezzone per numero ore: 9 ORE · Fino al 30 giugno)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vc.php",
+  "cdc": [
+   "A011"
+  ],
+  "cdc_desc": [
+   "A011 — Discipline letterarie e latino (II grado)"
+  ],
+  "priorita": "alta",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-10-09",
+  "scadenza": "2026-10-12",
+  "sede_prov": "VC",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "Vercelli",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vc.php",
+  "motivo": "tabella",
+  "estratto": "VCIS017004 | I.I.S. G. FERRARI | A011 - Discipline letterarie e latino | Spezzone per numero ore: 9 ORE | Diurno | Fino al 30 giugno | 09/10/2026 |  | aperto | 2026-10-12",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-09T15:11:32+02:00"
  }
 ]
