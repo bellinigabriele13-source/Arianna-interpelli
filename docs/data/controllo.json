@@ -1,19 +1,19 @@
 {
- "ultimo": "2026-10-13T19:09:43+02:00",
- "fonti_ok": 72,
+ "ultimo": "2026-10-13T20:10:33+02:00",
+ "fonti_ok": 73,
  "fonti_totali": 100,
  "errori": [
   {
    "regione": "Calabria",
    "provincia": "Catanzaro",
    "url": "https://www.istruzione.calabria.it/catanzaro/category/nca/",
-   "errore": "HTTP Error 503: Service Unavailable"
+   "errore": "The read operation timed out"
   },
   {
    "regione": "Calabria",
    "provincia": "Cosenza",
    "url": "https://www.istruzione.calabria.it/cosenza/category/interdoc/",
-   "errore": "HTTP Error 503: Service Unavailable"
+   "errore": "<urlopen error timed out>"
   },
   {
    "regione": "Calabria",
@@ -23,15 +23,9 @@
   },
   {
    "regione": "Calabria",
-   "provincia": "Reggio Calabria",
-   "url": "https://www.istruzioneatprc.it/interpelli/",
-   "errore": "HTTP Error 500: Internal Server Error"
-  },
-  {
-   "regione": "Calabria",
    "provincia": "Vibo Valentia",
    "url": "https://www.istruzione.calabria.it/vibovalentia/category/us/doc/",
-   "errore": "Remote end closed connection without response"
+   "errore": "<urlopen error timed out>"
   },
   {
    "regione": "Campania",
