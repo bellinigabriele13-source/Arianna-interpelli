@@ -1,32 +1,8 @@
 {
- "ultimo": "2026-10-13T08:10:26+02:00",
- "fonti_ok": 73,
+ "ultimo": "2026-10-13T09:15:50+02:00",
+ "fonti_ok": 77,
  "fonti_totali": 100,
  "errori": [
-  {
-   "regione": "Calabria",
-   "provincia": "Catanzaro",
-   "url": "https://www.istruzione.calabria.it/catanzaro/category/nca/",
-   "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Calabria",
-   "provincia": "Cosenza",
-   "url": "https://www.istruzione.calabria.it/cosenza/category/interdoc/",
-   "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Calabria",
-   "provincia": "Crotone",
-   "url": "https://www.istruzione.calabria.it/crotone/category/notizie/interpelli-per-supplenza/",
-   "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Calabria",
-   "provincia": "Vibo Valentia",
-   "url": "https://www.istruzione.calabria.it/vibovalentia/category/us/doc/",
-   "errore": "<urlopen error timed out>"
-  },
   {
    "regione": "Campania",
    "provincia": "Benevento",
@@ -61,7 +37,7 @@
    "regione": "Lombardia",
    "provincia": "Brescia",
    "url": "https://www.mim.gov.it/web/brescia/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
+   "errore": "HTTP Error 403: Forbidden"
   },
   {
    "regione": "Lombardia",
@@ -115,7 +91,7 @@
    "regione": "Lombardia",
    "provincia": "Sondrio",
    "url": "https://www.mim.gov.it/web/sondrio/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden"
+   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
   },
   {
    "regione": "Lombardia",
