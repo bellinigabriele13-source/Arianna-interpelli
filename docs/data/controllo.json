@@ -1,6 +1,6 @@
 {
- "ultimo": "2026-10-15T12:35:02+02:00",
- "fonti_ok": 77,
+ "ultimo": "2026-10-15T17:26:21+02:00",
+ "fonti_ok": 76,
  "fonti_totali": 100,
  "errori": [
   {
@@ -8,6 +8,12 @@
    "provincia": "Benevento",
    "url": "https://www.uspbenevento.it/uat/category/interpelli-e-varie/",
    "errore": "HTTP Error 403: Forbidden"
+  },
+  {
+   "regione": "Campania",
+   "provincia": "Caserta",
+   "url": "https://www.uat-caserta.it/comunicazioni/news-dalle-scuole/",
+   "errore": "HTTP Error 404: Not Found"
   },
   {
    "regione": "Campania",
@@ -31,7 +37,7 @@
    "regione": "Lombardia",
    "provincia": "Bergamo",
    "url": "https://www.mim.gov.it/web/bergamo/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden"
+   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
   },
   {
    "regione": "Lombardia",
@@ -91,7 +97,7 @@
    "regione": "Lombardia",
    "provincia": "Sondrio",
    "url": "https://www.mim.gov.it/web/sondrio/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
+   "errore": "HTTP Error 403: Forbidden"
   },
   {
    "regione": "Lombardia",
@@ -142,5 +148,5 @@
    "errore": "HTTP Error 404: Not Found"
   }
  ],
- "nuovi_ultimo_giro": 0
+ "nuovi_ultimo_giro": 1
 }
