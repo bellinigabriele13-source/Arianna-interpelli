@@ -1,6 +1,6 @@
 {
- "ultimo": "2026-10-15T21:35:53+02:00",
- "fonti_ok": 76,
+ "ultimo": "2026-10-16T12:24:18+02:00",
+ "fonti_ok": 93,
  "fonti_totali": 100,
  "errori": [
   {
@@ -28,94 +28,10 @@
    "errore": "<urlopen error [Errno 101] Network is unreachable>"
   },
   {
-   "regione": "Lombardia",
-   "provincia": "Regione",
-   "url": "https://www.mim.gov.it/web/usr-lombardia/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden"
-  },
-  {
-   "regione": "Lombardia",
-   "provincia": "Bergamo",
-   "url": "https://www.mim.gov.it/web/bergamo/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden"
-  },
-  {
-   "regione": "Lombardia",
-   "provincia": "Brescia",
-   "url": "https://www.mim.gov.it/web/brescia/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden"
-  },
-  {
-   "regione": "Lombardia",
-   "provincia": "Como",
-   "url": "https://www.mim.gov.it/web/como/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
-  },
-  {
-   "regione": "Lombardia",
-   "provincia": "Cremona",
-   "url": "https://www.mim.gov.it/web/cremona/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
-  },
-  {
-   "regione": "Lombardia",
-   "provincia": "Lecco",
-   "url": "https://www.mim.gov.it/web/lecco/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
-  },
-  {
-   "regione": "Lombardia",
-   "provincia": "Lodi",
-   "url": "https://www.mim.gov.it/web/lodi/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
-  },
-  {
-   "regione": "Lombardia",
-   "provincia": "Mantova",
-   "url": "https://www.mim.gov.it/web/mantova/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
-  },
-  {
-   "regione": "Lombardia",
-   "provincia": "Milano",
-   "url": "https://www.mim.gov.it/web/milano/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
-  },
-  {
-   "regione": "Lombardia",
-   "provincia": "Monza-Brianza",
-   "url": "https://www.mim.gov.it/web/monza-brianza/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
-  },
-  {
-   "regione": "Lombardia",
-   "provincia": "Pavia",
-   "url": "https://www.mim.gov.it/web/pavia/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
-  },
-  {
-   "regione": "Lombardia",
-   "provincia": "Sondrio",
-   "url": "https://www.mim.gov.it/web/sondrio/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
-  },
-  {
-   "regione": "Lombardia",
-   "provincia": "Varese",
-   "url": "https://www.mim.gov.it/web/varese/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
-  },
-  {
    "regione": "Marche",
    "provincia": "Macerata",
    "url": "http://www.uspmc.sinp.net/",
    "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Molise",
-   "provincia": "Campobasso",
-   "url": "https://atcampobasso.it/",
-   "errore": "HTTP Error 403: Forbidden"
   },
   {
    "regione": "Puglia",
@@ -124,29 +40,11 @@
    "errore": "HTTP Error 403: Forbidden"
   },
   {
-   "regione": "Sardegna",
-   "provincia": "Cagliari",
-   "url": "https://www.mim.gov.it/web/cagliari/interpelli-docenti-e-personale-educativo",
-   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
-  },
-  {
-   "regione": "Sardegna",
-   "provincia": "Nuoro",
-   "url": "https://www.mim.gov.it/web/nuoro/interpelli",
-   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
-  },
-  {
-   "regione": "Sardegna",
-   "provincia": "Oristano",
-   "url": "https://www.mim.gov.it/web/oristano/notizie",
-   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
-  },
-  {
    "regione": "Toscana",
    "provincia": "Pisa",
    "url": "https://www.toscana-istruzione.it/atpisa/interpelli-2/",
    "errore": "HTTP Error 404: Not Found"
   }
  ],
- "nuovi_ultimo_giro": 0
+ "nuovi_ultimo_giro": 19
 }
