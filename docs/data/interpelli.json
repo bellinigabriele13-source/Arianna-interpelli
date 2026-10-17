@@ -2280,5 +2280,33 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-10-16T17:06:40+02:00"
+ },
+ {
+  "id": "371d8e65f433c618",
+  "firma": "e9d857285b64e334",
+  "titolo": "IIS \"V. Bachelet\" - Oggiono",
+  "link": "https://www.mim.gov.it/web/lecco/-/iis-v-bachelet-oggiono-10",
+  "cdc": [
+   "A011"
+  ],
+  "cdc_desc": [
+   "A011 — Discipline letterarie e latino (II grado)"
+  ],
+  "priorita": "alta",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-10-17",
+  "scadenza": "2026-10-19",
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Lecco",
+  "fonte": "https://www.mim.gov.it/web/lecco/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "Interpelli Ricerca Supplenti 17 ottobre 2026 IIS \"V. Bachelet\" - Oggiono Classe di concorso A011",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-17T15:23:10+02:00"
  }
 ]
