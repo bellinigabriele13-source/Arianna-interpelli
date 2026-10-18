@@ -1,6 +1,6 @@
 {
- "ultimo": "2026-10-18T12:07:46+02:00",
- "fonti_ok": 65,
+ "ultimo": "2026-10-18T16:14:23+02:00",
+ "fonti_ok": 93,
  "fonti_totali": 100,
  "errori": [
   {
@@ -22,112 +22,10 @@
    "errore": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has"
   },
   {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Gorizia",
-   "url": "https://usrfvg.gov.it/it/home/menu/uffici/ufficio-territoriale-di-gorizia/Interpelli/",
-   "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Pordenone",
-   "url": "https://usrfvg.gov.it/it/home/menu/uffici/ufficio-territoriale-di-pordenone/Interpelli/",
-   "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Trieste",
-   "url": "https://usrfvg.gov.it/it/home/menu/uffici/ufficio-territoriale-di-trieste/Interpelli/",
-   "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Udine",
-   "url": "https://usrfvg.gov.it/it/home/menu/uffici/ufficio-territoriale-di-udine/Interpelli/",
-   "errore": "<urlopen error timed out>"
-  },
-  {
    "regione": "Lazio",
    "provincia": "Frosinone",
    "url": "https://lnx.uspistruzione.fr.it/wp2/tag/interpello-nazionale",
    "errore": "<urlopen error [Errno 101] Network is unreachable>"
-  },
-  {
-   "regione": "Lombardia",
-   "provincia": "Regione",
-   "url": "https://www.mim.gov.it/web/usr-lombardia/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden"
-  },
-  {
-   "regione": "Lombardia",
-   "provincia": "Bergamo",
-   "url": "https://www.mim.gov.it/web/bergamo/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden"
-  },
-  {
-   "regione": "Lombardia",
-   "provincia": "Brescia",
-   "url": "https://www.mim.gov.it/web/brescia/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden"
-  },
-  {
-   "regione": "Lombardia",
-   "provincia": "Como",
-   "url": "https://www.mim.gov.it/web/como/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
-  },
-  {
-   "regione": "Lombardia",
-   "provincia": "Cremona",
-   "url": "https://www.mim.gov.it/web/cremona/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
-  },
-  {
-   "regione": "Lombardia",
-   "provincia": "Lecco",
-   "url": "https://www.mim.gov.it/web/lecco/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
-  },
-  {
-   "regione": "Lombardia",
-   "provincia": "Lodi",
-   "url": "https://www.mim.gov.it/web/lodi/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
-  },
-  {
-   "regione": "Lombardia",
-   "provincia": "Mantova",
-   "url": "https://www.mim.gov.it/web/mantova/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
-  },
-  {
-   "regione": "Lombardia",
-   "provincia": "Milano",
-   "url": "https://www.mim.gov.it/web/milano/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
-  },
-  {
-   "regione": "Lombardia",
-   "provincia": "Monza-Brianza",
-   "url": "https://www.mim.gov.it/web/monza-brianza/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
-  },
-  {
-   "regione": "Lombardia",
-   "provincia": "Pavia",
-   "url": "https://www.mim.gov.it/web/pavia/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
-  },
-  {
-   "regione": "Lombardia",
-   "provincia": "Sondrio",
-   "url": "https://www.mim.gov.it/web/sondrio/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
-  },
-  {
-   "regione": "Lombardia",
-   "provincia": "Varese",
-   "url": "https://www.mim.gov.it/web/varese/interpelli-ricerca-supplenti",
-   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
   },
   {
    "regione": "Marche",
@@ -136,76 +34,10 @@
    "errore": "<urlopen error timed out>"
   },
   {
-   "regione": "Molise",
-   "provincia": "Campobasso",
-   "url": "https://atcampobasso.it/",
-   "errore": "HTTP Error 403: Forbidden"
-  },
-  {
-   "regione": "Piemonte",
-   "provincia": "Alessandria",
-   "url": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_al.php",
-   "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Piemonte",
-   "provincia": "Asti",
-   "url": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
-   "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Piemonte",
-   "provincia": "Cuneo",
-   "url": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_cn.php",
-   "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Piemonte",
-   "provincia": "Novara",
-   "url": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_no.php",
-   "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Piemonte",
-   "provincia": "VCO",
-   "url": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
-   "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Piemonte",
-   "provincia": "Vercelli",
-   "url": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vc.php",
-   "errore": "<urlopen error timed out>"
-  },
-  {
    "regione": "Puglia",
    "provincia": "Foggia",
    "url": "https://www.ustfoggia.it/",
    "errore": "HTTP Error 403: Forbidden"
-  },
-  {
-   "regione": "Sardegna",
-   "provincia": "Cagliari",
-   "url": "https://www.mim.gov.it/web/cagliari/interpelli-docenti-e-personale-educativo",
-   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
-  },
-  {
-   "regione": "Sardegna",
-   "provincia": "Nuoro",
-   "url": "https://www.mim.gov.it/web/nuoro/interpelli",
-   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
-  },
-  {
-   "regione": "Sardegna",
-   "provincia": "Oristano",
-   "url": "https://www.mim.gov.it/web/oristano/notizie",
-   "errore": "HTTP Error 403: Forbidden (mim.gov.it blocca questo IP, saltata)"
-  },
-  {
-   "regione": "Toscana",
-   "provincia": "Massa-Carrara",
-   "url": "https://www.ustms.it/category/docenti/interpelli/",
-   "errore": "<urlopen error timed out>"
   },
   {
    "regione": "Toscana",
