@@ -2336,5 +2336,61 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-10-19T13:34:49+02:00"
+ },
+ {
+  "id": "805f7c5ab119179f",
+  "firma": "28f3a8ba2b86e0ec",
+  "titolo": "LICEO GIORGIO SPEZIA — A011 - Discipline letterarie e latino (Spezzone per numero ore: 12 · Fino al 30 giugno)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
+  "cdc": [
+   "A011"
+  ],
+  "cdc_desc": [
+   "A011 — Discipline letterarie e latino (II grado)"
+  ],
+  "priorita": "alta",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-10-19",
+  "scadenza": "2026-10-20",
+  "sede_prov": "VB",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "VCO",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vb.php",
+  "motivo": "tabella",
+  "estratto": "VBPS030009 | LICEO GIORGIO SPEZIA | A011 - Discipline letterarie e latino | Spezzone per numero ore: 12 | Diurno | Fino al 30 giugno | 19/10/2026 |  | aperto | 2026-10-20",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-19T19:58:52+02:00"
+ },
+ {
+  "id": "04238162a5e91416",
+  "firma": "9a7bf9d0ea447c1b",
+  "titolo": "Interpello - I.C. Capiago",
+  "link": "https://www.mim.gov.it/web/como/-/interpello-i-c-capiago-9",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-10-19",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Como",
+  "fonte": "https://www.mim.gov.it/web/como/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "SUPPLENZA SPEZZONE ORARIO 12 H DI SOSTEGNO SCUOLA PRIMARIA FINO AL 30/06/2027 19 ottobre 2026 Interpelli ricerca supplenti Interpello - I.C. Capiago Posto AM12 fino al 13/11/2026",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-19T19:58:52+02:00"
  }
 ]
