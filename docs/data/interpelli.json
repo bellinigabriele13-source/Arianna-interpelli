@@ -2308,5 +2308,33 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-10-17T15:23:10+02:00"
+ },
+ {
+  "id": "fbfc93878071fb72",
+  "firma": "505051d1997c2ed5",
+  "titolo": "IIS \"F. Viganò\" - Merate",
+  "link": "https://www.mim.gov.it/web/lecco/-/iis-f-vigano-merate-14",
+  "cdc": [
+   "A012"
+  ],
+  "cdc_desc": [
+   "A012 — Discipline letterarie (II grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-10-19",
+  "scadenza": "2026-10-20",
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Lecco",
+  "fonte": "https://www.mim.gov.it/web/lecco/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "Interpelli Ricerca Supplenti 19 ottobre 2026 IIS \"F. Viganò\" - Merate Classe di concorso AS12",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-19T13:34:49+02:00"
  }
 ]
