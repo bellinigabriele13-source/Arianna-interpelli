@@ -2392,5 +2392,61 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-10-19T19:58:52+02:00"
+ },
+ {
+  "id": "7bd22b438e4f864a",
+  "firma": "23c748717f120397",
+  "titolo": "Interpello nazionale individuazione docente in possesso di idoneo titolo di studio per la classe di concorso AS12 Discipline letterarie nell'istruzione secondaria - supplenza breve IIS SATTA MACOMER",
+  "link": "https://www.mim.gov.it/web/nuoro/-/interpello-nazionale-individuazione-docente-in-possesso-di-idoneo-titolo-di-studio-per-la-classe-di-concorso-as12-discipline-letterarie-nell-istruzion",
+  "cdc": [
+   "A012"
+  ],
+  "cdc_desc": [
+   "A012 — Discipline letterarie (II grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-10-20",
+  "scadenza": "2026-10-21",
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Sardegna",
+  "ufficio": "Nuoro",
+  "fonte": "https://www.mim.gov.it/web/nuoro/interpelli",
+  "motivo": "codice",
+  "estratto": "Interpelli 20 ottobre 2026 Personale Scolastico Interpello nazionale individuazione docente in possesso di idoneo titolo di studio per la classe di concorso AS12 Discipline letterarie nell'istruzione secondaria - supplenza breve IIS SATTA MACOMER 20 ottobre 2026",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-20T12:40:21+02:00"
+ },
+ {
+  "id": "4a7c1863d0fc95b8",
+  "firma": "d9fce9c9f6b428f6",
+  "titolo": "I.I.S. Codogno",
+  "link": "https://www.mim.gov.it/web/lodi/-/i-i-s-codogno-15",
+  "cdc": [
+   "A012"
+  ],
+  "cdc_desc": [
+   "A012 — Discipline letterarie (II grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-10-20",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Lodi",
+  "fonte": "https://www.mim.gov.it/web/lodi/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "--> Interpelli Ricerca Supplenti 20 ottobre 2026 Interpelli ricerca supplenti I.I.S. Codogno Interpello Classe di concorso AS12",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-20T12:40:21+02:00"
  }
 ]
