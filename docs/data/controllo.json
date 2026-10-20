@@ -1,5 +1,5 @@
 {
- "ultimo": "2026-10-20T17:30:08+02:00",
+ "ultimo": "2026-10-20T21:46:23+02:00",
  "fonti_ok": 93,
  "fonti_totali": 100,
  "errori": [
@@ -46,5 +46,5 @@
    "errore": "HTTP Error 404: Not Found"
   }
  ],
- "nuovi_ultimo_giro": 5
+ "nuovi_ultimo_giro": 0
 }
