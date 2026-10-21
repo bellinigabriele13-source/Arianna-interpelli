@@ -1,14 +1,8 @@
 {
- "ultimo": "2026-10-21T17:46:30+02:00",
- "fonti_ok": 93,
+ "ultimo": "2026-10-21T21:48:22+02:00",
+ "fonti_ok": 94,
  "fonti_totali": 100,
  "errori": [
-  {
-   "regione": "Campania",
-   "provincia": "Avellino",
-   "url": "https://atavellino.it/category/dirigenti-docenti/",
-   "errore": "<urlopen error timed out>"
-  },
   {
    "regione": "Campania",
    "provincia": "Benevento",
@@ -46,5 +40,5 @@
    "errore": "HTTP Error 404: Not Found"
   }
  ],
- "nuovi_ultimo_giro": 5
+ "nuovi_ultimo_giro": 0
 }
