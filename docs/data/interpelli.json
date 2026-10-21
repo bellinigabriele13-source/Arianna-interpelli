@@ -2591,9 +2591,66 @@
    "Puglia/Taranto",
    "Sicilia/Messina",
    "Sicilia/Trapani",
-   "Toscana/Firenze"
+   "Toscana/Firenze",
+   "Sicilia/Agrigento"
   ],
   "letto": false,
   "aggiunto": "2026-10-20T17:30:08+02:00"
+ },
+ {
+  "id": "b163ac988e5fdcad",
+  "firma": "84e9aa01ae4dc30e",
+  "titolo": "Avviso/Interpello Istituto Istruzione Secondaria Superiore “S.A. De Castro - Contini” di Oristano per supplenza breve ore sett. 18 (diciotto) sulla classe di concorso A013 DISCIPLINE LETTERA-RIE, LATINO E GRECO NELLA SCUOLA SE-CONDARIA DI II GRADO dal 22.10.2026 fino al 31.10.202",
+  "link": "https://www.mim.gov.it/web/oristano/-/avviso-interpello-istituto-istruzione-secondaria-superiore-s-a-de-castro-contini-di-oristano-per-supplenza-breve-ore-sett-18-diciotto-sulla-classe-d-1",
+  "cdc": [
+   "A013"
+  ],
+  "cdc_desc": [
+   "A013 — Discipline letterarie, latino e greco (II grado)"
+  ],
+  "priorita": "alta",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-10-21",
+  "scadenza": "2026-10-21",
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Sardegna",
+  "ufficio": "Oristano",
+  "fonte": "https://www.mim.gov.it/web/oristano/notizie",
+  "motivo": "codice",
+  "estratto": "Notizie 21 ottobre 2026 Personale Scolastico Avviso/Interpello Istituto Istruzione Secondaria Superiore “S.A. De Castro - Contini” di Oristano per supplenza breve ore sett. 18 (diciotto) sulla classe di concorso A013 DISCIPLINE LETTERA-RIE, LATINO E GRECO NELLA SCUOLA SE-CONDARIA",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-21T12:51:14+02:00"
+ },
+ {
+  "id": "e25ad0999f7ab8fb",
+  "firma": "73dfc3f7adf4af3c",
+  "titolo": "LICEO PEANO TORTONA — A011 - Discipline letterarie e latino (Interna · Supplenza Temporanea fino al 2027-06-10)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_al.php",
+  "cdc": [
+   "A011"
+  ],
+  "cdc_desc": [
+   "A011 — Discipline letterarie e latino (II grado)"
+  ],
+  "priorita": "alta",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-10-21",
+  "scadenza": "2026-10-22",
+  "sede_prov": "AL",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "Alessandria",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_al.php",
+  "motivo": "tabella",
+  "estratto": "ALPS020009 | LICEO PEANO TORTONA | A011 - Discipline letterarie e latino | Interna | Diurno | Supplenza Temporanea fino al 2027-06-10 | 21/10/2026 |  | aperto | 2026-10-22",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-21T12:51:14+02:00"
  }
 ]
