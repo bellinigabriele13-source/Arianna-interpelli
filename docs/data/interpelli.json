@@ -2929,7 +2929,9 @@
   "fonte": "https://www.mim.gov.it/web/cagliari/interpelli-docenti-e-personale-educativo",
   "motivo": "codice",
   "estratto": "-content\"> Interpelli 22 ottobre 2026 Interpello per la supplenza classe di concorso – A013 - Discipline Letterarie, Latino e Greco – L.C. “G.M. DETTORI” Cagliari 22 ottobre 2026",
-  "anche_su": [],
+  "anche_su": [
+   "Toscana/Firenze"
+  ],
   "letto": false,
   "aggiunto": "2026-10-22T17:46:06+02:00"
  },
@@ -2958,7 +2960,9 @@
   "motivo": "codice",
   "estratto": "grid-item rt-grid-item\" data-id=\"44967\"> INTERPELLO PER SUPPLENZA SU CLASSE DI CONCORSO A040 22 Ottobre 2026 Interpello per Supplenza AS2A – AZUNI CAGLIARI 22 Ottobre 2026 Interpello per selezione personale ai sensi dell’art. 14 comma 22 dell’O.M. 27/2026 Classe di concorso A013 ",
   "anche_su": [
-   "Sicilia/Trapani"
+   "Sicilia/Trapani",
+   "Puglia/Taranto",
+   "Sicilia/Caltanissetta-Enna"
   ],
   "letto": false,
   "aggiunto": "2026-10-22T17:46:06+02:00"
@@ -3046,5 +3050,89 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-10-22T17:46:06+02:00"
+ },
+ {
+  "id": "921b587e39eec189",
+  "firma": "306e874a37fd4582",
+  "titolo": "Interpello per selezione personale Classe di concorso A013",
+  "link": "https://tp.usr.sicilia.it/interpello-per-selezione-personale-classe-di-concorso-a013/",
+  "cdc": [
+   "A013"
+  ],
+  "cdc_desc": [
+   "A013 — Discipline letterarie, latino e greco (II grado)"
+  ],
+  "priorita": "alta",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-10-23",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Sicilia",
+  "ufficio": "Trapani",
+  "fonte": "https://tp.usr.sicilia.it/category/personale-scuola/interpelli/",
+  "motivo": "codice",
+  "estratto": "grave; Interpelli --> 23/10/2026 Interpello per selezione personale Classe di concorso A013 L’articolo in oggetto è visualizzabile sul sito USP Cagliari attraverso il seguente link https://www.mim.gov.it/web/cagliari/-/interpello-per-la-supplenza-classe-di-concorso-a013-disciplin",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-23T12:45:20+02:00"
+ },
+ {
+  "id": "f7e9f8f0ff830cb5",
+  "firma": "19f7aea7ab6a6328",
+  "titolo": "ISTITUTO COMPRENSIVO SAN DAMIANO — A022 - Italiano, storia, geografia, nella scuola secondaria di I grado (Interna · Supplenza Temporanea fino al 2027-06-10)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-10-23",
+  "scadenza": "2026-10-26",
+  "sede_prov": "AT",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "Asti",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_at.php",
+  "motivo": "tabella",
+  "estratto": "ATIC811002 | ISTITUTO COMPRENSIVO SAN DAMIANO | A022 - Italiano, storia, geografia, nella scuola secondaria di I grado | Interna | Diurno | Supplenza Temporanea fino al 2027-06-10 | 23/10/2026 |  | aperto | 2026-10-26",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-23T12:45:20+02:00"
+ },
+ {
+  "id": "8867b702418b682c",
+  "firma": "4c4b3d41357fc332",
+  "titolo": "I.C. Lodi V",
+  "link": "https://www.mim.gov.it/web/lodi/-/i-c-lodi-iv-31",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-10-23",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Lodi",
+  "fonte": "https://www.mim.gov.it/web/lodi/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "Interpello per selezione docente Scuola Primaria posto comune 23 ottobre 2026 Interpelli ricerca supplenti I.C. Lodi V Scuola secondaria I grado 23-10-2026 cl. AM12",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-23T12:45:20+02:00"
  }
 ]
