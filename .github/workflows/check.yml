@@ -4,7 +4,7 @@ on:
   schedule:
     # ogni ora dalle 8 alle 20, ora italiana (6-18 UTC, ora legale).
     # dalla fine dell'ora legale (ultima domenica di ottobre) va cambiato in: 0 7-19 * * *
-    - cron: '0 6-18 * * *'
+    - cron: '0 7-19 * * *'
   workflow_dispatch: {}
 
 permissions:

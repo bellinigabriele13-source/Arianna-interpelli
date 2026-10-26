@@ -160,6 +160,7 @@ def main():
         'fonti_ok': out['fonti_ok'],
         'fonti_totali': out['fonti_totali'],
         'errori': out['errori'],
+        'fonti_sospette': out.get('fonti_sospette', []),
         'nuovi_ultimo_giro': len(da_mandare),
     })
 

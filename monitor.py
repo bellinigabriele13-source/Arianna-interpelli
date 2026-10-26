@@ -64,7 +64,9 @@ ESCLUDI_RE = re.compile(
 
 KEYWORDS = ['discipline letterarie', 'materie letterarie', 'latino e greco',
             'italiano, storia, geografia', 'italiano storia e geografia',
-            'italiano, storia e geografia', 'lettere e latino', 'italiano e storia']
+            'italiano, storia e geografia', 'lettere e latino', 'italiano e storia',
+            'discipline letterarie', 'lettere nel', 'lettere negli', 'lettere,', 'italiano, storia',
+            'storia e geografia', 'materie letterarie', 'latino', 'italiano nella', 'italiano nel']
 
 # ------------------------------------------------------------------ geografia --
 PROV2REG = {
@@ -145,8 +147,41 @@ def trova_data(testo):
     return (max(passate) if passate else min(cands)).isoformat()
 
 
+# grafie "creative" (solo con la A maiuscola, per non confondere con "a 11"): A13, A.13, A/011,
+# A.S.12, A.S. 12, AS/12, A S12, A.M. 12 ...
+CODE_LOOSE_RE = re.compile(r'(?<![A-Za-z0-9])A(?:[./]\s?|\s)?([SM])?(?:[./]\s?|\s)?0?(11|12|13|22)(?![0-9])')
+CODE_LOOSE2_RE = re.compile(r'(?<![A-Za-z0-9])A([SM])?[./]\s?([SM])?\.?\s?[/\-]?\s?0?(11|12|13|22)(?![0-9])')
+CODE_NUDO_RE = re.compile(r'(?<![A-Za-z0-9])A(0?)(11|12|13|22)(?![0-9])')
+
+
+def _loose_ok(m, testo):
+    # "A 11" con un solo spazio e senza lettera S/M: accettato solo se subito dopo c'e' un trattino/due punti
+    # o una descrizione, altrimenti e' una frase ("squadra A 11 giocatori")
+    s_ = m.group(0)
+    if re.fullmatch(r'A\s0?(11|12|13|22)', s_):
+        return bool(re.match(r'\s*[-–:(]|\s*(?:discipline|lettere|italiano|materie)', testo[m.end():m.end() + 20], re.I))
+    return True
+
+
+def _agg(out, letter, num):
+    can = CANON[num]
+    letter = (letter or '').upper()
+    if letter == 'M' and can == 'A012':
+        can = 'A022'
+    if letter == 'S' and can == 'A022':
+        can = 'A012'
+    out.add(can)
+
+
 def codici(testo):
     out = set()
+    for m in CODE_LOOSE_RE.finditer(testo):
+        if _loose_ok(m, testo):
+            _agg(out, m.group(1), m.group(2))
+    for m in CODE_LOOSE2_RE.finditer(testo):
+        _agg(out, m.group(1) or m.group(2), m.group(3))
+    for m in CODE_NUDO_RE.finditer(testo):
+        _agg(out, '', m.group(2))
     for rx in (CODE_RE, CODE_SHORT_RE, CODE_DASH_RE):
         for m in rx.finditer(testo):
             g = m.groups()
@@ -264,7 +299,7 @@ def _fetch_una(url, tries=3):
 def _fetch_browser(url):
     """Seconda possibilita' per i siti dietro Akamai: handshake TLS da browser vero."""
     try:
-        from curl_cffi import requests as cr
+        from curl_cffi import re, hashlibquests as cr
         r = cr.get(url, impersonate='chrome', timeout=30,
                    headers={"Accept-Language": "it-IT,it;q=0.9,en;q=0.8"})
         if r.status_code == 200 and r.text:
@@ -298,6 +333,26 @@ CATEGORIA_RE = re.compile(r'/(category|categoria|categorie|tag)/[^?#]*$', re.I)
 URL_TESTO_RE = re.compile(r'^\s*(https?://|www\.)\S+\s*$', re.I)
 LINK_RE = re.compile(r'<a\b[^>]*href\s*=\s*["\']([^"\'#][^"\']*)["\'][^>]*>(.*?)</a>', re.S | re.I)
 RSS_ITEM_RE = re.compile(r'<item\b.*?</item>', re.S | re.I)
+
+
+def _blocco(body, m):
+    """Testo del contenitore (riga di tabella, voce di elenco, articolo, card) che racchiude il link:
+    li' stanno spesso codice, scuola e tipo di posto, fuori dal link. Vuoto se il contenitore e' troppo
+    grande o contiene piu' link (rischio di rubare il codice di un'altra voce)."""
+    for tag in ('tr', 'li', 'article'):
+        a_ = body.rfind('<' + tag, max(0, m.start() - 1800), m.start())
+        if a_ < 0 or re.match(r'<' + tag + r'[a-z]', body[a_:a_ + len(tag) + 3], re.I):
+            continue
+        if re.search(r'</' + tag + r'\s*>', body[a_:m.start()], re.I):
+            continue
+        c_ = re.search(r'</' + tag + r'\s*>', body[m.end():m.end() + 1800], re.I)
+        if not c_:
+            continue
+        pezzo = body[a_: m.end() + c_.end()]
+        if len(re.findall(r'<a\s', pezzo, re.I)) > 2:
+            continue
+        return re.sub(r'\s+', ' ', strip_tags(pezzo))[:500]
+    return ''
 
 
 def estrai(url, body):
@@ -352,6 +407,10 @@ def estrai(url, body):
         if i + 1 < len(matches):
             fine_vicino = min(fine_vicino, matches[i + 1].start())
         vicino = strip_tags(re.sub(r'<[^>]*$', '', body[m.end(): max(m.end(), fine_vicino)]))
+        blk = '' if re.search(r'categoryIds|/author/|/tags?/|/category/|[?&](cat|tag)=|/page/\d', href, re.I) \
+            else _blocco(body, m)
+        if blk and not codici(vicino):
+            vicino = (vicino + ' ' + blk).strip()
         # tabelle dove il testo del link e' l'indirizzo stesso (es. Savona):
         # il titolo utile e' il resto della riga della tabella
         if URL_TESTO_RE.match(titolo):
@@ -364,7 +423,7 @@ def estrai(url, body):
             elif len(vicino) >= 12:
                 titolo = vicino[:200]
         out.append((titolo, urllib.parse.urljoin(url, html.unescape(href.strip())),
-                    trova_data(attr) or trova_data(ctx), ctx[:500], vicino[:300]))
+                    trova_data(attr) or trova_data(ctx), ctx[:500], vicino[:700]))
     return out
 
 
@@ -373,7 +432,8 @@ def estrai(url, body):
 # Serve a non riscaricare ogni ora gli stessi PDF.
 SEEN = set()
 PDF_CONTROLLATI = set()          # PDF letti in questo giro (vanno nel registro)
-MAX_PDF_PER_FONTE = 12
+MAX_PDF_PER_FONTE = 30
+PAGINA_INTERPELLI_RE = re.compile(r'interpell|supplen|disponibil|reclutament|incaric|convocazion', re.I)
 PDF_RE = re.compile(r'\.pdf(\?|/|$)', re.I)
 
 
@@ -613,7 +673,7 @@ def analizza(src):
             # 2) PDF con titolo generico ("Interpello prot. 7385 del 23/09/2026"):
             #    si apre il PDF e si cerca il codice nel testo
             if (not res and PDF_RE.search(link) and pdf_letti < MAX_PDF_PER_FONTE
-                    and INTERPELLO_RE.search(titolo + ' ' + nf)
+                    and (INTERPELLO_RE.search(titolo + ' ' + nf) or PAGINA_INTERPELLI_RE.search(url))
                     and not ESCLUDI_RE.search(titolo + ' ' + nf)
                     and not (RUMORE_RE.search(titolo) and 'interpell' not in titolo.lower())
                     and (not data or data >= ARCHIVIO_DAL)):
@@ -623,7 +683,13 @@ def analizza(src):
                     PDF_CONTROLLATI.add(pid)
                     tp = testo_pdf(link)
                     cp = [c for c in codici(tp[:6000]) if c in GRADO]
-                    if cp:
+                    if not cp and tp and INTERPELLO_RE.search(tp[:4000]) and \
+                            any(k in tp[:4000].lower() for k in KEYWORDS) and \
+                            not re.search(r'(?<![A-Za-z0-9])A[SM]?[\-.]?0?\d{2}(?![0-9])', tp[:4000]):
+                        ogg = oggetto_pdf(tp)
+                        titolo = f"{titolo} — {ogg}" if ogg and len(titolo) < 60 else titolo
+                        res, motivo_extra = (['da verificare'], 'parola chiave'), 'letto nel PDF (a parole)'
+                    elif cp:
                         ogg = oggetto_pdf(tp)
                         if ogg and len(titolo) < 60:
                             titolo = f"{titolo} — {ogg}"
@@ -640,7 +706,67 @@ def analizza(src):
         if not data:
             data = data_da_url(link)
         items.append(_item(titolo, link, cods, motivo, data, ctx, reg, prov, url))
-    return {'regione': reg, 'provincia': prov, 'url': url, 'errore': None, 'items': items}
+    n_link = len(estrai(url, body))
+    try:
+        items.extend(rete_sicurezza(url, body, reg, prov, items))
+    except Exception as e:
+        print('rete di sicurezza: errore su', url, e, file=sys.stderr)
+    return {'regione': reg, 'provincia': prov, 'url': url, 'errore': None, 'items': items, 'n_link': n_link,
+            'ha_testo_interpelli': bool(re.search(r'interpell', body, re.I))}
+
+
+# ------------------------------------------------ rete di sicurezza (qualunque forma di pubblicazione)
+# Se in UNA QUALSIASI pagina-fonte compare una classe di concorso pertinente (in qualsiasi grafia) accanto
+# a parole da offerta di supplenza (cattedra, spezzone, ore, istituto...), e nessun avviso gia' trovato
+# dai metodi normali la copre, si crea comunque una segnalazione "da verificare" che punta alla pagina.
+# Cosi' si recuperano: tabelle interattive / dati incorporati nel codice della pagina, testi senza link,
+# elenchi con link generici, grafie strane, pagine che cambiano struttura.
+OFFERTA_RE = re.compile(r'cattedra|spezzon|\bore\b|\bh\s?\d|istituto|liceo|\bI\.?C\.?\b|\bIIS\b|\bIPS\w*|\bITI?S?\b|'
+                        r'scuola|supplen|interpell|disponibilit|incarico|posto|tempo determinato|orario', re.I)
+FINESTRA_PRIMA, FINESTRA_DOPO = 150, 220
+
+
+def rete_sicurezza(url, body, reg, prov, trovati):
+    t = re.sub(r'(?is)<(style|noscript)\b.*?</\1>', ' ', body)
+    t = html.unescape(re.sub(r'<[^>]+>', ' ', t))
+    t = re.sub(r'\s+', ' ', t)
+    if len(t) > 3_000_000:
+        return []
+    coperti = [re.sub(r'\W+', '', x['titolo'].lower())[:30] for x in trovati]
+    out, visti = [], set()
+    for rx in (CODE_LOOSE_RE, CODE_LOOSE2_RE, CODE_NUDO_RE, CODE_RE, CODE_SHORT_RE, CODE_DASH_RE):
+        for m in rx.finditer(t):
+            if not codici(m.group(0)):
+                continue
+            a, b = max(0, m.start() - FINESTRA_PRIMA), min(len(t), m.end() + FINESTRA_DOPO)
+            fin = t[a:b]
+            if len(set(codici(fin))) >= 6 or not OFFERTA_RE.search(fin):
+                continue
+            if ESCLUDI_RE.search(fin) or (RUMORE_RE.search(fin) and 'interpell' not in fin.lower()):
+                continue
+            cods = [c for c in codici(t[max(0, m.start() - 6): m.end() + 6]) if c in GRADO]
+            if not cods:
+                continue
+            norm = re.sub(r'\W+', '', fin.lower())
+            if any(c and c in norm for c in coperti):
+                continue
+            data = trova_data(fin)
+            if data and data < ARCHIVIO_DAL:
+                continue
+            # chiave stabile: pagina + codice + testo vicino al codice (senza cifre/date che cambiano)
+            nucleo = re.sub(r'[\W\d_]+', '', t[max(0, m.start() - 70): m.end() + 90].lower())
+            chiave = hashlib.sha1((url + '|' + nucleo).encode()).hexdigest()[:16]
+            if chiave in visti:
+                continue
+            visti.add(chiave)
+            link = url.split('#')[0] + '#rete-' + chiave[:8]
+            titolo = 'Da verificare (rilevato nel testo della pagina): ' + fin.strip()[:200]
+            it = _item(titolo, link, cods, 'rete di sicurezza', data, fin, reg, prov, url, id_='rete:' + chiave)
+            it['link_pagina'] = url
+            out.append(it)
+            if len(out) >= 6:
+                return out
+    return out
 
 
 # ------------------------------------------------------------ dettagli del singolo avviso
@@ -867,12 +993,56 @@ def autodiagnosi():
     if not a1 or not set(a1) & set(a2):
         print("ERRORE: lo stesso interpello su due siti non viene piu' riconosciuto", file=sys.stderr)
         ok = False
+    # grafie strane dei codici (25/10/2026)
+    for t_, att in (("AS/12", ['A012']), ("A.S. 12", ['A012']), ("A/011", ['A011']), ("A11", ['A011']),
+                    ("A.13", ['A013']), ("A.M. 12", ['A022']), ("calcio a 11", []), ("squadra A 11 giocatori", [])):
+        if codici(t_) != att:
+            print("ERRORE: grafia codice non riconosciuta:", t_, codici(t_), file=sys.stderr); ok = False
+    # codice in un'altra cella della riga, lontano dal link
+    h_ = ('<table><tr><td>A011 spezzone 6 ore</td><td>LICEO COLOMBO</td><td><a href="/doc/55">Scarica</a></td></tr>'
+          '<tr><td>A046</td><td>ALTRA</td><td><a href="/doc/56">Scarica</a></td></tr></table>')
+    r_ = [x for x in estrai('https://x.it/p', h_) if x[1].endswith('/doc/55')]
+    if not r_ or not codici(r_[0][4]):
+        print("ERRORE: codice nella riga della tabella non letto", file=sys.stderr); ok = False
+    # rete di sicurezza: nessun link, il dato e' solo nel testo / nel JSON della pagina
+    pag_ = '<html><script>var d=[{"cl":"A 011","tipo":"spezzone 9 ore","scuola":"Liceo Rossi"}];</script></html>'
+    rs_ = rete_sicurezza('https://x.it/q', pag_, 'X', 'Y', [])
+    if not rs_ or rs_[0]['cdc'] != ['A011']:
+        print("ERRORE: la rete di sicurezza non vede un codice senza link", file=sys.stderr); ok = False
     print("autodiagnosi:", "ok" if ok else "FALLITA")
     return ok
 
 
 MESI_IT = ['gennaio', 'febbraio', 'marzo', 'aprile', 'maggio', 'giugno', 'luglio',
            'agosto', 'settembre', 'ottobre', 'novembre', 'dicembre']
+
+
+SCUOLE_SKIP_RE = re.compile(r'(miur|mim|istruzione)\.gov\.it|usrfvg\.gov\.it|facebook|twitter|instagram|youtube|'
+                            r'linkedin|whatsapp|google\.|mailto:|\.pdf$', re.I)
+
+
+def espandi_elenchi_scuole(srcs):
+    """Pagine-indice che elencano soltanto i SITI DELLE SCUOLE (USR Friuli-Venezia Giulia:
+    gli interpelli stanno sui siti delle scuole, non sulla pagina dell'ufficio). Ogni scuola
+    elencata diventa una fonte a se' (stessa regione/provincia)."""
+    out = []
+    for r, pr, u in srcs:
+        out.append([r, pr, u])
+        if 'usrfvg.gov.it' not in u:
+            continue
+        body, err = fetch(u, 2)
+        if not body:
+            continue
+        i, j = body.find('<main'), body.find('</main>')
+        area = body[i:j] if 0 <= i < j else body
+        visti = {x[2] for x in out}
+        for h in LINK_RE.findall(area):
+            href = h[0].strip()
+            if not href.startswith('http') or SCUOLE_SKIP_RE.search(href) or href in visti:
+                continue
+            visti.add(href)
+            out.append([r, pr, href])
+    return out
 
 
 def espandi_fonti(srcs):
@@ -905,7 +1075,7 @@ def main():
     if a.selftest:
         sys.exit(0 if autodiagnosi() else 1)
 
-    srcs = espandi_fonti(json.load(open(a.sources)))
+    srcs = espandi_elenchi_scuole(espandi_fonti(json.load(open(a.sources))))
     seen = set()
     if a.seen_file and os.path.exists(a.seen_file):
         try:
@@ -946,9 +1116,16 @@ def main():
 
     tutti = list(unione.values())
     nuovi = [it for it in tutti if it['id'] not in seen]
+    # prima esecuzione della rete di sicurezza: tutto cio' che c'e' GIA' sulle pagine viene solo registrato
+    # (niente raffica di email); da quel momento in poi segnala solo le novita'
+    if 'meta:rete' not in seen:
+        for it in nuovi:
+            if it.get('motivo') == 'rete di sicurezza':
+                it['data'] = '2000-01-01'
+        tutti_id.add('meta:rete')
     # apre ogni avviso nuovo per data/ora di pubblicazione e scadenza precise
     with cf.ThreadPoolExecutor(8) as ex:
-        nuovi = list(ex.map(dettagli, nuovi))
+        nuovi = list(ex.map(lambda x: x if x.get('motivo') == 'rete di sicurezza' else dettagli(x), nuovi))
     # l'archivio parte da ARCHIVIO_DAL: via cio' che risulta pubblicato prima
     # (resta nel registro tramite tutti_gli_id, quindi non ricompare piu')
     scartati_vecchi = [it for it in nuovi if it['data'] and it['data'] < max(ARCHIVIO_DAL, limite)]
@@ -996,8 +1173,12 @@ def main():
     errori = [{'regione': r['regione'], 'provincia': r['provincia'], 'url': r['url'],
                'errore': r['errore']} for r in report if r['errore']]
     now = datetime.now(timezone(timedelta(hours=2))).isoformat(timespec='seconds')
+    # fonti "sospette": raggiungibili ma la pagina non offre piu' link (struttura cambiata / contenuto dinamico)
+    # oppure parla di interpelli ma non ne e' stato estratto alcuno
+    sospette = [{'regione': r['regione'], 'provincia': r['provincia'], 'url': r['url']}
+                for r in report if not r['errore'] and r.get('n_link', 99) < 3]
     out = {'controllo': now, 'fonti_totali': len(srcs), 'fonti_ok': len(srcs) - len(errori),
-           'errori': errori, 'trovati_totali': len(tutti),
+           'fonti_sospette': sospette, 'errori': errori, 'trovati_totali': len(tutti),
            'tutti_gli_id': sorted(tutti_id), 'nuovi': nuovi,
            'ripubblicazioni': list(ripub.values())}
     json.dump(out, open(a.out, 'w'), ensure_ascii=False, indent=1)
@@ -1010,6 +1191,8 @@ def main():
         print(f"  gia' in archivio ({r_['doc_id']}), ripubblicato anche da: {', '.join(r_['uffici'])}")
     if PDF_CONTROLLATI:
         print(f"  PDF aperti e letti in questo giro: {len(PDF_CONTROLLATI)}")
+    if sospette:
+        print("POCHI LINK (pagina cambiata o dinamica?):", ', '.join(f"{e['regione']}/{e['provincia']}" for e in sospette))
     if errori:
         print("NON RAGGIUNGIBILI:", ', '.join(f"{e['regione']}/{e['provincia']}" for e in errori))
 
