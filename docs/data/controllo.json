@@ -1,8 +1,32 @@
 {
- "ultimo": "2026-10-25T21:26:41+01:00",
- "fonti_ok": 94,
+ "ultimo": "2026-10-26T12:54:24+01:00",
+ "fonti_ok": 90,
  "fonti_totali": 100,
  "errori": [
+  {
+   "regione": "Calabria",
+   "provincia": "Catanzaro",
+   "url": "https://www.istruzione.calabria.it/catanzaro/category/nca/",
+   "errore": "<urlopen error timed out>"
+  },
+  {
+   "regione": "Calabria",
+   "provincia": "Cosenza",
+   "url": "https://www.istruzione.calabria.it/cosenza/category/interdoc/",
+   "errore": "<urlopen error timed out>"
+  },
+  {
+   "regione": "Calabria",
+   "provincia": "Crotone",
+   "url": "https://www.istruzione.calabria.it/crotone/category/notizie/interpelli-per-supplenza/",
+   "errore": "<urlopen error timed out>"
+  },
+  {
+   "regione": "Calabria",
+   "provincia": "Vibo Valentia",
+   "url": "https://www.istruzione.calabria.it/vibovalentia/category/us/doc/",
+   "errore": "<urlopen error timed out>"
+  },
   {
    "regione": "Campania",
    "provincia": "Benevento",
@@ -40,5 +64,5 @@
    "errore": "HTTP Error 404: Not Found"
   }
  ],
- "nuovi_ultimo_giro": 0
+ "nuovi_ultimo_giro": 2
 }
