@@ -3190,5 +3190,33 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-10-26T12:54:24+01:00"
+ },
+ {
+  "id": "60c646c4f02f9980",
+  "firma": "9a54ad13dfd5439e",
+  "titolo": "I.I.S. \"A. Volta\" Lodi",
+  "link": "https://www.mim.gov.it/web/lodi/-/i-i-s-a-volta-lodi-11",
+  "cdc": [
+   "A012"
+  ],
+  "cdc_desc": [
+   "A012 — Discipline letterarie (II grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-10-26",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Lodi",
+  "fonte": "https://www.mim.gov.it/web/lodi/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "nto docente su tipo di posto SOSTEGNO - SCUOLA PRIMARIA supplenza breve 24h fino al 11/11/2026 26 ottobre 2026 Interpelli ricerca supplenti I.I.S. \"A. Volta\" Lodi Interpello classe di concorso AS12",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-26T18:56:32+01:00"
  }
 ]
