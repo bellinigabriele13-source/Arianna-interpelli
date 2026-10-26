@@ -1,7 +1,7 @@
 {
- "ultimo": "2026-10-26T18:56:32+01:00",
- "fonti_ok": 94,
- "fonti_totali": 100,
+ "ultimo": "2026-10-26T21:39:27+01:00",
+ "fonti_ok": 224,
+ "fonti_totali": 268,
  "errori": [
   {
    "regione": "Campania",
@@ -22,6 +22,234 @@
    "errore": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has"
   },
   {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://www.icporcia.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://www.ic-manzi.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://www.icsmedunatagliamento.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://www.icbrugnera.edu.it/pagine/interpelli",
+   "errore": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://www.leomajor.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://liceipujati.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://www.torricellimaniago.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://www.isspilimbergo.edu.it/pagine/interpelli",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://www.isissacilebrugnera.edu.it/pagine/interpello",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://www.istitutoflora.edu.it/pagine/interpello",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://www.isiszanussi.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://www.liceogrigoletti.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://www.liceilefilandiere.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://www.liceoartisticogalvani.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
+   "url": "https://www.icmarcopolots.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
+   "url": "https://ic-divisionejulia.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
+   "url": "https://www.sibartol.edu.it/it/",
+   "errore": "HTTP Error 404: Not Found"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
+   "url": "https://www.preseren.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
+   "url": "https://www.galileitrieste.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
+   "url": "https://www.liceo-oberdan.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
+   "url": "https://www.deledda-fabiani.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
+   "url": "https://www.voltatrieste.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://www.icsanpietroalnatisone.it/",
+   "errore": "HTTP Error 403: Forbidden"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://www.icpm.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://icrivignano.edu.it/",
+   "errore": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismat"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://www.icuniversitacastrense.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://www.tarvisioscuole.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://www.linussio.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://www.isismanzini.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://www.isisfermosolari.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://www.stringher.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://paschinilinussio.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://www.itsdeganutti.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://www.liceopercoto.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://www.gceconi.eu/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://www.arteudine.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://www.itzanon.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://www.itmarinoni.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
    "regione": "Lazio",
    "provincia": "Frosinone",
    "url": "https://lnx.uspistruzione.fr.it/wp2/tag/interpello-nazionale",
@@ -40,5 +268,277 @@
    "errore": "HTTP Error 404: Not Found"
   }
  ],
- "nuovi_ultimo_giro": 1
+ "fonti_sospette": [
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Gorizia",
+   "url": "https://icdavincironchi.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Gorizia",
+   "url": "https://icpolodante.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Gorizia",
+   "url": "http://albopretorio.regione.fvg.it/ap/USRFVG"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://icaviano.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://iccordovado.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://icfontanafredda.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://icmontereale.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://iczanzottocaneva.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://icsfiumeveneto.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://icroveredo-sanquirino.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://icmaniago.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://icpordenonesud.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://icpordenonetorre.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://icpordenonecentro.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://icpordenoneroraicappuccini.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://icsacile.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://isismattiussipertini.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
+   "url": "https://icrilke.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
+   "url": "https://iqbalmasihtrieste.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
+   "url": "https://ictizianaweiss.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
+   "url": "https://icaltipiano.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
+   "url": "https://icdantetrieste.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
+   "url": "https://comprensivosvevo.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
+   "url": "https://icvalmaura.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
+   "url": "https://icsangiovanni.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
+   "url": "https://campielisi.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
+   "url": "https://vspangerc.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
+   "url": "https://cpiatrieste.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
+   "url": "https://liceonordio.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://icpalazzolo.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://iclinussiomatiz.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://icmajanoforgaria.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://iclignano.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://icfagagna.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://ictricesimo.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://www.icdestratorre.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://icvaltagliamento.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://icpaviadiudine.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://icbuja.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://ictarcento.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://icgonars.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://icpalmanova.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://1icudine.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://5icudine.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://6icudine.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://ictrasaghis.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://www.icmanzano.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://iccodroipo.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://icgemona.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://ictolmezzo.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://istitutocomprensivopozzuolodelfriuli.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://paolinodaquileia.edu.it/"
+  },
+  {
+   "regione": "Piemonte",
+   "provincia": "Biella",
+   "url": "https://www.istruzionepiemonte.it/biella/interpelli-supplenze/"
+  },
+  {
+   "regione": "Piemonte",
+   "provincia": "Torino",
+   "url": "https://www.istruzionepiemonte.it/torino/interpelli-supplenze/"
+  }
+ ],
+ "nuovi_ultimo_giro": 3
 }
