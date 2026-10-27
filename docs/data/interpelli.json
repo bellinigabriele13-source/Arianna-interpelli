@@ -3444,5 +3444,61 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-10-27T14:01:45+01:00"
+ },
+ {
+  "id": "64b6d79b213bd0ea",
+  "firma": "90c719f712fca001",
+  "titolo": "Interpello per supplenza breve (spezzone 12 ore) su classe di concorso AM12 - Italiano, Storia e Geografia nella Scuola secondaria di 1° grado - presso l’Istituto comprensivo di Bosa",
+  "link": "https://www.mim.gov.it/web/oristano/-/interpello-per-supplenza-breve-spezzone-12-ore-su-classe-di-concorso-am12-italiano-storia-e-geografia-nella-scuola-secondaria-di-1-grado-presso-l-isti",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-10-27",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Sardegna",
+  "ufficio": "Oristano",
+  "fonte": "https://www.mim.gov.it/web/oristano/notizie",
+  "motivo": "codice",
+  "estratto": "let-content\"> Notizie 27 ottobre 2026 Interpello per supplenza breve (spezzone 12 ore) su classe di concorso AM12 - Italiano, Storia e Geografia nella Scuola secondaria di 1° grado - presso l’Istituto comprensivo di Bosa. 23 ottobre 2026",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-27T19:41:34+01:00"
+ },
+ {
+  "id": "14d878fc02f622b0",
+  "firma": "20ce366d354fdd35",
+  "titolo": "Interpello - I.T.I. Mattei di Sondrio",
+  "link": "https://www.mim.gov.it/web/sondrio/-/interpello-i-t-i-mattei-di-sondrio-4",
+  "cdc": [
+   "A012"
+  ],
+  "cdc_desc": [
+   "A012 — Discipline letterarie (II grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-10-27",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Sondrio",
+  "fonte": "https://www.mim.gov.it/web/sondrio/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "> Interpelli Ricerca Supplenti 27 ottobre 2026 Interpelli ricerca supplenti Interpello - I.T.I. Mattei di Sondrio Classe di concorso AS12",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-27T19:41:34+01:00"
  }
 ]
