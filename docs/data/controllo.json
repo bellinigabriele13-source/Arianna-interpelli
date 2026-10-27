@@ -1,32 +1,8 @@
 {
- "ultimo": "2026-10-27T19:41:34+01:00",
- "fonti_ok": 225,
+ "ultimo": "2026-10-27T23:53:30+01:00",
+ "fonti_ok": 223,
  "fonti_totali": 268,
  "errori": [
-  {
-   "regione": "Calabria",
-   "provincia": "Catanzaro",
-   "url": "https://www.istruzione.calabria.it/catanzaro/category/nca/",
-   "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Calabria",
-   "provincia": "Cosenza",
-   "url": "https://www.istruzione.calabria.it/cosenza/category/interdoc/",
-   "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Calabria",
-   "provincia": "Crotone",
-   "url": "https://www.istruzione.calabria.it/crotone/category/notizie/interpelli-per-supplenza/",
-   "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Calabria",
-   "provincia": "Vibo Valentia",
-   "url": "https://www.istruzione.calabria.it/vibovalentia/category/us/doc/",
-   "errore": "<urlopen error timed out>"
-  },
   {
    "regione": "Campania",
    "provincia": "Benevento",
@@ -54,8 +30,26 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Pordenone",
+   "url": "https://www.icsmedunatagliamento.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
    "url": "https://www.icbrugnera.edu.it/pagine/interpelli",
    "errore": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://www.icpcp.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://www.leomajor.edu.it/",
+   "errore": "HTTP Error 509: "
   },
   {
    "regione": "Friuli-Venezia Giulia",
@@ -96,6 +90,12 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Pordenone",
+   "url": "https://www.liceogrigoletti.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
    "url": "https://www.liceilefilandiere.edu.it/",
    "errore": "HTTP Error 509: "
   },
@@ -107,20 +107,8 @@
   },
   {
    "regione": "Friuli-Venezia Giulia",
-   "provincia": "Pordenone",
-   "url": "https://itstkennedy.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
    "provincia": "Trieste",
    "url": "https://www.icmarcopolots.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Trieste",
-   "url": "https://www.iclucio.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -139,6 +127,12 @@
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Trieste",
    "url": "https://www.preseren.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
+   "url": "https://www.galileitrieste.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -180,8 +174,8 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
-   "url": "https://www.icpetricig.edu.it/",
-   "errore": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismat"
+   "url": "https://www.icuniversitacastrense.edu.it/",
+   "errore": "HTTP Error 509: "
   },
   {
    "regione": "Friuli-Venezia Giulia",
@@ -193,12 +187,6 @@
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
    "url": "https://www.daronco.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Udine",
-   "url": "https://www.tarvisioscuole.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -222,6 +210,12 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
+   "url": "https://www.stringher.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
    "url": "https://www.itsdeganutti.edu.it/",
    "errore": "HTTP Error 509: "
   },
@@ -234,13 +228,31 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
+   "url": "https://www.gceconi.eu/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
    "url": "https://www.arteudine.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
+   "url": "https://www.itzanon.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
    "url": "https://www.itmarinoni.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://www.cnpd.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -263,6 +275,16 @@
   }
  ],
  "fonti_sospette": [
+  {
+   "regione": "Campania",
+   "provincia": "Avellino",
+   "url": "https://atavellino.it/category/dirigenti-docenti/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Gorizia",
+   "url": "https://www.iccormons.it/"
+  },
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Gorizia",
@@ -506,6 +528,11 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
+   "url": "https://www.iccividale.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
    "url": "https://icgemona.edu.it/"
   },
   {
@@ -522,7 +549,27 @@
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
    "url": "https://paolinodaquileia.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://www.malignani.ud.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://liceomarinelli.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://educandatouccellis.edu.it/"
+  },
+  {
+   "regione": "Toscana",
+   "provincia": "Lucca",
+   "url": "http://www.ustlucca.it/category/notizie-in-primo-piano/"
   }
  ],
- "nuovi_ultimo_giro": 2
+ "nuovi_ultimo_giro": 0
 }
