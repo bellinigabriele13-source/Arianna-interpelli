@@ -3528,5 +3528,62 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-10-28T14:52:47+01:00"
+ },
+ {
+  "id": "rete:2e3be06555aafb46",
+  "firma": "67a9eef111f3913c",
+  "titolo": "Da verificare (rilevato nel testo della pagina): Home > Novità > Le notizie > INTERPELLO INTERPELLO Si allegano gli interpelli e modello di candidatura. Pubblicazione graduatore. Allegati Interpello AS12 - Italiano.pdf File PDF Contatore click: 17 I",
+  "link": "https://www.istitutoflora.edu.it/pagine/interpello#rete-2e3be065",
+  "cdc": [
+   "A012"
+  ],
+  "cdc_desc": [
+   "A012 — Discipline letterarie (II grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "II grado"
+  ],
+  "data": null,
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Friuli-Venezia Giulia",
+  "ufficio": "Pordenone",
+  "fonte": "https://www.istitutoflora.edu.it/pagine/interpello",
+  "motivo": "rete di sicurezza",
+  "estratto": "Home > Novità > Le notizie > INTERPELLO INTERPELLO Si allegano gli interpelli e modello di candidatura. Pubblicazione graduatore. Allegati Interpello AS12 - Italiano.pdf File PDF Contatore click: 17 Interpello A031 - Scienza degli alimenti.pdf File PDF Contatore click: 15 Modello",
+  "link_pagina": "https://www.istitutoflora.edu.it/pagine/interpello",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-28T20:22:55+01:00"
+ },
+ {
+  "id": "1ebcb02c90c57f8d",
+  "firma": "030d994a7ae5609a",
+  "titolo": "Interpello - IIS \"G. Pessina\" Como",
+  "link": "https://www.mim.gov.it/web/como/-/interpello-iis-g-pessina-como-3",
+  "cdc": [
+   "A012"
+  ],
+  "cdc_desc": [
+   "A012 — Discipline letterarie (II grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-10-28",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Como",
+  "fonte": "https://www.mim.gov.it/web/como/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "spezzone orario posto comune AAAA fino al 30/06/2027 scuola dell'infanzia 28 ottobre 2026 Interpelli ricerca supplenti Interpello - IIS \"G. Pessina\" Como AS12 28 ottobre 2026",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-28T20:22:55+01:00"
  }
 ]

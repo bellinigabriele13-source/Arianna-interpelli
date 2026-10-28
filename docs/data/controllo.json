@@ -1,6 +1,6 @@
 {
- "ultimo": "2026-10-28T14:52:47+01:00",
- "fonti_ok": 224,
+ "ultimo": "2026-10-28T20:22:55+01:00",
+ "fonti_ok": 226,
  "fonti_totali": 268,
  "errori": [
   {
@@ -30,20 +30,14 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Pordenone",
-   "url": "https://www.ic-manzi.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Pordenone",
-   "url": "https://www.icsmedunatagliamento.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Pordenone",
    "url": "https://www.icbrugnera.edu.it/pagine/interpelli",
    "errore": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://www.icpcp.edu.it/",
+   "errore": "HTTP Error 509: "
   },
   {
    "regione": "Friuli-Venezia Giulia",
@@ -78,12 +72,6 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Pordenone",
-   "url": "https://www.istitutoflora.edu.it/pagine/interpello",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Pordenone",
    "url": "https://www.isiszanussi.edu.it/",
    "errore": "HTTP Error 509: "
   },
@@ -97,6 +85,12 @@
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Pordenone",
    "url": "https://www.liceilefilandiere.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://www.liceoartisticogalvani.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -132,6 +126,12 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Trieste",
+   "url": "https://www.preseren.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
    "url": "https://www.galileitrieste.it/",
    "errore": "HTTP Error 509: "
   },
@@ -149,8 +149,14 @@
   },
   {
    "regione": "Friuli-Venezia Giulia",
-   "provincia": "Trieste",
-   "url": "https://www.voltatrieste.edu.it/",
+   "provincia": "Udine",
+   "url": "https://www.icsanpietroalnatisone.it/",
+   "errore": "HTTP Error 403: Forbidden"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://www.icpm.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -162,25 +168,13 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
-   "url": "https://www.icpremariacco.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Udine",
-   "url": "https://www.icuniversitacastrense.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Udine",
    "url": "https://www.isislatisana.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
-   "url": "https://www.tarvisioscuole.it/",
+   "url": "https://www.daronco.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -198,7 +192,7 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
-   "url": "https://www.isisfermosolari.edu.it/",
+   "url": "https://www.stringher.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -222,8 +216,8 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
-   "url": "https://liceomarinelli.edu.it/",
-   "errore": "<urlopen error timed out>"
+   "url": "https://www.gceconi.eu/",
+   "errore": "HTTP Error 509: "
   },
   {
    "regione": "Friuli-Venezia Giulia",
@@ -235,12 +229,6 @@
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
    "url": "https://www.itzanon.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Udine",
-   "url": "https://www.itmarinoni.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -265,7 +253,7 @@
    "regione": "Toscana",
    "provincia": "Pisa",
    "url": "https://www.toscana-istruzione.it/atpisa/interpelli-2/",
-   "errore": "HTTP Error 403: Forbidden"
+   "errore": "HTTP Error 404: Not Found"
   }
  ],
  "fonti_sospette": [
@@ -530,5 +518,5 @@
    "url": "https://paolinodaquileia.edu.it/"
   }
  ],
- "nuovi_ultimo_giro": 1
+ "nuovi_ultimo_giro": 2
 }
