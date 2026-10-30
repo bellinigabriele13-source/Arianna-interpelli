@@ -3669,5 +3669,61 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-10-29T14:59:13+01:00"
+ },
+ {
+  "id": "c441c41d0e864f63",
+  "firma": "1efc4e8b55d0d22b",
+  "titolo": "Interpelli cdc AS12 lettere",
+  "link": "https://www.mim.gov.it/web/cremona/-/interpelli-cdc-as12-lettere",
+  "cdc": [
+   "A012"
+  ],
+  "cdc_desc": [
+   "A012 — Discipline letterarie (II grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-10-30",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Cremona",
+  "fonte": "https://www.mim.gov.it/web/cremona/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "> Interpelli Ricerca Supplenti 30 ottobre 2026 Interpelli ricerca supplenti Interpelli cdc AS12 lettere I.I.S. \"G. Galilei\" 30",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-30T14:53:32+01:00"
+ },
+ {
+  "id": "35973aa9153e8ec1",
+  "firma": "ec6c0e44e4a1c726",
+  "titolo": "Avviso di interpello per conferimento di una supplenza fuori graduatoria",
+  "link": "https://www.mim.gov.it/web/brescia/-/avviso-di-interpello-per-conferimento-di-una-supplenza-fuori-graduatoria-2278",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-10-30",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Brescia",
+  "fonte": "https://www.mim.gov.it/web/brescia/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "Interpelli Ricerca Supplenti 30 ottobre 2026 Avviso di interpello per conferimento di una supplenza fuori graduatoria Si pubblica l’interpello dell’IC di Castelcovati, 1 posto normale, scuola secondaria di primo grado, classe di concorso AM12, 18h <div clas",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-30T14:53:32+01:00"
  }
 ]
