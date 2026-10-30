@@ -3725,5 +3725,61 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-10-30T14:53:32+01:00"
+ },
+ {
+  "id": "d681881bf6bdfad8",
+  "firma": "92f47810de0a4a12",
+  "titolo": "Interpello - I.C. Grosio Grosotto Sondalo",
+  "link": "https://www.mim.gov.it/web/sondrio/-/interpello-i-c-grosio-grosotto-sondalo-22",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-10-30",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Sondrio",
+  "fonte": "https://www.mim.gov.it/web/sondrio/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "> Interpelli Ricerca Supplenti 30 ottobre 2026 Interpelli ricerca supplenti Interpello - I.C. Grosio Grosotto Sondalo Classe di concorso AM12",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-30T20:01:49+01:00"
+ },
+ {
+  "id": "a0b8d471dd0c5d85",
+  "firma": "20280e4ce3afd6e2",
+  "titolo": "IIS \"Medardo Rosso\" - Lecco",
+  "link": "https://www.mim.gov.it/web/lecco/-/iis-medardo-rosso-lecco-10",
+  "cdc": [
+   "A012"
+  ],
+  "cdc_desc": [
+   "A012 — Discipline letterarie (II grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-10-30",
+  "scadenza": "2026-11-02",
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Lecco",
+  "fonte": "https://www.mim.gov.it/web/lecco/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "Interpelli Ricerca Supplenti 30 ottobre 2026 IIS \"Medardo Rosso\" - Lecco Classe di concorso AS12",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-10-30T20:01:49+01:00"
  }
 ]
