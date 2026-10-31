@@ -1,8 +1,14 @@
 {
- "ultimo": "2026-10-31T14:20:26+01:00",
- "fonti_ok": 225,
+ "ultimo": "2026-10-31T19:13:05+01:00",
+ "fonti_ok": 222,
  "fonti_totali": 268,
  "errori": [
+  {
+   "regione": "Basilicata",
+   "provincia": "Matera",
+   "url": "https://www.istruzionematera.it/category/comunicazioni/",
+   "errore": "HTTP Error 500: Internal Server Error"
+  },
   {
    "regione": "Campania",
    "provincia": "Benevento",
@@ -84,6 +90,12 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Pordenone",
+   "url": "https://www.isiszanussi.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
    "url": "https://www.liceogrigoletti.edu.it/",
    "errore": "HTTP Error 509: "
   },
@@ -95,14 +107,14 @@
   },
   {
    "regione": "Friuli-Venezia Giulia",
-   "provincia": "Trieste",
-   "url": "https://www.icmarcopolots.edu.it/",
+   "provincia": "Pordenone",
+   "url": "https://itstkennedy.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Trieste",
-   "url": "https://www.iclucio.edu.it/",
+   "url": "https://www.icmarcopolots.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -132,19 +144,13 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Trieste",
+   "url": "https://www.galileitrieste.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
    "url": "https://www.liceo-oberdan.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Trieste",
-   "url": "https://www.deledda-fabiani.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Trieste",
-   "url": "https://www.voltatrieste.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -186,7 +192,7 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
-   "url": "https://www.isismanzini.edu.it/",
+   "url": "https://www.linussio.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -216,12 +222,6 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
-   "url": "https://www.liceopercoto.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Udine",
    "url": "https://www.gceconi.eu/",
    "errore": "HTTP Error 509: "
   },
@@ -244,6 +244,12 @@
    "errore": "HTTP Error 509: "
   },
   {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://www.cnpd.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
    "regione": "Lazio",
    "provincia": "Frosinone",
    "url": "https://lnx.uspistruzione.fr.it/wp2/tag/interpello-nazionale",
@@ -257,9 +263,21 @@
   },
   {
    "regione": "Toscana",
+   "provincia": "Arezzo",
+   "url": "https://www.arezzoistruzione.it/usparezzo/index.php/interpelli",
+   "errore": "HTTP Error 500: Internal Server Error"
+  },
+  {
+   "regione": "Toscana",
    "provincia": "Pisa",
    "url": "https://www.toscana-istruzione.it/atpisa/interpelli-2/",
    "errore": "HTTP Error 404: Not Found"
+  },
+  {
+   "regione": "Toscana",
+   "provincia": "Prato",
+   "url": "https://www.ufficioscolasticoprovinciale.prato.it/news/",
+   "errore": "HTTP Error 500: Internal Server Error"
   }
  ],
  "fonti_sospette": [
