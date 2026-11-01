@@ -1,14 +1,8 @@
 {
- "ultimo": "2026-11-01T15:05:05+01:00",
- "fonti_ok": 222,
+ "ultimo": "2026-11-01T20:25:28+01:00",
+ "fonti_ok": 227,
  "fonti_totali": 268,
  "errori": [
-  {
-   "regione": "Basilicata",
-   "provincia": "Matera",
-   "url": "https://www.istruzionematera.it/category/comunicazioni/",
-   "errore": "HTTP Error 500: Internal Server Error"
-  },
   {
    "regione": "Campania",
    "provincia": "Benevento",
@@ -30,7 +24,13 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Pordenone",
-   "url": "https://www.ic-manzi.edu.it/",
+   "url": "https://www.istitutocomprensivodellevallimedunacosarzino.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://www.icspilimbergo.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -48,25 +48,7 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Pordenone",
-   "url": "https://www.icpcp.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Pordenone",
    "url": "https://www.leomajor.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Pordenone",
-   "url": "https://liceipujati.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Pordenone",
-   "url": "https://www.torricellimaniago.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -108,7 +90,7 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Pordenone",
-   "url": "https://www.liceoartisticogalvani.edu.it/",
+   "url": "https://itstkennedy.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -120,7 +102,7 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Trieste",
-   "url": "https://ic-divisionejulia.edu.it/",
+   "url": "https://www.iclucio.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -162,6 +144,12 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
+   "url": "https://www.icpm.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
    "url": "https://icrivignano.edu.it/",
    "errore": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismat"
   },
@@ -169,12 +157,6 @@
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
    "url": "https://www.icpremariacco.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Udine",
-   "url": "https://www.icuniversitacastrense.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -192,25 +174,19 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
+   "url": "https://www.tarvisioscuole.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
    "url": "https://www.linussio.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
-   "url": "https://www.isismanzini.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Udine",
    "url": "https://www.isisfermosolari.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Udine",
-   "url": "https://www.stringher.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -257,27 +233,21 @@
   },
   {
    "regione": "Marche",
+   "provincia": "Ancona",
+   "url": "https://www.istruzione-ancona.it/category/docenti/",
+   "errore": "The read operation timed out"
+  },
+  {
+   "regione": "Marche",
    "provincia": "Macerata",
    "url": "http://www.uspmc.sinp.net/",
    "errore": "<urlopen error timed out>"
   },
   {
    "regione": "Toscana",
-   "provincia": "Arezzo",
-   "url": "https://www.arezzoistruzione.it/usparezzo/index.php/interpelli",
-   "errore": "HTTP Error 500: Internal Server Error"
-  },
-  {
-   "regione": "Toscana",
    "provincia": "Pisa",
    "url": "https://www.toscana-istruzione.it/atpisa/interpelli-2/",
    "errore": "HTTP Error 404: Not Found"
-  },
-  {
-   "regione": "Toscana",
-   "provincia": "Prato",
-   "url": "https://www.ufficioscolasticoprovinciale.prato.it/news/",
-   "errore": "HTTP Error 500: Internal Server Error"
   }
  ],
  "fonti_sospette": [
