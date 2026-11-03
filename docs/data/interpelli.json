@@ -3954,5 +3954,33 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-11-02T17:53:07+01:00"
+ },
+ {
+  "id": "fd484f238e53e774",
+  "firma": "36390a27f2d36d82",
+  "titolo": "IC \"G. Galilei\" - Colico",
+  "link": "https://www.mim.gov.it/web/lecco/-/ic-g-galilei-colico-17",
+  "cdc": [
+   "A012"
+  ],
+  "cdc_desc": [
+   "A012 — Discipline letterarie (II grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-11-03",
+  "scadenza": "2026-11-04",
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Lecco",
+  "fonte": "https://www.mim.gov.it/web/lecco/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "rapper row-fluid \"> 03 novembre 2026 IC Costamasnaga Classe di concorso ADEE 03 novembre 2026 IC \"G. Galilei\" - Colico Classe di concorso A012",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-11-03T15:54:42+01:00"
  }
 ]
