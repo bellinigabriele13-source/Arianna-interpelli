@@ -3982,5 +3982,61 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-11-03T15:54:42+01:00"
+ },
+ {
+  "id": "fe0916340c39925a",
+  "firma": "7efb68718377de16",
+  "titolo": "Interpello per supplenza su classe di concorso A011 - scuola sec. di II grado",
+  "link": "https://www.mim.gov.it/web/monza-brianza/-/interpello-per-supplenza-su-classe-di-concorso-a011-scuola-sec-di-ii-grado-3",
+  "cdc": [
+   "A011"
+  ],
+  "cdc_desc": [
+   "A011 — Discipline letterarie e latino (II grado)"
+  ],
+  "priorita": "alta",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-11-04",
+  "scadenza": "2026-11-05",
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Monza-Brianza",
+  "fonte": "https://www.mim.gov.it/web/monza-brianza/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "IC \"S. D'ACQUISTO\" - MUGGIO'. Scadenza: 05/11/2026 04 novembre 2026 Interpelli ricerca supplenti Interpello per supplenza su classe di concorso A011 - scuola sec. di II grado LICEO STATALE \"MARIE CURIE\" - MEDA. Scadenza: 05/11/2026 <span class=\"article_data\"",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-11-04T16:07:40+01:00"
+ },
+ {
+  "id": "9fe62ed073c9c232",
+  "firma": "fb090821218763b6",
+  "titolo": "Interpello AM12 – IC Rovigo 2",
+  "link": "https://rovigo.istruzioneveneto.gov.it/2026/11/04/interpello-am12-ic-rovigo-2/",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-11-04",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Veneto",
+  "ufficio": "Rovigo",
+  "fonte": "https://rovigo.istruzioneveneto.gov.it/category/5-interpelli/docenti-rovigo/",
+  "motivo": "codice",
+  "estratto": "v.it/category/5-interpelli/ata-rovigo/\">ATA Rovigo Archivio per: Docenti Rovigo 4 Novembre 2026 | Segreteria Segreteria --> Interpello AM12 – IC Rovigo 2 4 Novembre 2026 | <a h",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-11-04T16:07:40+01:00"
  }
 ]
