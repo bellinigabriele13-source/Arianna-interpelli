@@ -1,5 +1,5 @@
 {
- "ultimo": "2026-11-04T16:07:40+01:00",
+ "ultimo": "2026-11-04T22:45:22+01:00",
  "fonti_ok": 224,
  "fonti_totali": 268,
  "errori": [
@@ -48,13 +48,13 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Pordenone",
-   "url": "https://liceipujati.edu.it/",
+   "url": "https://www.leomajor.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Pordenone",
-   "url": "https://www.torricellimaniago.edu.it/",
+   "url": "https://liceipujati.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -216,12 +216,6 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
-   "url": "https://www.itsdeganutti.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Udine",
    "url": "https://www.liceopercoto.edu.it/",
    "errore": "HTTP Error 509: "
   },
@@ -235,6 +229,12 @@
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
    "url": "https://www.arteudine.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://www.itzanon.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -530,5 +530,5 @@
    "url": "https://paolinodaquileia.edu.it/"
   }
  ],
- "nuovi_ultimo_giro": 2
+ "nuovi_ultimo_giro": 0
 }
