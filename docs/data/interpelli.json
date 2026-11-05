@@ -4038,5 +4038,91 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-11-04T16:07:40+01:00"
+ },
+ {
+  "id": "d0979c9826c8883b",
+  "firma": "f091f3c3659707e6",
+  "titolo": "Interpello c.d.c A011 – MATERIE LETTERARIE E LATINO – scadenza 09/11/2026 ore 8.00",
+  "link": "https://www.istruzionepiemonte.it/torino/2026/11/05/interpello-c-d-c-a011-materie-letterarie-e-latino-scadenza-09-11-2026-ore-8-00/",
+  "cdc": [
+   "A011"
+  ],
+  "cdc_desc": [
+   "A011 — Discipline letterarie e latino (II grado)"
+  ],
+  "priorita": "alta",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-11-05",
+  "scadenza": "2026-11-09",
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Piemonte",
+  "ufficio": "Torino",
+  "fonte": "https://www.istruzionepiemonte.it/torino/interpelli-supplenze/",
+  "motivo": "codice",
+  "estratto": "lasse di concorso A040 – 18H – Dal 10.11.2026 al 31.08.2027 5 Novembre 2026 Interpello per un incarico a T.D. per sostituzione docente scuola secondaria di I grado – classe di concorso ADMM per n. 18 ore al 19/12/2026 Plesso di Frosolone. 5 Novembre 2026 Interpello c.d.c A011 – M",
+  "anche_su": [
+   "Toscana/Firenze"
+  ],
+  "letto": false,
+  "aggiunto": "2026-11-05T16:13:24+01:00"
+ },
+ {
+  "id": "e42260f75f5144e4",
+  "firma": "9f1762fd41b6d156",
+  "titolo": "Interpello per supplenza (breve/spezzone orario) su classe di concorso AM12 – Italiano, storia e geografia nella Scuola secondaria di 1° grado –presso l’Istituto Comprensivo di Bosa",
+  "link": "https://www.mim.gov.it/web/oristano/-/interpello-per-supplenza-breve-spezzone-orario-su-classe-di-concorso-am12-italiano-storia-e-geografia-nella-scuola-secondaria-di-1-grado-presso-l-isti",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-11-05",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Sardegna",
+  "ufficio": "Oristano",
+  "fonte": "https://www.mim.gov.it/web/oristano/notizie",
+  "motivo": "codice",
+  "estratto": "et-content\"> Notizie 05 novembre 2026 Interpello per supplenza (breve/spezzone orario) su classe di concorso AM12 – Italiano, storia e geografia nella Scuola secondaria di 1° grado –presso l’Istituto Comprensivo di Bosa. 04 novembre 2026",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-11-05T16:13:24+01:00"
+ },
+ {
+  "id": "adfb4275f73bcd3a",
+  "firma": "61a9c41aaf9fed41",
+  "titolo": "IC \"R. L. Montalcini\" - Missaglia",
+  "link": "https://www.mim.gov.it/web/lecco/-/ic-r-l-montalcini-missaglia-7",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-11-05",
+  "scadenza": "2026-11-05",
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Lecco",
+  "fonte": "https://www.mim.gov.it/web/lecco/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "s=\"article_wrapper row-fluid \"> 05 novembre 2026 IC Civate Classe di concorso ADEE 05 novembre 2026 IC \"R. L. Montalcini\" - Missaglia Classe di concorso A022",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-11-05T16:13:24+01:00"
  }
 ]
