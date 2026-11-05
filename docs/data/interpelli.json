@@ -4064,7 +4064,8 @@
   "motivo": "codice",
   "estratto": "lasse di concorso A040 – 18H – Dal 10.11.2026 al 31.08.2027 5 Novembre 2026 Interpello per un incarico a T.D. per sostituzione docente scuola secondaria di I grado – classe di concorso ADMM per n. 18 ore al 19/12/2026 Plesso di Frosolone. 5 Novembre 2026 Interpello c.d.c A011 – M",
   "anche_su": [
-   "Toscana/Firenze"
+   "Toscana/Firenze",
+   "Sicilia/Nazionale-USR"
   ],
   "letto": false,
   "aggiunto": "2026-11-05T16:13:24+01:00"
@@ -4124,5 +4125,33 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-11-05T16:13:24+01:00"
+ },
+ {
+  "id": "9ae0c151ccf694e3",
+  "firma": "e5c2670fc5422842",
+  "titolo": "Interpello Nazionale C.d.C. A011 -I.I.S. “Gregorio da Catino” Poggio Mirteto RI",
+  "link": "https://lnx.csalaquila.it/wp/2026/11/05/interpello-nazionale-c-d-c-a011-i-i-s-gregorio-da-catino-poggio-mirteto-ri/",
+  "cdc": [
+   "A011"
+  ],
+  "cdc_desc": [
+   "A011 — Discipline letterarie e latino (II grado)"
+  ],
+  "priorita": "alta",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-11-05",
+  "scadenza": "2026-11-09",
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Abruzzo",
+  "ufficio": "L'Aquila",
+  "fonte": "https://lnx.csalaquila.it/wp/category/interpelli-nazionali/",
+  "motivo": "codice",
+  "estratto": "Leggi di più 5 Novembre 2026 Interpello Nazionale C.d.C. A011 -I.I.S. “Gregorio da Catino” Poggio Mirteto RI Categorie Interpelli",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-11-05T22:49:08+01:00"
  }
 ]
