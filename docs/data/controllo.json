@@ -1,5 +1,5 @@
 {
- "ultimo": "2026-11-05T22:49:08+01:00",
+ "ultimo": "2026-11-06T15:50:06+01:00",
  "fonti_ok": 224,
  "fonti_totali": 268,
  "errori": [
@@ -114,7 +114,7 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Trieste",
-   "url": "https://www.iclucio.edu.it/",
+   "url": "https://ic-divisionejulia.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -122,6 +122,12 @@
    "provincia": "Trieste",
    "url": "https://www.sibartol.edu.it/it/",
    "errore": "HTTP Error 404: Not Found"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
+   "url": "https://www.carduccidante.edu.it/",
+   "errore": "HTTP Error 509: "
   },
   {
    "regione": "Friuli-Venezia Giulia",
@@ -149,18 +155,6 @@
   },
   {
    "regione": "Friuli-Venezia Giulia",
-   "provincia": "Trieste",
-   "url": "https://www.voltatrieste.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Udine",
-   "url": "https://www.icpm.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
    "url": "https://icrivignano.edu.it/",
    "errore": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismat"
@@ -174,7 +168,19 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
+   "url": "https://www.icuniversitacastrense.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
    "url": "https://www.isislatisana.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://www.daronco.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -198,7 +204,7 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
-   "url": "https://www.isisfermosolari.edu.it/",
+   "url": "https://www.stringher.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -235,12 +241,6 @@
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
    "url": "https://www.itzanon.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Udine",
-   "url": "https://www.itmarinoni.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -530,5 +530,5 @@
    "url": "https://paolinodaquileia.edu.it/"
   }
  ],
- "nuovi_ultimo_giro": 1
+ "nuovi_ultimo_giro": 4
 }
