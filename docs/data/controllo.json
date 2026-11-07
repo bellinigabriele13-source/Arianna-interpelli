@@ -1,6 +1,6 @@
 {
- "ultimo": "2026-11-07T14:46:54+01:00",
- "fonti_ok": 224,
+ "ultimo": "2026-11-07T19:31:17+01:00",
+ "fonti_ok": 221,
  "fonti_totali": 268,
  "errori": [
   {
@@ -23,6 +23,24 @@
   },
   {
    "regione": "Friuli-Venezia Giulia",
+   "provincia": "Gorizia",
+   "url": "https://vsdoberdob.edu.it/it/",
+   "errore": "The read operation timed out"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Gorizia",
+   "url": "https://www.icgorizia.net/",
+   "errore": "The read operation timed out"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Gorizia",
+   "url": "https://www.potep.org/",
+   "errore": "The read operation timed out"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
    "provincia": "Pordenone",
    "url": "https://www.icspilimbergo.edu.it/",
    "errore": "HTTP Error 509: "
@@ -30,7 +48,7 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Pordenone",
-   "url": "https://www.ic-manzi.edu.it/",
+   "url": "https://www.icsmedunatagliamento.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -43,6 +61,12 @@
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Pordenone",
    "url": "https://www.icpcp.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://www.leomajor.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -78,12 +102,6 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Pordenone",
-   "url": "https://www.isiszanussi.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Pordenone",
    "url": "https://www.liceogrigoletti.edu.it/",
    "errore": "HTTP Error 509: "
   },
@@ -91,12 +109,6 @@
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Pordenone",
    "url": "https://www.liceilefilandiere.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Pordenone",
-   "url": "https://www.liceoartisticogalvani.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -116,6 +128,18 @@
    "provincia": "Trieste",
    "url": "https://www.iclucio.edu.it/",
    "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
+   "url": "https://ic-divisionejulia.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
+   "url": "https://www.dijak.edu.it/it/",
+   "errore": "The read operation timed out"
   },
   {
    "regione": "Friuli-Venezia Giulia",
@@ -144,14 +168,20 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Trieste",
+   "url": "https://zigazois.edu.it/",
+   "errore": "The read operation timed out"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
    "url": "https://www.deledda-fabiani.it/",
    "errore": "HTTP Error 509: "
   },
   {
    "regione": "Friuli-Venezia Giulia",
-   "provincia": "Trieste",
-   "url": "https://www.voltatrieste.edu.it/",
-   "errore": "HTTP Error 509: "
+   "provincia": "Udine",
+   "url": "https://www.icsanpietroalnatisone.it/",
+   "errore": "HTTP Error 403: Forbidden"
   },
   {
    "regione": "Friuli-Venezia Giulia",
@@ -164,12 +194,6 @@
    "provincia": "Udine",
    "url": "https://icrivignano.edu.it/",
    "errore": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismat"
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Udine",
-   "url": "https://www.icpremariacco.edu.it/",
-   "errore": "HTTP Error 509: "
   },
   {
    "regione": "Friuli-Venezia Giulia",
@@ -222,25 +246,19 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
+   "url": "https://www.liceopercoto.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
    "url": "https://www.gceconi.eu/",
    "errore": "HTTP Error 509: "
   },
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
-   "url": "https://www.arteudine.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Udine",
    "url": "https://www.itzanon.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Udine",
-   "url": "https://www.itmarinoni.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
