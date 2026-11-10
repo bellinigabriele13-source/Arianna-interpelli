@@ -4353,7 +4353,9 @@
   "fonte": "https://www.istruzionepiemonte.it/biella/interpelli-supplenze/",
   "motivo": "codice",
   "estratto": "-1767627347 .layout16 .rt-holder h3, #rt-tpg-container-1767627347 .isotope12 .rt-holder h3, #rt-tpg-container-1767627347 .carousel12 .rt-holder h3 {background-color:rgba(3,103,191,0.8);}#rt-tpg-container-1767627347 .read-more a{border-radius:px;}#rt-tpg-container-1767627347 .rt-i",
-  "anche_su": [],
+  "anche_su": [
+   "Puglia/Taranto"
+  ],
   "letto": false,
   "aggiunto": "2026-11-09T18:12:20+01:00"
  },
@@ -4496,5 +4498,89 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-11-09T18:12:20+01:00"
+ },
+ {
+  "id": "9238a7bf568be38b",
+  "firma": "8509dfdf4a8642d4",
+  "titolo": "Interpello nazionale per supplenza Scuola Sec. di II grado classe di concorso A011 – Discipline letterarie e latino presso il Liceo Scientifico e Linguistico Statale \"E. Fermi\" di Nuoro",
+  "link": "https://www.mim.gov.it/web/nuoro/-/interpello-nazionale-per-supplenza-scuola-sec-di-ii-grado-classe-di-concorso-a011-discipline-letterarie-e-latino-presso-il-liceo-scientifico-e-lingu-3",
+  "cdc": [
+   "A011"
+  ],
+  "cdc_desc": [
+   "A011 — Discipline letterarie e latino (II grado)"
+  ],
+  "priorita": "alta",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-11-10",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Sardegna",
+  "ufficio": "Nuoro",
+  "fonte": "https://www.mim.gov.it/web/nuoro/interpelli",
+  "motivo": "codice",
+  "estratto": "RENSIVO 2 “Monte Attu” 10 novembre 2026 Personale Scolastico Interpello nazionale per supplenza Scuola Sec. di II grado classe di concorso A011 – Discipline letterarie e latino presso il Liceo Scientifico e Linguistico Statale \"E. Fermi\" di Nuoro 10 novembre 2026",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-11-10T16:27:38+01:00"
+ },
+ {
+  "id": "dd9cdca9d1097b43",
+  "firma": "34852477ba1756b8",
+  "titolo": "10.11.2026 - Interpello per docenti cdc AM12 - IC Gavorrano",
+  "link": "https://www.ufficioscolasticogrosseto.it/uff7/index.php/pubblicazioni/5708-10-11-2026-interpello-per-docenti-cdc-am12-ic-gavorrano",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-11-10",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Toscana",
+  "ufficio": "Grosseto",
+  "fonte": "https://www.ufficioscolasticogrosseto.it/uff7/",
+  "motivo": "codice",
+  "estratto": "> ❏ contatto telefonico al numero +39 0564420811 dal lunedì al giovedì dalle 8 alle 14; ❏ comunicazione telematica all’indirizzo di posta elettronica ordinaria usp.gr@istruzione.it e posta elettronica certificata uspgr@postacert.istruzione.it. Ultimi Articoli 10.11.2026 - Interpe",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-11-10T16:27:38+01:00"
+ },
+ {
+  "id": "32f7936467a31a30",
+  "firma": "feb95cbc35aa641e",
+  "titolo": "ISTITUTO DI ISTRUZIONE SUPERIORE FRANCIS LOMBARDI — A012 - Discipline letterarie negli istituti di istruzione secondaria di II grado (Spezzone per numero ore: 12 · Supplenza Temporanea fino al 2026-12-22)",
+  "link": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vc.php",
+  "cdc": [
+   "A012"
+  ],
+  "cdc_desc": [
+   "A012 — Discipline letterarie (II grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-11-10",
+  "scadenza": "2026-11-11",
+  "sede_prov": "VC",
+  "sede_regione": "Piemonte",
+  "ufficio_regione": "Piemonte",
+  "ufficio": "Vercelli",
+  "fonte": "https://servizi.istruzionepiemonte.it/interpello2025/ric_interpello_ambito_vc.php",
+  "motivo": "tabella",
+  "estratto": "VCIS01900Q | ISTITUTO DI ISTRUZIONE SUPERIORE FRANCIS LOMBARDI | A012 - Discipline letterarie negli istituti di istruzione secondaria di II grado | Spezzone per numero ore: 12 | Diurno | Supplenza Temporanea fino al 2026-12-22 | 10/11/2026 |  | aperto | 2026-11-11",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-11-10T16:27:38+01:00"
  }
 ]
