@@ -4582,5 +4582,61 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-11-10T16:27:38+01:00"
+ },
+ {
+  "id": "275205b66c1bf51d",
+  "firma": "9643429e45a66d93",
+  "titolo": "IC Ceresara",
+  "link": "https://www.mim.gov.it/web/mantova/-/ic-ceresara-15",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-11-11",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Mantova",
+  "fonte": "https://www.mim.gov.it/web/mantova/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "Interpelli Ricerca Supplenti 11 novembre 2026 Interpelli ricerca supplenti IC Ceresara INTERPELLO N. 8 - SCUOLA SECONDARIA I° GRADO - n. 1 posto AM12 Lettere - Supplenza breve al 19/12/2026",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-11-11T22:47:01+01:00"
+ },
+ {
+  "id": "d2ae9c4abc61c2e2",
+  "firma": "1334249717461e94",
+  "titolo": "INTERPELLO Istituto Vanoni - Menaggio",
+  "link": "https://www.mim.gov.it/web/como/-/interpello-istituto-vanoni-menaggio",
+  "cdc": [
+   "A012"
+  ],
+  "cdc_desc": [
+   "A012 — Discipline letterarie (II grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-11-11",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Como",
+  "fonte": "https://www.mim.gov.it/web/como/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "Sostegno infanzia ADAA 11 novembre 2026 Interpelli ricerca supplenti INTERPELLO Istituto Vanoni - Menaggio Classe AS12 10 novembre",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-11-11T22:47:01+01:00"
  }
 ]
