@@ -27,7 +27,14 @@ jobs:
 
       - name: Installa le dipendenze
         run: |
-          sudo apt-get update && sudo apt-get install -y poppler-utils
+          # poppler-utils e' facoltativo: se apt fallisce (mirror Ubuntu giu'),
+          # monitor.py ripiega su pypdf. Quindi non deve far fallire il run.
+          for i in 1 2 3; do
+            sudo apt-get update -o Acquire::Retries=3 \
+              && sudo apt-get install -y --no-install-recommends poppler-utils \
+              && break
+            echo "apt non riuscito (tentativo $i), riprovo..."; sleep 10
+          done || true
           pip install -r requirements.txt
 
       - name: Autodiagnosi dello scraper
