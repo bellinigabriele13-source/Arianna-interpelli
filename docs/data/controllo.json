@@ -1,6 +1,6 @@
 {
- "ultimo": "2026-11-12T23:05:09+01:00",
- "fonti_ok": 224,
+ "ultimo": "2026-11-13T16:08:48+01:00",
+ "fonti_ok": 225,
  "fonti_totali": 268,
  "errori": [
   {
@@ -24,7 +24,7 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Pordenone",
-   "url": "https://www.ic-manzi.edu.it/",
+   "url": "https://www.icspilimbergo.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -78,12 +78,6 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Pordenone",
-   "url": "https://www.istitutoflora.edu.it/pagine/interpello",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Pordenone",
    "url": "https://www.isiszanussi.edu.it/",
    "errore": "HTTP Error 509: "
   },
@@ -107,8 +101,14 @@
   },
   {
    "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://itstkennedy.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
    "provincia": "Trieste",
-   "url": "https://www.icmarcopolots.edu.it/",
+   "url": "https://www.iclucio.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -138,7 +138,7 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Trieste",
-   "url": "https://www.liceo-oberdan.edu.it/",
+   "url": "https://www.galileitrieste.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -149,8 +149,8 @@
   },
   {
    "regione": "Friuli-Venezia Giulia",
-   "provincia": "Trieste",
-   "url": "https://www.voltatrieste.edu.it/",
+   "provincia": "Udine",
+   "url": "https://www.icpm.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -158,12 +158,6 @@
    "provincia": "Udine",
    "url": "https://icrivignano.edu.it/",
    "errore": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismat"
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Udine",
-   "url": "https://www.icpremariacco.edu.it/",
-   "errore": "HTTP Error 509: "
   },
   {
    "regione": "Friuli-Venezia Giulia",
@@ -222,12 +216,6 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
-   "url": "https://www.liceopercoto.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Udine",
    "url": "https://www.gceconi.eu/",
    "errore": "HTTP Error 509: "
   },
@@ -247,6 +235,12 @@
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
    "url": "https://www.itmarinoni.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://www.cnpd.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -530,5 +524,5 @@
    "url": "https://paolinodaquileia.edu.it/"
   }
  ],
- "nuovi_ultimo_giro": 0
+ "nuovi_ultimo_giro": 5
 }
