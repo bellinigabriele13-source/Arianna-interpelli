@@ -1,6 +1,6 @@
 {
- "ultimo": "2026-11-15T21:12:07+01:00",
- "fonti_ok": 221,
+ "ultimo": "2026-11-16T17:48:01+01:00",
+ "fonti_ok": 224,
  "fonti_totali": 268,
  "errori": [
   {
@@ -24,13 +24,7 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Pordenone",
-   "url": "https://icfontanafredda.edu.it/",
-   "errore": "HTTP Error 503: Service Unavailable"
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Pordenone",
-   "url": "https://www.icporcia.edu.it/",
+   "url": "https://www.icspilimbergo.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -49,6 +43,12 @@
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Pordenone",
    "url": "https://www.icpcp.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://www.leomajor.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -84,7 +84,7 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Pordenone",
-   "url": "https://www.liceogrigoletti.edu.it/",
+   "url": "https://www.isiszanussi.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -108,26 +108,8 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Trieste",
-   "url": "https://ictizianaweiss.edu.it/",
-   "errore": "HTTP Error 502: Bad Gateway"
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Trieste",
    "url": "https://www.iclucio.edu.it/",
    "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Trieste",
-   "url": "https://icdantetrieste.edu.it/",
-   "errore": "HTTP Error 503: Service Unavailable"
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Trieste",
-   "url": "https://icsangiovanni.edu.it/",
-   "errore": "The read operation timed out"
   },
   {
    "regione": "Friuli-Venezia Giulia",
@@ -144,8 +126,8 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Trieste",
-   "url": "https://www.liceopetrarcats.edu.it/",
-   "errore": "HTTP Error 502: Bad Gateway"
+   "url": "https://www.carduccidante.edu.it/",
+   "errore": "HTTP Error 509: "
   },
   {
    "regione": "Friuli-Venezia Giulia",
@@ -156,7 +138,7 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Trieste",
-   "url": "https://www.galileitrieste.it/",
+   "url": "https://www.deledda-fabiani.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -168,14 +150,14 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
-   "url": "https://iccomeglians.edu.it/",
-   "errore": "The read operation timed out"
+   "url": "https://www.icsanpietroalnatisone.it/",
+   "errore": "HTTP Error 403: Forbidden"
   },
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
-   "url": "https://iclinussiomatiz.edu.it/",
-   "errore": "HTTP Error 503: Service Unavailable"
+   "url": "https://www.icpm.edu.it/",
+   "errore": "HTTP Error 509: "
   },
   {
    "regione": "Friuli-Venezia Giulia",
@@ -186,32 +168,20 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
-   "url": "https://icvaltagliamento.edu.it/",
-   "errore": "The read operation timed out"
+   "url": "https://www.icuniversitacastrense.edu.it/",
+   "errore": "HTTP Error 509: "
   },
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
-   "url": "https://iclatisana.edu.it/",
-   "errore": "The read operation timed out"
+   "url": "https://www.daronco.edu.it/",
+   "errore": "HTTP Error 509: "
   },
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
-   "url": "https://4icudine.edu.it/",
-   "errore": "The read operation timed out"
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Udine",
-   "url": "https://icaquileia.edu.it/",
-   "errore": "HTTP Error 502: Bad Gateway"
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Udine",
-   "url": "https://icpasiandiprato.edu.it/",
-   "errore": "The read operation timed out"
+   "url": "https://www.tarvisioscuole.it/",
+   "errore": "HTTP Error 509: "
   },
   {
    "regione": "Friuli-Venezia Giulia",
@@ -222,7 +192,19 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
+   "url": "https://www.isismanzini.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
    "url": "https://www.isisfermosolari.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://www.stringher.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -315,6 +297,11 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Pordenone",
+   "url": "https://icfontanafredda.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
    "url": "https://icmontereale.edu.it/"
   },
   {
@@ -380,7 +367,17 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Trieste",
+   "url": "https://ictizianaweiss.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
    "url": "https://icaltipiano.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
+   "url": "https://icdantetrieste.edu.it/"
   },
   {
    "regione": "Friuli-Venezia Giulia",
@@ -391,6 +388,11 @@
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Trieste",
    "url": "https://icvalmaura.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
+   "url": "https://icsangiovanni.edu.it/"
   },
   {
    "regione": "Friuli-Venezia Giulia",
@@ -420,6 +422,11 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
+   "url": "https://iclinussiomatiz.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
    "url": "https://icmajanoforgaria.edu.it/"
   },
   {
@@ -441,6 +448,11 @@
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
    "url": "https://www.icdestratorre.edu.it/"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://icvaltagliamento.edu.it/"
   },
   {
    "regione": "Friuli-Venezia Giulia",
@@ -518,5 +530,5 @@
    "url": "https://paolinodaquileia.edu.it/"
   }
  ],
- "nuovi_ultimo_giro": 0
+ "nuovi_ultimo_giro": 1
 }

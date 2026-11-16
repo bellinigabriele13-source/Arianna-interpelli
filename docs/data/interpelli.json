@@ -4918,7 +4918,11 @@
   "motivo": "codice",
   "estratto": "ain-surface-primary text-token-text-primary h-8 w-8\">L'Ufficio Scolastico Territoriale di Foggia informa che il sito istituzionale è stato aggiornato. La nuova piattaforma contiene tutte le pubblicazioni relative all'anno 2026. Per consultare le pubblicazioni precedenti, è possib",
   "anche_su": [
-   "Sicilia/Trapani"
+   "Sicilia/Trapani",
+   "Piemonte/Biella",
+   "Piemonte/Torino",
+   "Sicilia/Agrigento",
+   "Toscana/Firenze"
   ],
   "pubblicato": "2026-11-13T14:37+01:00",
   "letto": false,
@@ -4979,5 +4983,61 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-11-13T22:51:50+01:00"
+ },
+ {
+  "id": "f8ae4b2f4623c03f",
+  "firma": "faedcbb6c535fbaf",
+  "titolo": "IC G. Testori - NOVATE MILANESE",
+  "link": "https://www.mim.gov.it/web/milano/-/ic-g-testori-novate-milanese",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-11-16",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Milano",
+  "fonte": "https://www.mim.gov.it/web/milano/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "Posto Primaria Sostegno ADEE 24 Ore dal 23/11/26 al 30/06/27. 16 novembre 2026 Interpelli ricerca supplenti IC G. Testori - NOVATE MILANESE Discipline letterarie nell'istruzione secondaria di I grado AM12 18 Ore dal 18/11/26 al 27/11/26.",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-11-16T17:48:01+01:00"
+ },
+ {
+  "id": "54fc0be1e16c6fd7",
+  "firma": "011c45b17217cbf4",
+  "titolo": "Interpello Nazionale C.d.C. AS12 – I.I.S. “Fermi – Mattei” Isernia",
+  "link": "https://lnx.csalaquila.it/wp/2026/11/16/interpello-nazionale-c-d-c-as12-i-i-s-fermi-mattei-isernia/",
+  "cdc": [
+   "A012"
+  ],
+  "cdc_desc": [
+   "A012 — Discipline letterarie (II grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-11-16",
+  "scadenza": "2024-02-10",
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Abruzzo",
+  "ufficio": "L'Aquila",
+  "fonte": "https://lnx.csalaquila.it/wp/category/interpelli-nazionali/",
+  "motivo": "codice",
+  "estratto": "Leggi di più 16 Novembre 2026 Interpello Nazionale C.d.C. AS12 – I.I.S. “Fermi – Mattei” Isernia Categorie Interpelli",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-11-16T17:48:01+01:00"
  }
 ]
