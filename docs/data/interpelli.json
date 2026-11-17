@@ -5039,5 +5039,145 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-11-16T17:48:01+01:00"
+ },
+ {
+  "id": "2b8fdfcd1e151cbb",
+  "firma": "637cd49a8d0bce89",
+  "titolo": "Interpello - LICEO CLASSICO E SCIENTIFICO \"A.VOLTA\" COMO",
+  "link": "https://www.mim.gov.it/web/como/-/interpello-liceo-classico-e-scientifico-a-volta-como-1",
+  "cdc": [
+   "A011"
+  ],
+  "cdc_desc": [
+   "A011 — Discipline letterarie e latino (II grado)"
+  ],
+  "priorita": "alta",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-11-17",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Como",
+  "fonte": "https://www.mim.gov.it/web/como/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "n. 1 supplenza- spezzone 21 ore -posto comune scuola primaria fino al 04.12.2026 17 novembre 2026 Interpelli ricerca supplenti Interpello - LICEO CLASSICO E SCIENTIFICO \"A.VOLTA\" COMO n. 1 docente per una supplenza di CL concorso A011 per n. ore 14 settimanali. <spa",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-11-17T17:43:07+01:00"
+ },
+ {
+  "id": "9a715b35db20d7c2",
+  "firma": "5263d9a4a92b2fcd",
+  "titolo": "Istituto Professionale \"Crotto Caurga\" di Chiavenna",
+  "link": "https://www.mim.gov.it/web/sondrio/-/istituto-professionale-crotto-caurga-di-chiavenna",
+  "cdc": [
+   "A012"
+  ],
+  "cdc_desc": [
+   "A012 — Discipline letterarie (II grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-11-17",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Sondrio",
+  "fonte": "https://www.mim.gov.it/web/sondrio/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "Classe di concorso: AM12 17 novembre 2026 Interpelli ricerca supplenti Istituto Professionale \"Crotto Caurga\" di Chiavenna Classe di concorso: AS12",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-11-17T17:43:07+01:00"
+ },
+ {
+  "id": "6234c77efe21678e",
+  "firma": "b080e5c87bd7896b",
+  "titolo": "IC Novate Mezzola",
+  "link": "https://www.mim.gov.it/web/sondrio/-/ic-novate-mezzola",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-11-17",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Sondrio",
+  "fonte": "https://www.mim.gov.it/web/sondrio/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "Classe di concorso: AS12 17 novembre 2026 Interpelli ricerca supplenti IC Novate Mezzola Classe di concorso: AM12",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-11-17T17:43:07+01:00"
+ },
+ {
+  "id": "def6f0b326478c48",
+  "firma": "f08dfb1ce19afc52",
+  "titolo": "IIS \"Da Vinci\" di Chiavenna",
+  "link": "https://www.mim.gov.it/web/sondrio/-/iis-da-vinci-di-chiavenna",
+  "cdc": [
+   "A012"
+  ],
+  "cdc_desc": [
+   "A012 — Discipline letterarie (II grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-11-17",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Sondrio",
+  "fonte": "https://www.mim.gov.it/web/sondrio/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "Interpelli Ricerca Supplenti 17 novembre 2026 Interpelli ricerca supplenti IIS \"Da Vinci\" di Chiavenna Classe di concorso: AS12",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-11-17T17:43:07+01:00"
+ },
+ {
+  "id": "5acd0b853d9e80d8",
+  "firma": "2e8f27cead2a4049",
+  "titolo": "INTERPELLO - ISTITUTO COMPRENSIVO VILLA GUARDIA",
+  "link": "https://www.mim.gov.it/web/como/-/interpello-istituto-comprensivo-villa-guardia-11",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-11-17",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Como",
+  "fonte": "https://www.mim.gov.it/web/como/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "n. 1 docente per una supplenza di CL concorso A011 per n. ore 14 settimanali. 17 novembre 2026 Interpelli ricerca supplenti INTERPELLO - ISTITUTO COMPRENSIVO VILLA GUARDIA n. 1 supplenza 20 ore AM12 – Discipline letterarie Sc. Sec. di 1° grado <span class",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-11-17T17:43:07+01:00"
  }
 ]

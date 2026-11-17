@@ -1,6 +1,6 @@
 {
- "ultimo": "2026-11-17T01:41:55+01:00",
- "fonti_ok": 225,
+ "ultimo": "2026-11-17T17:43:07+01:00",
+ "fonti_ok": 224,
  "fonti_totali": 268,
  "errori": [
   {
@@ -90,6 +90,12 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Pordenone",
+   "url": "https://www.liceogrigoletti.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
    "url": "https://www.liceilefilandiere.edu.it/",
    "errore": "HTTP Error 509: "
   },
@@ -108,7 +114,7 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Trieste",
-   "url": "https://www.iclucio.edu.it/",
+   "url": "https://ic-divisionejulia.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -149,8 +155,8 @@
   },
   {
    "regione": "Friuli-Venezia Giulia",
-   "provincia": "Udine",
-   "url": "https://www.icpm.edu.it/",
+   "provincia": "Trieste",
+   "url": "https://www.voltatrieste.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -162,7 +168,7 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
-   "url": "https://www.icuniversitacastrense.edu.it/",
+   "url": "https://www.icpremariacco.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -198,13 +204,13 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
-   "url": "https://www.stringher.it/",
+   "url": "https://www.isisfermosolari.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
-   "url": "https://paschinilinussio.edu.it/",
+   "url": "https://www.stringher.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -524,5 +530,5 @@
    "url": "https://paolinodaquileia.edu.it/"
   }
  ],
- "nuovi_ultimo_giro": 0
+ "nuovi_ultimo_giro": 5
 }
