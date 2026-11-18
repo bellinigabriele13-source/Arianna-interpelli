@@ -5179,5 +5179,61 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-11-17T17:43:07+01:00"
+ },
+ {
+  "id": "d75e21fe163ab749",
+  "firma": "856ddc1a88b439b5",
+  "titolo": "Interpello per selezione di personale docente classe di concorso AS12-Italiano",
+  "link": "https://www.mim.gov.it/web/cremona/-/interpello-per-selezione-di-personale-docente-classe-di-concorso-as12-italiano",
+  "cdc": [
+   "A012"
+  ],
+  "cdc_desc": [
+   "A012 — Discipline letterarie (II grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-11-18",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Cremona",
+  "fonte": "https://www.mim.gov.it/web/cremona/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "IC \"Puerari\" di Sospiro 18 novembre 2026 Interpelli ricerca supplenti Interpello per selezione di personale docente classe di concorso AS12-Italiano IIS \"Sraffa\" di Crema 1",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-11-18T17:14:35+01:00"
+ },
+ {
+  "id": "2c9add28b20dd446",
+  "firma": "9fc75f17d91d43a0",
+  "titolo": "Interpello - I.C. Cermenate",
+  "link": "https://www.mim.gov.it/web/como/-/interpello-i-c-cermenate-5",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-11-18",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Como",
+  "fonte": "https://www.mim.gov.it/web/como/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "une scuola infanzia , supplenza per n. ore 23 settimanali, dal 20/11/2026 fino al 04/12/2026 18 novembre 2026 Interpelli ricerca supplenti Interpello - I.C. Cermenate AM12 18 novembre 2026",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-11-18T17:14:35+01:00"
  }
 ]
