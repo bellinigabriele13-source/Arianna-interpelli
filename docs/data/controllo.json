@@ -1,14 +1,8 @@
 {
- "ultimo": "2026-11-19T17:21:14+01:00",
- "fonti_ok": 223,
+ "ultimo": "2026-11-20T00:26:57+01:00",
+ "fonti_ok": 224,
  "fonti_totali": 268,
  "errori": [
-  {
-   "regione": "Basilicata",
-   "provincia": "Potenza",
-   "url": "https://www.istruzionepotenza.it/interpelli-nazionali-docenti/",
-   "errore": "The read operation timed out"
-  },
   {
    "regione": "Campania",
    "provincia": "Benevento",
@@ -132,7 +126,7 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Trieste",
-   "url": "https://www.carduccidante.edu.it/",
+   "url": "https://www.preseren.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -157,6 +151,12 @@
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Trieste",
    "url": "https://www.voltatrieste.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://www.icpm.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -216,7 +216,7 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
-   "url": "https://www.liceopercoto.edu.it/",
+   "url": "https://www.itsdeganutti.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -254,12 +254,6 @@
    "provincia": "Frosinone",
    "url": "https://lnx.uspistruzione.fr.it/wp2/tag/interpello-nazionale",
    "errore": "<urlopen error [Errno 101] Network is unreachable>"
-  },
-  {
-   "regione": "Lazio",
-   "provincia": "Roma",
-   "url": "https://www.atpromaistruzione.it/atp/category/reclutamento/interpelli-personale-docente/",
-   "errore": "HTTP Error 429: Too Many Requests"
   },
   {
    "regione": "Marche",
@@ -536,5 +530,5 @@
    "url": "https://paolinodaquileia.edu.it/"
   }
  ],
- "nuovi_ultimo_giro": 3
+ "nuovi_ultimo_giro": 0
 }
