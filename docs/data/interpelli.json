@@ -5235,5 +5235,89 @@
   "anche_su": [],
   "letto": false,
   "aggiunto": "2026-11-18T17:14:35+01:00"
+ },
+ {
+  "id": "43972966eac1823c",
+  "firma": "00ff5a2fe6c9534b",
+  "titolo": "Interpello per supplenza su classe di concorso AM12 - scuola sec. di I grado",
+  "link": "https://www.mim.gov.it/web/monza-brianza/-/interpello-per-supplenza-su-classe-di-concorso-am12-scuola-sec-di-i-grado-28",
+  "cdc": [
+   "A022"
+  ],
+  "cdc_desc": [
+   "A022 — Italiano, storia, geografia (I grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "I grado"
+  ],
+  "data": "2026-11-19",
+  "scadenza": "2026-11-20",
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Monza-Brianza",
+  "fonte": "https://www.mim.gov.it/web/monza-brianza/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "Interpelli Ricerca Supplenti 19 novembre 2026 Interpelli ricerca supplenti Interpello per supplenza su classe di concorso AM12 - scuola sec. di I grado IC \"MARGHERITA HACK\" - NOVA MILANESE. Scadenza: 20/11/2026 <span class=\"article_dat",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-11-19T17:21:14+01:00"
+ },
+ {
+  "id": "d6d375a492ae267e",
+  "firma": "1227e9b2b7af0f8f",
+  "titolo": "LS L. Da Vinci - MILANO",
+  "link": "https://www.mim.gov.it/web/milano/-/ls-l-da-vinci-milano",
+  "cdc": [
+   "A012"
+  ],
+  "cdc_desc": [
+   "A012 — Discipline letterarie (II grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-11-19",
+  "scadenza": null,
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Milano",
+  "fonte": "https://www.mim.gov.it/web/milano/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "Posto Infanzia Comune AAAA 25 Ore dal 23/11/26 al 25/11/26 19 novembre 2026 Interpelli ricerca supplenti LS L. Da Vinci - MILANO Disegno e Storia dell'Arte AS01 1 Ora - Lingua e Letteratura Inglese AS2B 1 Ora - Discipline Letterarie secondaria I e II grado A012 1 Ora dal 01/12/26",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-11-19T17:21:14+01:00"
+ },
+ {
+  "id": "3ddff46ec01f6b83",
+  "firma": "38436726bb2ea572",
+  "titolo": "IIS \"G. Bertacchi\" - Lecco",
+  "link": "https://www.mim.gov.it/web/lecco/-/iis-g-bertacchi-lecco-16",
+  "cdc": [
+   "A012"
+  ],
+  "cdc_desc": [
+   "A012 — Discipline letterarie (II grado)"
+  ],
+  "priorita": "media",
+  "grado": [
+   "II grado"
+  ],
+  "data": "2026-11-19",
+  "scadenza": "2026-11-19",
+  "sede_prov": null,
+  "sede_regione": null,
+  "ufficio_regione": "Lombardia",
+  "ufficio": "Lecco",
+  "fonte": "https://www.mim.gov.it/web/lecco/interpelli-ricerca-supplenti",
+  "motivo": "codice",
+  "estratto": "\"> 19 novembre 2026 IC \"A. Stoppani\" - Lecco 3 Classe di concorso EEEE 19 novembre 2026 IIS \"G. Bertacchi\" - Lecco Classe di concorso AS12",
+  "anche_su": [],
+  "letto": false,
+  "aggiunto": "2026-11-19T17:21:14+01:00"
  }
 ]

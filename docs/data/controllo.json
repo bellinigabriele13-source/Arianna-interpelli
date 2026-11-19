@@ -1,8 +1,14 @@
 {
- "ultimo": "2026-11-19T00:19:00+01:00",
+ "ultimo": "2026-11-19T17:21:14+01:00",
  "fonti_ok": 223,
  "fonti_totali": 268,
  "errori": [
+  {
+   "regione": "Basilicata",
+   "provincia": "Potenza",
+   "url": "https://www.istruzionepotenza.it/interpelli-nazionali-docenti/",
+   "errore": "The read operation timed out"
+  },
   {
    "regione": "Campania",
    "provincia": "Benevento",
@@ -20,12 +26,6 @@
    "provincia": "Salerno",
    "url": "https://uat-salerno.it/Documenti/CIRCOLARI",
    "errore": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has"
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Pordenone",
-   "url": "https://www.ic-manzi.edu.it/",
-   "errore": "HTTP Error 509: "
   },
   {
    "regione": "Friuli-Venezia Giulia",
@@ -90,6 +90,12 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Pordenone",
+   "url": "https://www.liceogrigoletti.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
    "url": "https://www.liceilefilandiere.edu.it/",
    "errore": "HTTP Error 509: "
   },
@@ -132,12 +138,6 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Trieste",
-   "url": "https://www.preseren.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Trieste",
    "url": "https://www.galileitrieste.it/",
    "errore": "HTTP Error 509: "
   },
@@ -149,14 +149,14 @@
   },
   {
    "regione": "Friuli-Venezia Giulia",
-   "provincia": "Udine",
-   "url": "https://www.icsanpietroalnatisone.it/",
-   "errore": "HTTP Error 403: Forbidden"
+   "provincia": "Trieste",
+   "url": "https://www.deledda-fabiani.it/",
+   "errore": "HTTP Error 509: "
   },
   {
    "regione": "Friuli-Venezia Giulia",
-   "provincia": "Udine",
-   "url": "https://www.icpm.edu.it/",
+   "provincia": "Trieste",
+   "url": "https://www.voltatrieste.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -168,13 +168,7 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
-   "url": "https://www.icuniversitacastrense.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Udine",
-   "url": "https://www.isislatisana.edu.it/",
+   "url": "https://www.icpremariacco.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -204,6 +198,12 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
+   "url": "https://www.isisfermosolari.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
    "url": "https://www.stringher.it/",
    "errore": "HTTP Error 509: "
   },
@@ -216,7 +216,7 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
-   "url": "https://www.itsdeganutti.edu.it/",
+   "url": "https://www.liceopercoto.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -256,6 +256,12 @@
    "errore": "<urlopen error [Errno 101] Network is unreachable>"
   },
   {
+   "regione": "Lazio",
+   "provincia": "Roma",
+   "url": "https://www.atpromaistruzione.it/atp/category/reclutamento/interpelli-personale-docente/",
+   "errore": "HTTP Error 429: Too Many Requests"
+  },
+  {
    "regione": "Marche",
    "provincia": "Macerata",
    "url": "http://www.uspmc.sinp.net/",
@@ -266,25 +272,9 @@
    "provincia": "Pisa",
    "url": "https://www.toscana-istruzione.it/atpisa/interpelli-2/",
    "errore": "HTTP Error 404: Not Found"
-  },
-  {
-   "regione": "Trentino-Alto Adige",
-   "provincia": "Trento",
-   "url": "https://www.vivoscuola.it/vivoscuola/tags_view/Utenti/Docenti/Docenti+scuola+secondaria+di+secondo+grado",
-   "errore": "The read operation timed out"
   }
  ],
  "fonti_sospette": [
-  {
-   "regione": "Campania",
-   "provincia": "Avellino",
-   "url": "https://atavellino.it/category/dirigenti-docenti/"
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Gorizia",
-   "url": "https://www.iccormons.it/"
-  },
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Gorizia",
@@ -528,11 +518,6 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
-   "url": "https://www.iccividale.edu.it/"
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Udine",
    "url": "https://icgemona.edu.it/"
   },
   {
@@ -549,22 +534,7 @@
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
    "url": "https://paolinodaquileia.edu.it/"
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Udine",
-   "url": "https://liceomarinelli.edu.it/"
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Udine",
-   "url": "https://educandatouccellis.edu.it/"
-  },
-  {
-   "regione": "Toscana",
-   "provincia": "Lucca",
-   "url": "http://www.ustlucca.it/category/notizie-in-primo-piano/"
   }
  ],
- "nuovi_ultimo_giro": 0
+ "nuovi_ultimo_giro": 3
 }
