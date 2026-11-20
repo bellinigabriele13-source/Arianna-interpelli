@@ -1,8 +1,38 @@
 {
- "ultimo": "2026-11-20T16:57:58+01:00",
- "fonti_ok": 225,
+ "ultimo": "2026-11-20T23:31:57+01:00",
+ "fonti_ok": 219,
  "fonti_totali": 268,
  "errori": [
+  {
+   "regione": "Calabria",
+   "provincia": "Catanzaro",
+   "url": "https://www.istruzione.calabria.it/catanzaro/category/nca/",
+   "errore": "HTTP Error 503: Service Unavailable"
+  },
+  {
+   "regione": "Calabria",
+   "provincia": "Cosenza",
+   "url": "https://www.istruzione.calabria.it/cosenza/category/interdoc/",
+   "errore": "HTTP Error 503: Service Unavailable"
+  },
+  {
+   "regione": "Calabria",
+   "provincia": "Crotone",
+   "url": "https://www.istruzione.calabria.it/crotone/category/notizie/interpelli-per-supplenza/",
+   "errore": "HTTP Error 503: Service Unavailable"
+  },
+  {
+   "regione": "Calabria",
+   "provincia": "Reggio Calabria",
+   "url": "https://www.istruzioneatprc.it/interpelli/",
+   "errore": "<urlopen error timed out>"
+  },
+  {
+   "regione": "Calabria",
+   "provincia": "Vibo Valentia",
+   "url": "https://www.istruzione.calabria.it/vibovalentia/category/us/doc/",
+   "errore": "HTTP Error 503: Service Unavailable"
+  },
   {
    "regione": "Campania",
    "provincia": "Benevento",
@@ -24,12 +54,6 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Pordenone",
-   "url": "https://www.icspilimbergo.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Pordenone",
    "url": "https://www.icsmedunatagliamento.edu.it/",
    "errore": "HTTP Error 509: "
   },
@@ -38,6 +62,12 @@
    "provincia": "Pordenone",
    "url": "https://www.icbrugnera.edu.it/pagine/interpelli",
    "errore": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://www.icpcp.edu.it/",
+   "errore": "HTTP Error 509: "
   },
   {
    "regione": "Friuli-Venezia Giulia",
@@ -84,12 +114,6 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Pordenone",
-   "url": "https://www.liceogrigoletti.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Pordenone",
    "url": "https://www.liceilefilandiere.edu.it/",
    "errore": "HTTP Error 509: "
   },
@@ -97,6 +121,12 @@
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Pordenone",
    "url": "https://www.liceoartisticogalvani.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://itstkennedy.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -126,6 +156,12 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Trieste",
+   "url": "https://www.carduccidante.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
    "url": "https://www.preseren.edu.it/",
    "errore": "HTTP Error 509: "
   },
@@ -143,8 +179,8 @@
   },
   {
    "regione": "Friuli-Venezia Giulia",
-   "provincia": "Trieste",
-   "url": "https://www.deledda-fabiani.it/",
+   "provincia": "Udine",
+   "url": "https://www.icpm.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -174,13 +210,13 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
-   "url": "https://www.daronco.edu.it/",
+   "url": "https://www.tarvisioscuole.it/",
    "errore": "HTTP Error 509: "
   },
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
-   "url": "https://www.tarvisioscuole.it/",
+   "url": "https://www.linussio.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -193,6 +229,12 @@
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
    "url": "https://www.isisfermosolari.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://www.stringher.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -235,12 +277,6 @@
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
    "url": "https://www.itmarinoni.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Udine",
-   "url": "https://www.cnpd.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -524,5 +560,5 @@
    "url": "https://paolinodaquileia.edu.it/"
   }
  ],
- "nuovi_ultimo_giro": 6
+ "nuovi_ultimo_giro": 0
 }
