@@ -1,38 +1,8 @@
 {
- "ultimo": "2026-11-20T23:31:57+01:00",
- "fonti_ok": 219,
+ "ultimo": "2026-11-21T16:08:08+01:00",
+ "fonti_ok": 223,
  "fonti_totali": 268,
  "errori": [
-  {
-   "regione": "Calabria",
-   "provincia": "Catanzaro",
-   "url": "https://www.istruzione.calabria.it/catanzaro/category/nca/",
-   "errore": "HTTP Error 503: Service Unavailable"
-  },
-  {
-   "regione": "Calabria",
-   "provincia": "Cosenza",
-   "url": "https://www.istruzione.calabria.it/cosenza/category/interdoc/",
-   "errore": "HTTP Error 503: Service Unavailable"
-  },
-  {
-   "regione": "Calabria",
-   "provincia": "Crotone",
-   "url": "https://www.istruzione.calabria.it/crotone/category/notizie/interpelli-per-supplenza/",
-   "errore": "HTTP Error 503: Service Unavailable"
-  },
-  {
-   "regione": "Calabria",
-   "provincia": "Reggio Calabria",
-   "url": "https://www.istruzioneatprc.it/interpelli/",
-   "errore": "<urlopen error timed out>"
-  },
-  {
-   "regione": "Calabria",
-   "provincia": "Vibo Valentia",
-   "url": "https://www.istruzione.calabria.it/vibovalentia/category/us/doc/",
-   "errore": "HTTP Error 503: Service Unavailable"
-  },
   {
    "regione": "Campania",
    "provincia": "Benevento",
@@ -50,6 +20,12 @@
    "provincia": "Salerno",
    "url": "https://uat-salerno.it/Documenti/CIRCOLARI",
    "errore": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
+   "url": "https://www.icspilimbergo.edu.it/",
+   "errore": "HTTP Error 509: "
   },
   {
    "regione": "Friuli-Venezia Giulia",
@@ -114,6 +90,12 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Pordenone",
+   "url": "https://www.liceogrigoletti.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Pordenone",
    "url": "https://www.liceilefilandiere.edu.it/",
    "errore": "HTTP Error 509: "
   },
@@ -121,18 +103,6 @@
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Pordenone",
    "url": "https://www.liceoartisticogalvani.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Pordenone",
-   "url": "https://itstkennedy.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Trieste",
-   "url": "https://www.icmarcopolots.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -179,6 +149,18 @@
   },
   {
    "regione": "Friuli-Venezia Giulia",
+   "provincia": "Trieste",
+   "url": "https://www.deledda-fabiani.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://www.icsanpietroalnatisone.it/",
+   "errore": "HTTP Error 403: Forbidden"
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
    "url": "https://www.icpm.edu.it/",
    "errore": "HTTP Error 509: "
@@ -192,19 +174,13 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
-   "url": "https://www.icpremariacco.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Udine",
-   "url": "https://www.icuniversitacastrense.edu.it/",
-   "errore": "HTTP Error 509: "
-  },
-  {
-   "regione": "Friuli-Venezia Giulia",
-   "provincia": "Udine",
    "url": "https://www.isislatisana.edu.it/",
+   "errore": "HTTP Error 509: "
+  },
+  {
+   "regione": "Friuli-Venezia Giulia",
+   "provincia": "Udine",
+   "url": "https://www.daronco.edu.it/",
    "errore": "HTTP Error 509: "
   },
   {
@@ -276,7 +252,7 @@
   {
    "regione": "Friuli-Venezia Giulia",
    "provincia": "Udine",
-   "url": "https://www.itmarinoni.edu.it/",
+   "url": "https://www.cnpd.it/",
    "errore": "HTTP Error 509: "
   },
   {
